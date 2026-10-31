@@ -1,0 +1,34 @@
+{
+  "all": {
+    "bookings": 119390,
+    "cancellations": 44224,
+    "rate": 0.37041628277075134,
+    "booked_nights": 409257,
+    "canceled_booked_nights": 154217
+  },
+  "2016": {
+    "bookings": 56707,
+    "cancellations": 20337,
+    "rate": 0.3586329730015695,
+    "booked_nights": 189219,
+    "canceled_booked_nights": 69421
+  },
+  "2016_city": {
+    "bookings": 38140,
+    "cancellations": 15407,
+    "rate": 0.40395909805977975,
+    "booked_nights": 113021,
+    "canceled_booked_nights": 47199
+  },
+  "2016_resort": {
+    "bookings": 18567,
+    "cancellations": 4930,
+    "rate": 0.2655248559271826,
+    "booked_nights": 76198,
+    "canceled_booked_nights": 22222
+  },
+  "source_rows": 119390,
+  "exact_repeats_retained": 31994,
+  "source_sha256": "7c2ae42a7353905ea136e5c2287f17c92c5435826598bfbb8491c6f0c7b1fc06",
+  "reporting_sha256": "acaa1033c7be2f3bff86affc7877a4f7a1aeb22492f63eba5fae62aaddef950a"
+}

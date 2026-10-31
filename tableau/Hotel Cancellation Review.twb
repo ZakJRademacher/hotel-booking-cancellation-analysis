@@ -1,0 +1,2230 @@
+<?xml version='1.0' encoding='utf-8'?>
+<workbook _.fcp.WorkbookFingerprinting.true...author-id="85c0a05816589193910fe699082326a171c0ff35fb11e7ae6804fe4e6e5c7a7d" _.fcp.WorkbookFingerprinting.true...creator-author-id="85c0a05816589193910fe699082326a171c0ff35fb11e7ae6804fe4e6e5c7a7d" _.fcp.WorkbookFingerprinting.true...creator-license-type="free" _.fcp.WorkbookFingerprinting.true...creator-machine-id="31bb3807bb697dd681d913538cbded13aad1ad8461a6b6a2b8b35b86d952dc83" _.fcp.WorkbookFingerprinting.true...license-type="free" _.fcp.WorkbookFingerprinting.true...machine-id="31bb3807bb697dd681d913538cbded13aad1ad8461a6b6a2b8b35b86d952dc83" locale="en_US" source-build="2026.3.0 (20263.26.1022.1645)" source-platform="win" version="18.1">
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name="ui.encoding.shelf.height" value="24" />
+    <preference name="ui.shelf.height" value="26" />
+  </preferences>
+  <style-theme name="smooth" />
+  <style>
+    <style-rule element="worksheet">
+      <format attr="font-family" value="Segoe UI" />
+      <format attr="font-size" value="11" />
+      <format attr="color" value="#203B43" />
+    </style-rule>
+    <style-rule element="animation">
+      <format attr="animation-on" value="ao-off" />
+    </style-rule>
+  </style>
+  <datasources>
+    <datasource caption="Where should reservations test better confirmation?" inline="true" name="analysis" version="18.1">
+      <connection class="federated">
+        <named-connections>
+          <named-connection name="csv">
+            <connection character-set="UTF-8" class="textscan" directory="Data" filename="analysis.csv" force-header="yes" force-separator="yes" header="yes" separator="," text-qualifier="&quot;" />
+          </named-connection>
+        </named-connections>
+        <relation connection="csv" name="analysis.csv" table="[analysis.csv]" type="table">
+          <columns character-set="UTF-8" header="yes" locale="en_US" separator="," text-qualifier="&quot;">
+            <column datatype="string" name="View" ordinal="0" />
+            <column datatype="string" name="Label" ordinal="1" />
+            <column datatype="string" name="Series" ordinal="2" />
+            <column datatype="real" name="Value" ordinal="3" />
+            <column datatype="integer" name="Sort" ordinal="4" />
+            <column datatype="string" name="Note" ordinal="5" />
+            <column datatype="integer" name="Bookings" ordinal="6" />
+            <column datatype="integer" name="Canceled Nights" ordinal="7" />
+            <column datatype="string" name="Hotel" ordinal="8" />
+            <column datatype="string" name="Year" ordinal="9" />
+            <column datatype="string" name="Period" ordinal="10" />
+            <column datatype="string" name="Segment" ordinal="11" />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class="capability">
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[analysis.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype="string" name="character-set">"UTF-8"</attribute>
+              <attribute datatype="string" name="collation">"en_US"</attribute>
+              <attribute datatype="string" name="field-delimiter">","</attribute>
+              <attribute datatype="string" name="header-row">"true"</attribute>
+              <attribute datatype="string" name="locale">"en_US"</attribute>
+              <attribute datatype="string" name="quote-char">"\""</attribute>
+              <attribute datatype="string" name="single-char">""</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>View</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[View]</local-name>
+            <parent-name>[analysis.csv]</parent-name>
+            <remote-alias>View</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Label</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Label]</local-name>
+            <parent-name>[analysis.csv]</parent-name>
+            <remote-alias>Label</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Series</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Series]</local-name>
+            <parent-name>[analysis.csv]</parent-name>
+            <remote-alias>Series</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Value]</local-name>
+            <parent-name>[analysis.csv]</parent-name>
+            <remote-alias>Value</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Sort</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sort]</local-name>
+            <parent-name>[analysis.csv]</parent-name>
+            <remote-alias>Sort</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Note</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Note]</local-name>
+            <parent-name>[analysis.csv]</parent-name>
+            <remote-alias>Note</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Bookings</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Bookings]</local-name>
+            <parent-name>[analysis.csv]</parent-name>
+            <remote-alias>Bookings</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Canceled Nights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Canceled Nights]</local-name>
+            <parent-name>[analysis.csv]</parent-name>
+            <remote-alias>Canceled Nights</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Hotel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Hotel]</local-name>
+            <parent-name>[analysis.csv]</parent-name>
+            <remote-alias>Hotel</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Year</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[analysis.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Period</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Period]</local-name>
+            <parent-name>[analysis.csv]</parent-name>
+            <remote-alias>Period</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Segment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Segment]</local-name>
+            <parent-name>[analysis.csv]</parent-name>
+            <remote-alias>Segment</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled="yes" />
+      <column datatype="integer" default-format="n#,##0" name="[Bookings]" role="measure" type="quantitative" />
+      <column datatype="integer" default-format="n#,##0" name="[Canceled Nights]" role="measure" type="quantitative" />
+      <column datatype="real" default-format="p0.0%" name="[Cancellation Rate]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="IF SUM([Bookings]) &gt; 0 THEN SUM([Value]) / SUM([Bookings]) END" />
+      </column>
+      <column datatype="string" name="[Label]" role="dimension" type="nominal">
+        <aliases>
+          <alias key="&quot;2015-07&quot;" value="1507" />
+          <alias key="&quot;2015-08&quot;" value="1508" />
+          <alias key="&quot;2015-09&quot;" value="1509" />
+          <alias key="&quot;2015-10&quot;" value="1510" />
+          <alias key="&quot;2015-11&quot;" value="1511" />
+          <alias key="&quot;2015-12&quot;" value="1512" />
+          <alias key="&quot;2016-01&quot;" value="1601" />
+          <alias key="&quot;2016-02&quot;" value="1602" />
+          <alias key="&quot;2016-03&quot;" value="1603" />
+          <alias key="&quot;2016-04&quot;" value="1604" />
+          <alias key="&quot;2016-05&quot;" value="1605" />
+          <alias key="&quot;2016-06&quot;" value="1606" />
+          <alias key="&quot;2016-07&quot;" value="1607" />
+          <alias key="&quot;2016-08&quot;" value="1608" />
+          <alias key="&quot;2016-09&quot;" value="1609" />
+          <alias key="&quot;2016-10&quot;" value="1610" />
+          <alias key="&quot;2016-11&quot;" value="1611" />
+          <alias key="&quot;2016-12&quot;" value="1612" />
+          <alias key="&quot;2017-01&quot;" value="1701" />
+          <alias key="&quot;2017-02&quot;" value="1702" />
+          <alias key="&quot;2017-03&quot;" value="1703" />
+          <alias key="&quot;2017-04&quot;" value="1704" />
+          <alias key="&quot;2017-05&quot;" value="1705" />
+          <alias key="&quot;2017-06&quot;" value="1706" />
+          <alias key="&quot;2017-07&quot;" value="1707" />
+          <alias key="&quot;2017-08&quot;" value="1708" />
+        </aliases>
+      </column>
+      <column datatype="real" default-format="n#,##0" name="[Value]" role="measure" type="quantitative" />
+      <column caption="Migrated Data" datatype="table" name="[__tableau_internal_object_id__].[Migrated Data]" role="measure" type="quantitative" />
+      <layout dim-ordering="alphabetic" measure-ordering="alphabetic" show-structure="true" />
+      <semantic-values>
+        <semantic-value key="[Country].[Name]" value="&quot;United States&quot;" />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption="Migrated Data" id="Migrated Data">
+            <properties context="">
+              <relation connection="csv" name="analysis.csv" table="[analysis.csv]" type="table">
+                <columns character-set="UTF-8" header="yes" locale="en_US" separator="," text-qualifier="&quot;">
+                  <column datatype="string" name="View" ordinal="0" />
+                  <column datatype="string" name="Label" ordinal="1" />
+                  <column datatype="string" name="Series" ordinal="2" />
+                  <column datatype="real" name="Value" ordinal="3" />
+                  <column datatype="integer" name="Sort" ordinal="4" />
+                  <column datatype="string" name="Note" ordinal="5" />
+                  <column datatype="integer" name="Bookings" ordinal="6" />
+                  <column datatype="integer" name="Canceled Nights" ordinal="7" />
+                  <column datatype="string" name="Hotel" ordinal="8" />
+                  <column datatype="string" name="Year" ordinal="9" />
+                  <column datatype="string" name="Period" ordinal="10" />
+                  <column datatype="string" name="Segment" ordinal="11" />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name="analysis">
+      <datasources>
+        <datasource caption="Where should reservations test better confirmation?" name="analysis" />
+      </datasources>
+      <datasource-dependencies datasource="analysis">
+        <column datatype="string" name="[Hotel]" role="dimension" type="nominal" />
+        <column datatype="string" name="[Period]" role="dimension" type="nominal" />
+        <column datatype="string" name="[Segment]" role="dimension" type="nominal" />
+        <column datatype="string" name="[Year]" role="dimension" type="nominal" />
+        <column-instance column="[Hotel]" derivation="None" name="[none:Hotel:nk]" pivot="key" type="nominal" />
+        <column-instance column="[Period]" derivation="None" name="[none:Period:nk]" pivot="key" type="nominal" />
+        <column-instance column="[Segment]" derivation="None" name="[none:Segment:nk]" pivot="key" type="nominal" />
+        <column-instance column="[Year]" derivation="None" name="[none:Year:nk]" pivot="key" type="nominal" />
+      </datasource-dependencies>
+      <filter class="categorical" column="[analysis].[none:Hotel:nk]">
+        <groupfilter function="member" level="[none:Hotel:nk]" member="&quot;City Hotel&quot;" />
+      </filter>
+      <filter class="categorical" column="[analysis].[none:Period:nk]">
+        <groupfilter function="union">
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2015-07&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2015-08&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2015-09&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2015-10&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2015-11&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2015-12&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2016-01&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2016-02&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2016-03&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2016-04&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2016-05&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2016-06&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2016-07&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2016-08&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2016-09&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2016-10&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2016-11&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2016-12&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2017-01&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2017-02&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2017-03&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2017-04&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2017-05&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2017-06&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2017-07&quot;" />
+          <groupfilter function="member" level="[none:Period:nk]" member="&quot;2017-08&quot;" />
+        </groupfilter>
+      </filter>
+      <filter class="categorical" column="[analysis].[none:Segment:nk]">
+        <groupfilter function="union">
+          <groupfilter function="member" level="[none:Segment:nk]" member="&quot;Aviation&quot;" />
+          <groupfilter function="member" level="[none:Segment:nk]" member="&quot;Complementary&quot;" />
+          <groupfilter function="member" level="[none:Segment:nk]" member="&quot;Corporate&quot;" />
+          <groupfilter function="member" level="[none:Segment:nk]" member="&quot;Direct&quot;" />
+          <groupfilter function="member" level="[none:Segment:nk]" member="&quot;Groups&quot;" />
+          <groupfilter function="member" level="[none:Segment:nk]" member="&quot;Offline TA/TO&quot;" />
+          <groupfilter function="member" level="[none:Segment:nk]" member="&quot;Online TA&quot;" />
+          <groupfilter function="member" level="[none:Segment:nk]" member="&quot;Undefined&quot;" />
+        </groupfilter>
+      </filter>
+      <filter class="categorical" column="[analysis].[none:Year:nk]">
+        <groupfilter function="member" level="[none:Year:nk]" member="&quot;2016&quot;" />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <worksheets>
+    <worksheet name="Canceled booked nights">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#203b43" fontname="Segoe UI" fontsize="14">Canceled booked nights</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Where should reservations test better confirmation?" name="analysis" />
+          </datasources>
+          <datasource-dependencies datasource="analysis">
+            <column datatype="integer" default-format="n#,##0" name="[Canceled Nights]" role="measure" type="quantitative" />
+            <column datatype="string" name="[Hotel]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Period]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Segment]" role="dimension" type="nominal" />
+            <column datatype="string" name="[View]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Year]" role="dimension" type="nominal" />
+            <column-instance column="[Hotel]" derivation="None" name="[none:Hotel:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Period]" derivation="None" name="[none:Period:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Segment]" derivation="None" name="[none:Segment:nk]" pivot="key" type="nominal" />
+            <column-instance column="[View]" derivation="None" name="[none:View:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Year]" derivation="None" name="[none:Year:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Canceled Nights]" derivation="Sum" name="[sum:Canceled Nights:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="categorical" column="[analysis].[none:View:nk]">
+            <groupfilter function="member" level="[none:View:nk]" member="&quot;kpi&quot;" />
+          </filter>
+          <slices>
+            <column>[analysis].[none:View:nk]</column>
+            <column>[analysis].[none:Hotel:nk]</column>
+            <column>[analysis].[none:Year:nk]</column>
+            <column>[analysis].[none:Period:nk]</column>
+            <column>[analysis].[none:Segment:nk]</column>
+          </slices>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="10" />
+            <format attr="color" value="#60757B" />
+            <format attr="title" scope="cols" value="Cancellations" />
+          </style-rule>
+          <style-rule element="cell">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="11" />
+            <format attr="color" value="#203B43" />
+          </style-rule>
+          <style-rule element="label">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="10" />
+            <format attr="color" value="#60757B" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="display-field-labels" scope="rows" value="false" />
+            <format attr="display-field-labels" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="gridline">
+            <format attr="stroke-color" value="#E5E9E7" />
+            <format attr="stroke-size" value="1" />
+          </style-rule>
+          <style-rule element="zeroline">
+            <format attr="stroke-color" value="#CCD5D3" />
+            <format attr="stroke-size" value="1" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-disallow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Text" />
+            <encodings>
+              <text column="[analysis].[sum:Canceled Nights:qk]" />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontname="Segoe UI" fontsize="11">&lt;[analysis].[none:Label:nk]&gt;
+Bookings: &lt;[analysis].[sum:Bookings:qk]&gt;
+Cancellations: &lt;[analysis].[sum:Value:qk]&gt;
+Rate: &lt;[analysis].[usr:Cancellation Rate:qk]&gt;
+Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+                <format attr="color" value="#147D80" />
+                <format attr="font-size" value="26" />
+                <format attr="color" value="#147D80" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid="{8968CFFC-FC80-456B-BA72-1ACE5EDFAB94}" />
+    </worksheet>
+    <worksheet name="Cancellation workload">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#203b43" fontname="Segoe UI" fontsize="14">01  Cancellations by market segment</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Where should reservations test better confirmation?" name="analysis" />
+          </datasources>
+          <datasource-dependencies datasource="analysis">
+            <column datatype="integer" default-format="n#,##0" name="[Bookings]" role="measure" type="quantitative" />
+            <column datatype="integer" default-format="n#,##0" name="[Canceled Nights]" role="measure" type="quantitative" />
+            <column datatype="real" default-format="p0.0%" name="[Cancellation Rate]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF SUM([Bookings]) &gt; 0 THEN SUM([Value]) / SUM([Bookings]) END" />
+            </column>
+            <column datatype="string" name="[Hotel]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Label]" role="dimension" type="nominal">
+              <aliases>
+                <alias key="&quot;2015-07&quot;" value="1507" />
+                <alias key="&quot;2015-08&quot;" value="1508" />
+                <alias key="&quot;2015-09&quot;" value="1509" />
+                <alias key="&quot;2015-10&quot;" value="1510" />
+                <alias key="&quot;2015-11&quot;" value="1511" />
+                <alias key="&quot;2015-12&quot;" value="1512" />
+                <alias key="&quot;2016-01&quot;" value="1601" />
+                <alias key="&quot;2016-02&quot;" value="1602" />
+                <alias key="&quot;2016-03&quot;" value="1603" />
+                <alias key="&quot;2016-04&quot;" value="1604" />
+                <alias key="&quot;2016-05&quot;" value="1605" />
+                <alias key="&quot;2016-06&quot;" value="1606" />
+                <alias key="&quot;2016-07&quot;" value="1607" />
+                <alias key="&quot;2016-08&quot;" value="1608" />
+                <alias key="&quot;2016-09&quot;" value="1609" />
+                <alias key="&quot;2016-10&quot;" value="1610" />
+                <alias key="&quot;2016-11&quot;" value="1611" />
+                <alias key="&quot;2016-12&quot;" value="1612" />
+                <alias key="&quot;2017-01&quot;" value="1701" />
+                <alias key="&quot;2017-02&quot;" value="1702" />
+                <alias key="&quot;2017-03&quot;" value="1703" />
+                <alias key="&quot;2017-04&quot;" value="1704" />
+                <alias key="&quot;2017-05&quot;" value="1705" />
+                <alias key="&quot;2017-06&quot;" value="1706" />
+                <alias key="&quot;2017-07&quot;" value="1707" />
+                <alias key="&quot;2017-08&quot;" value="1708" />
+              </aliases>
+            </column>
+            <column datatype="string" name="[Note]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Period]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Segment]" role="dimension" type="nominal" />
+            <column datatype="real" default-format="n#,##0" name="[Value]" role="measure" type="quantitative" />
+            <column datatype="string" name="[View]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Year]" role="dimension" type="nominal" />
+            <column-instance column="[Note]" derivation="Attribute" name="[attr:Note:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Hotel]" derivation="None" name="[none:Hotel:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Label]" derivation="None" name="[none:Label:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Period]" derivation="None" name="[none:Period:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Segment]" derivation="None" name="[none:Segment:nk]" pivot="key" type="nominal" />
+            <column-instance column="[View]" derivation="None" name="[none:View:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Year]" derivation="None" name="[none:Year:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Bookings]" derivation="Sum" name="[sum:Bookings:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Canceled Nights]" derivation="Sum" name="[sum:Canceled Nights:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Value]" derivation="Sum" name="[sum:Value:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Cancellation Rate]" derivation="User" name="[usr:Cancellation Rate:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <computed-sort column="[analysis].[none:Label:nk]" direction="DESC" using="[analysis].[sum:Value:qk]" />
+          <filter class="categorical" column="[analysis].[none:View:nk]">
+            <groupfilter function="member" level="[none:View:nk]" member="&quot;segments&quot;" />
+          </filter>
+          <slices>
+            <column>[analysis].[none:View:nk]</column>
+            <column>[analysis].[none:Hotel:nk]</column>
+            <column>[analysis].[none:Year:nk]</column>
+            <column>[analysis].[none:Period:nk]</column>
+            <column>[analysis].[none:Segment:nk]</column>
+          </slices>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="10" />
+            <format attr="color" value="#60757B" />
+            <format attr="title" scope="cols" value="Cancellations" />
+          </style-rule>
+          <style-rule element="cell">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="11" />
+            <format attr="color" value="#203B43" />
+          </style-rule>
+          <style-rule element="label">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="10" />
+            <format attr="color" value="#60757B" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="display-field-labels" scope="rows" value="false" />
+            <format attr="display-field-labels" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="gridline">
+            <format attr="stroke-color" value="#E5E9E7" />
+            <format attr="stroke-size" value="1" />
+          </style-rule>
+          <style-rule element="zeroline">
+            <format attr="stroke-color" value="#CCD5D3" />
+            <format attr="stroke-size" value="1" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-disallow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Bar" />
+            <encodings>
+              <tooltip column="[analysis].[attr:Note:nk]" />
+              <text column="[analysis].[sum:Value:qk]" />
+              <tooltip column="[analysis].[sum:Bookings:qk]" />
+              <tooltip column="[analysis].[sum:Canceled Nights:qk]" />
+              <tooltip column="[analysis].[sum:Value:qk]" />
+              <tooltip column="[analysis].[usr:Cancellation Rate:qk]" />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontname="Segoe UI" fontsize="11">&lt;[analysis].[none:Label:nk]&gt;
+Bookings: &lt;[analysis].[sum:Bookings:qk]&gt;
+Cancellations: &lt;[analysis].[sum:Value:qk]&gt;
+Rate: &lt;[analysis].[usr:Cancellation Rate:qk]&gt;
+Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+                <format attr="color" value="#147D80" />
+                <format attr="color" value="#147D80" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[analysis].[none:Label:nk]</rows>
+        <cols>[analysis].[sum:Value:qk]</cols>
+      </table>
+      <simple-id uuid="{4B196B1E-E985-4A3E-A322-4FD61B4FAC4C}" />
+    </worksheet>
+    <worksheet name="Lead-time rate">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#203b43" fontname="Segoe UI" fontsize="14">03  Rate by lead-time band</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Where should reservations test better confirmation?" name="analysis" />
+          </datasources>
+          <datasource-dependencies datasource="analysis">
+            <column datatype="integer" default-format="n#,##0" name="[Bookings]" role="measure" type="quantitative" />
+            <column datatype="integer" default-format="n#,##0" name="[Canceled Nights]" role="measure" type="quantitative" />
+            <column datatype="real" default-format="p0.0%" name="[Cancellation Rate]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF SUM([Bookings]) &gt; 0 THEN SUM([Value]) / SUM([Bookings]) END" />
+            </column>
+            <column datatype="string" name="[Hotel]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Label]" role="dimension" type="nominal">
+              <aliases>
+                <alias key="&quot;2015-07&quot;" value="1507" />
+                <alias key="&quot;2015-08&quot;" value="1508" />
+                <alias key="&quot;2015-09&quot;" value="1509" />
+                <alias key="&quot;2015-10&quot;" value="1510" />
+                <alias key="&quot;2015-11&quot;" value="1511" />
+                <alias key="&quot;2015-12&quot;" value="1512" />
+                <alias key="&quot;2016-01&quot;" value="1601" />
+                <alias key="&quot;2016-02&quot;" value="1602" />
+                <alias key="&quot;2016-03&quot;" value="1603" />
+                <alias key="&quot;2016-04&quot;" value="1604" />
+                <alias key="&quot;2016-05&quot;" value="1605" />
+                <alias key="&quot;2016-06&quot;" value="1606" />
+                <alias key="&quot;2016-07&quot;" value="1607" />
+                <alias key="&quot;2016-08&quot;" value="1608" />
+                <alias key="&quot;2016-09&quot;" value="1609" />
+                <alias key="&quot;2016-10&quot;" value="1610" />
+                <alias key="&quot;2016-11&quot;" value="1611" />
+                <alias key="&quot;2016-12&quot;" value="1612" />
+                <alias key="&quot;2017-01&quot;" value="1701" />
+                <alias key="&quot;2017-02&quot;" value="1702" />
+                <alias key="&quot;2017-03&quot;" value="1703" />
+                <alias key="&quot;2017-04&quot;" value="1704" />
+                <alias key="&quot;2017-05&quot;" value="1705" />
+                <alias key="&quot;2017-06&quot;" value="1706" />
+                <alias key="&quot;2017-07&quot;" value="1707" />
+                <alias key="&quot;2017-08&quot;" value="1708" />
+              </aliases>
+            </column>
+            <column datatype="string" name="[Note]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Period]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Segment]" role="dimension" type="nominal" />
+            <column datatype="real" default-format="n#,##0" name="[Value]" role="measure" type="quantitative" />
+            <column datatype="string" name="[View]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Year]" role="dimension" type="nominal" />
+            <column-instance column="[Note]" derivation="Attribute" name="[attr:Note:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Hotel]" derivation="None" name="[none:Hotel:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Label]" derivation="None" name="[none:Label:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Period]" derivation="None" name="[none:Period:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Segment]" derivation="None" name="[none:Segment:nk]" pivot="key" type="nominal" />
+            <column-instance column="[View]" derivation="None" name="[none:View:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Year]" derivation="None" name="[none:Year:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Bookings]" derivation="Sum" name="[sum:Bookings:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Canceled Nights]" derivation="Sum" name="[sum:Canceled Nights:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Value]" derivation="Sum" name="[sum:Value:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Cancellation Rate]" derivation="User" name="[usr:Cancellation Rate:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="categorical" column="[analysis].[none:View:nk]">
+            <groupfilter function="member" level="[none:View:nk]" member="&quot;lead&quot;" />
+          </filter>
+          <slices>
+            <column>[analysis].[none:View:nk]</column>
+            <column>[analysis].[none:Hotel:nk]</column>
+            <column>[analysis].[none:Year:nk]</column>
+            <column>[analysis].[none:Period:nk]</column>
+            <column>[analysis].[none:Segment:nk]</column>
+          </slices>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="10" />
+            <format attr="color" value="#60757B" />
+            <format attr="title" scope="cols" value="Cancellation rate" />
+          </style-rule>
+          <style-rule element="cell">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="11" />
+            <format attr="color" value="#203B43" />
+          </style-rule>
+          <style-rule element="label">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="10" />
+            <format attr="color" value="#60757B" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="display-field-labels" scope="rows" value="false" />
+            <format attr="display-field-labels" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="gridline">
+            <format attr="stroke-color" value="#E5E9E7" />
+            <format attr="stroke-size" value="1" />
+          </style-rule>
+          <style-rule element="zeroline">
+            <format attr="stroke-color" value="#CCD5D3" />
+            <format attr="stroke-size" value="1" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-disallow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Bar" />
+            <encodings>
+              <tooltip column="[analysis].[attr:Note:nk]" />
+              <text column="[analysis].[usr:Cancellation Rate:qk]" />
+              <tooltip column="[analysis].[sum:Bookings:qk]" />
+              <tooltip column="[analysis].[sum:Canceled Nights:qk]" />
+              <tooltip column="[analysis].[sum:Value:qk]" />
+              <tooltip column="[analysis].[usr:Cancellation Rate:qk]" />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontname="Segoe UI" fontsize="11">&lt;[analysis].[none:Label:nk]&gt;
+Bookings: &lt;[analysis].[sum:Bookings:qk]&gt;
+Cancellations: &lt;[analysis].[sum:Value:qk]&gt;
+Rate: &lt;[analysis].[usr:Cancellation Rate:qk]&gt;
+Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+                <format attr="color" value="#147D80" />
+                <format attr="color" value="#147D80" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[analysis].[none:Label:nk]</rows>
+        <cols>[analysis].[usr:Cancellation Rate:qk]</cols>
+      </table>
+      <simple-id uuid="{3ECB36BB-068A-4865-8CF5-17CC79F40B6D}" />
+    </worksheet>
+    <worksheet name="Monthly rate">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#203b43" fontname="Segoe UI" fontsize="14">04  Monthly cancellation rate (YYMM)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Where should reservations test better confirmation?" name="analysis" />
+          </datasources>
+          <datasource-dependencies datasource="analysis">
+            <column datatype="integer" default-format="n#,##0" name="[Bookings]" role="measure" type="quantitative" />
+            <column datatype="integer" default-format="n#,##0" name="[Canceled Nights]" role="measure" type="quantitative" />
+            <column datatype="real" default-format="p0.0%" name="[Cancellation Rate]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF SUM([Bookings]) &gt; 0 THEN SUM([Value]) / SUM([Bookings]) END" />
+            </column>
+            <column datatype="string" name="[Hotel]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Label]" role="dimension" type="nominal">
+              <aliases>
+                <alias key="&quot;2015-07&quot;" value="1507" />
+                <alias key="&quot;2015-08&quot;" value="1508" />
+                <alias key="&quot;2015-09&quot;" value="1509" />
+                <alias key="&quot;2015-10&quot;" value="1510" />
+                <alias key="&quot;2015-11&quot;" value="1511" />
+                <alias key="&quot;2015-12&quot;" value="1512" />
+                <alias key="&quot;2016-01&quot;" value="1601" />
+                <alias key="&quot;2016-02&quot;" value="1602" />
+                <alias key="&quot;2016-03&quot;" value="1603" />
+                <alias key="&quot;2016-04&quot;" value="1604" />
+                <alias key="&quot;2016-05&quot;" value="1605" />
+                <alias key="&quot;2016-06&quot;" value="1606" />
+                <alias key="&quot;2016-07&quot;" value="1607" />
+                <alias key="&quot;2016-08&quot;" value="1608" />
+                <alias key="&quot;2016-09&quot;" value="1609" />
+                <alias key="&quot;2016-10&quot;" value="1610" />
+                <alias key="&quot;2016-11&quot;" value="1611" />
+                <alias key="&quot;2016-12&quot;" value="1612" />
+                <alias key="&quot;2017-01&quot;" value="1701" />
+                <alias key="&quot;2017-02&quot;" value="1702" />
+                <alias key="&quot;2017-03&quot;" value="1703" />
+                <alias key="&quot;2017-04&quot;" value="1704" />
+                <alias key="&quot;2017-05&quot;" value="1705" />
+                <alias key="&quot;2017-06&quot;" value="1706" />
+                <alias key="&quot;2017-07&quot;" value="1707" />
+                <alias key="&quot;2017-08&quot;" value="1708" />
+              </aliases>
+            </column>
+            <column datatype="string" name="[Note]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Period]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Segment]" role="dimension" type="nominal" />
+            <column datatype="real" default-format="n#,##0" name="[Value]" role="measure" type="quantitative" />
+            <column datatype="string" name="[View]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Year]" role="dimension" type="nominal" />
+            <column-instance column="[Note]" derivation="Attribute" name="[attr:Note:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Hotel]" derivation="None" name="[none:Hotel:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Label]" derivation="None" name="[none:Label:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Period]" derivation="None" name="[none:Period:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Segment]" derivation="None" name="[none:Segment:nk]" pivot="key" type="nominal" />
+            <column-instance column="[View]" derivation="None" name="[none:View:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Year]" derivation="None" name="[none:Year:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Bookings]" derivation="Sum" name="[sum:Bookings:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Canceled Nights]" derivation="Sum" name="[sum:Canceled Nights:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Value]" derivation="Sum" name="[sum:Value:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Cancellation Rate]" derivation="User" name="[usr:Cancellation Rate:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="categorical" column="[analysis].[none:View:nk]">
+            <groupfilter function="member" level="[none:View:nk]" member="&quot;trend&quot;" />
+          </filter>
+          <slices>
+            <column>[analysis].[none:View:nk]</column>
+            <column>[analysis].[none:Hotel:nk]</column>
+            <column>[analysis].[none:Year:nk]</column>
+            <column>[analysis].[none:Period:nk]</column>
+            <column>[analysis].[none:Segment:nk]</column>
+          </slices>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="10" />
+            <format attr="color" value="#60757B" />
+            <format attr="title" scope="rows" value="Cancellation rate" />
+          </style-rule>
+          <style-rule element="cell">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="11" />
+            <format attr="color" value="#203B43" />
+          </style-rule>
+          <style-rule element="label">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="10" />
+            <format attr="color" value="#60757B" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="display-field-labels" scope="rows" value="false" />
+            <format attr="display-field-labels" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="gridline">
+            <format attr="stroke-color" value="#E5E9E7" />
+            <format attr="stroke-size" value="1" />
+          </style-rule>
+          <style-rule element="zeroline">
+            <format attr="stroke-color" value="#CCD5D3" />
+            <format attr="stroke-size" value="1" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-disallow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Line" />
+            <encodings>
+              <tooltip column="[analysis].[attr:Note:nk]" />
+              <tooltip column="[analysis].[sum:Bookings:qk]" />
+              <tooltip column="[analysis].[sum:Canceled Nights:qk]" />
+              <tooltip column="[analysis].[sum:Value:qk]" />
+              <tooltip column="[analysis].[usr:Cancellation Rate:qk]" />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontname="Segoe UI" fontsize="11">&lt;[analysis].[none:Label:nk]&gt;
+Bookings: &lt;[analysis].[sum:Bookings:qk]&gt;
+Cancellations: &lt;[analysis].[sum:Value:qk]&gt;
+Rate: &lt;[analysis].[usr:Cancellation Rate:qk]&gt;
+Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="false" />
+                <format attr="mark-labels-cull" value="true" />
+                <format attr="color" value="#147D80" />
+                <format attr="color" value="#147D80" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[analysis].[usr:Cancellation Rate:qk]</rows>
+        <cols>[analysis].[none:Label:nk]</cols>
+      </table>
+      <simple-id uuid="{3E7ABA2D-A5D9-48BE-BFB2-6CCB5A8093BE}" />
+    </worksheet>
+    <worksheet name="Segment rate">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#203b43" fontname="Segoe UI" fontsize="14">02  Cancellation rate by segment</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Where should reservations test better confirmation?" name="analysis" />
+          </datasources>
+          <datasource-dependencies datasource="analysis">
+            <column datatype="integer" default-format="n#,##0" name="[Bookings]" role="measure" type="quantitative" />
+            <column datatype="integer" default-format="n#,##0" name="[Canceled Nights]" role="measure" type="quantitative" />
+            <column datatype="real" default-format="p0.0%" name="[Cancellation Rate]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF SUM([Bookings]) &gt; 0 THEN SUM([Value]) / SUM([Bookings]) END" />
+            </column>
+            <column datatype="string" name="[Hotel]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Label]" role="dimension" type="nominal">
+              <aliases>
+                <alias key="&quot;2015-07&quot;" value="1507" />
+                <alias key="&quot;2015-08&quot;" value="1508" />
+                <alias key="&quot;2015-09&quot;" value="1509" />
+                <alias key="&quot;2015-10&quot;" value="1510" />
+                <alias key="&quot;2015-11&quot;" value="1511" />
+                <alias key="&quot;2015-12&quot;" value="1512" />
+                <alias key="&quot;2016-01&quot;" value="1601" />
+                <alias key="&quot;2016-02&quot;" value="1602" />
+                <alias key="&quot;2016-03&quot;" value="1603" />
+                <alias key="&quot;2016-04&quot;" value="1604" />
+                <alias key="&quot;2016-05&quot;" value="1605" />
+                <alias key="&quot;2016-06&quot;" value="1606" />
+                <alias key="&quot;2016-07&quot;" value="1607" />
+                <alias key="&quot;2016-08&quot;" value="1608" />
+                <alias key="&quot;2016-09&quot;" value="1609" />
+                <alias key="&quot;2016-10&quot;" value="1610" />
+                <alias key="&quot;2016-11&quot;" value="1611" />
+                <alias key="&quot;2016-12&quot;" value="1612" />
+                <alias key="&quot;2017-01&quot;" value="1701" />
+                <alias key="&quot;2017-02&quot;" value="1702" />
+                <alias key="&quot;2017-03&quot;" value="1703" />
+                <alias key="&quot;2017-04&quot;" value="1704" />
+                <alias key="&quot;2017-05&quot;" value="1705" />
+                <alias key="&quot;2017-06&quot;" value="1706" />
+                <alias key="&quot;2017-07&quot;" value="1707" />
+                <alias key="&quot;2017-08&quot;" value="1708" />
+              </aliases>
+            </column>
+            <column datatype="string" name="[Note]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Period]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Segment]" role="dimension" type="nominal" />
+            <column datatype="real" default-format="n#,##0" name="[Value]" role="measure" type="quantitative" />
+            <column datatype="string" name="[View]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Year]" role="dimension" type="nominal" />
+            <column-instance column="[Note]" derivation="Attribute" name="[attr:Note:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Hotel]" derivation="None" name="[none:Hotel:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Label]" derivation="None" name="[none:Label:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Period]" derivation="None" name="[none:Period:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Segment]" derivation="None" name="[none:Segment:nk]" pivot="key" type="nominal" />
+            <column-instance column="[View]" derivation="None" name="[none:View:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Year]" derivation="None" name="[none:Year:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Bookings]" derivation="Sum" name="[sum:Bookings:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Canceled Nights]" derivation="Sum" name="[sum:Canceled Nights:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Value]" derivation="Sum" name="[sum:Value:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Cancellation Rate]" derivation="User" name="[usr:Cancellation Rate:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <computed-sort column="[analysis].[none:Label:nk]" direction="DESC" using="[analysis].[usr:Cancellation Rate:qk]" />
+          <filter class="categorical" column="[analysis].[none:View:nk]">
+            <groupfilter function="member" level="[none:View:nk]" member="&quot;rate&quot;" />
+          </filter>
+          <slices>
+            <column>[analysis].[none:View:nk]</column>
+            <column>[analysis].[none:Hotel:nk]</column>
+            <column>[analysis].[none:Year:nk]</column>
+            <column>[analysis].[none:Period:nk]</column>
+            <column>[analysis].[none:Segment:nk]</column>
+          </slices>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="10" />
+            <format attr="color" value="#60757B" />
+            <format attr="title" scope="cols" value="Cancellation rate" />
+          </style-rule>
+          <style-rule element="cell">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="11" />
+            <format attr="color" value="#203B43" />
+          </style-rule>
+          <style-rule element="label">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="10" />
+            <format attr="color" value="#60757B" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="display-field-labels" scope="rows" value="false" />
+            <format attr="display-field-labels" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="gridline">
+            <format attr="stroke-color" value="#E5E9E7" />
+            <format attr="stroke-size" value="1" />
+          </style-rule>
+          <style-rule element="zeroline">
+            <format attr="stroke-color" value="#CCD5D3" />
+            <format attr="stroke-size" value="1" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-disallow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Bar" />
+            <encodings>
+              <tooltip column="[analysis].[attr:Note:nk]" />
+              <text column="[analysis].[usr:Cancellation Rate:qk]" />
+              <tooltip column="[analysis].[sum:Bookings:qk]" />
+              <tooltip column="[analysis].[sum:Canceled Nights:qk]" />
+              <tooltip column="[analysis].[sum:Value:qk]" />
+              <tooltip column="[analysis].[usr:Cancellation Rate:qk]" />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontname="Segoe UI" fontsize="11">&lt;[analysis].[none:Label:nk]&gt;
+Bookings: &lt;[analysis].[sum:Bookings:qk]&gt;
+Cancellations: &lt;[analysis].[sum:Value:qk]&gt;
+Rate: &lt;[analysis].[usr:Cancellation Rate:qk]&gt;
+Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+                <format attr="color" value="#147D80" />
+                <format attr="color" value="#147D80" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[analysis].[none:Label:nk]</rows>
+        <cols>[analysis].[usr:Cancellation Rate:qk]</cols>
+      </table>
+      <simple-id uuid="{B5A8C922-AAF5-44B2-AD52-FB3BB8D1C800}" />
+    </worksheet>
+    <worksheet name="Selected bookings">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#203b43" fontname="Segoe UI" fontsize="14">Selected bookings</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Where should reservations test better confirmation?" name="analysis" />
+          </datasources>
+          <datasource-dependencies datasource="analysis">
+            <column datatype="integer" default-format="n#,##0" name="[Bookings]" role="measure" type="quantitative" />
+            <column datatype="string" name="[Hotel]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Period]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Segment]" role="dimension" type="nominal" />
+            <column datatype="string" name="[View]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Year]" role="dimension" type="nominal" />
+            <column-instance column="[Hotel]" derivation="None" name="[none:Hotel:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Period]" derivation="None" name="[none:Period:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Segment]" derivation="None" name="[none:Segment:nk]" pivot="key" type="nominal" />
+            <column-instance column="[View]" derivation="None" name="[none:View:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Year]" derivation="None" name="[none:Year:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Bookings]" derivation="Sum" name="[sum:Bookings:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="categorical" column="[analysis].[none:View:nk]">
+            <groupfilter function="member" level="[none:View:nk]" member="&quot;kpi&quot;" />
+          </filter>
+          <slices>
+            <column>[analysis].[none:View:nk]</column>
+            <column>[analysis].[none:Hotel:nk]</column>
+            <column>[analysis].[none:Year:nk]</column>
+            <column>[analysis].[none:Period:nk]</column>
+            <column>[analysis].[none:Segment:nk]</column>
+          </slices>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="10" />
+            <format attr="color" value="#60757B" />
+            <format attr="title" scope="cols" value="Cancellations" />
+          </style-rule>
+          <style-rule element="cell">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="11" />
+            <format attr="color" value="#203B43" />
+          </style-rule>
+          <style-rule element="label">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="10" />
+            <format attr="color" value="#60757B" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="display-field-labels" scope="rows" value="false" />
+            <format attr="display-field-labels" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="gridline">
+            <format attr="stroke-color" value="#E5E9E7" />
+            <format attr="stroke-size" value="1" />
+          </style-rule>
+          <style-rule element="zeroline">
+            <format attr="stroke-color" value="#CCD5D3" />
+            <format attr="stroke-size" value="1" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-disallow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Text" />
+            <encodings>
+              <text column="[analysis].[sum:Bookings:qk]" />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontname="Segoe UI" fontsize="11">&lt;[analysis].[none:Label:nk]&gt;
+Bookings: &lt;[analysis].[sum:Bookings:qk]&gt;
+Cancellations: &lt;[analysis].[sum:Value:qk]&gt;
+Rate: &lt;[analysis].[usr:Cancellation Rate:qk]&gt;
+Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+                <format attr="color" value="#147D80" />
+                <format attr="font-size" value="26" />
+                <format attr="color" value="#147D80" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid="{087B4FF3-56B4-4D2F-8EB4-59A536075ABC}" />
+    </worksheet>
+    <worksheet name="Selected cancellations">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#203b43" fontname="Segoe UI" fontsize="14">Selected cancellations</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Where should reservations test better confirmation?" name="analysis" />
+          </datasources>
+          <datasource-dependencies datasource="analysis">
+            <column datatype="string" name="[Hotel]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Period]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Segment]" role="dimension" type="nominal" />
+            <column datatype="real" default-format="n#,##0" name="[Value]" role="measure" type="quantitative" />
+            <column datatype="string" name="[View]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Year]" role="dimension" type="nominal" />
+            <column-instance column="[Hotel]" derivation="None" name="[none:Hotel:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Period]" derivation="None" name="[none:Period:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Segment]" derivation="None" name="[none:Segment:nk]" pivot="key" type="nominal" />
+            <column-instance column="[View]" derivation="None" name="[none:View:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Year]" derivation="None" name="[none:Year:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Value]" derivation="Sum" name="[sum:Value:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="categorical" column="[analysis].[none:View:nk]">
+            <groupfilter function="member" level="[none:View:nk]" member="&quot;kpi&quot;" />
+          </filter>
+          <slices>
+            <column>[analysis].[none:View:nk]</column>
+            <column>[analysis].[none:Hotel:nk]</column>
+            <column>[analysis].[none:Year:nk]</column>
+            <column>[analysis].[none:Period:nk]</column>
+            <column>[analysis].[none:Segment:nk]</column>
+          </slices>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="10" />
+            <format attr="color" value="#60757B" />
+            <format attr="title" scope="cols" value="Cancellations" />
+          </style-rule>
+          <style-rule element="cell">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="11" />
+            <format attr="color" value="#203B43" />
+          </style-rule>
+          <style-rule element="label">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="10" />
+            <format attr="color" value="#60757B" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="display-field-labels" scope="rows" value="false" />
+            <format attr="display-field-labels" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="gridline">
+            <format attr="stroke-color" value="#E5E9E7" />
+            <format attr="stroke-size" value="1" />
+          </style-rule>
+          <style-rule element="zeroline">
+            <format attr="stroke-color" value="#CCD5D3" />
+            <format attr="stroke-size" value="1" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-disallow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Text" />
+            <encodings>
+              <text column="[analysis].[sum:Value:qk]" />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontname="Segoe UI" fontsize="11">&lt;[analysis].[none:Label:nk]&gt;
+Bookings: &lt;[analysis].[sum:Bookings:qk]&gt;
+Cancellations: &lt;[analysis].[sum:Value:qk]&gt;
+Rate: &lt;[analysis].[usr:Cancellation Rate:qk]&gt;
+Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+                <format attr="color" value="#147D80" />
+                <format attr="font-size" value="26" />
+                <format attr="color" value="#147D80" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid="{592D9000-8130-4303-AFA2-B21FBA400CEB}" />
+    </worksheet>
+    <worksheet name="Selected rate">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#203b43" fontname="Segoe UI" fontsize="14">Selected rate</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Where should reservations test better confirmation?" name="analysis" />
+          </datasources>
+          <datasource-dependencies datasource="analysis">
+            <column datatype="integer" default-format="n#,##0" name="[Bookings]" role="measure" type="quantitative" />
+            <column datatype="real" default-format="p0.0%" name="[Cancellation Rate]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="IF SUM([Bookings]) &gt; 0 THEN SUM([Value]) / SUM([Bookings]) END" />
+            </column>
+            <column datatype="string" name="[Hotel]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Period]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Segment]" role="dimension" type="nominal" />
+            <column datatype="real" default-format="n#,##0" name="[Value]" role="measure" type="quantitative" />
+            <column datatype="string" name="[View]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Year]" role="dimension" type="nominal" />
+            <column-instance column="[Hotel]" derivation="None" name="[none:Hotel:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Period]" derivation="None" name="[none:Period:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Segment]" derivation="None" name="[none:Segment:nk]" pivot="key" type="nominal" />
+            <column-instance column="[View]" derivation="None" name="[none:View:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Year]" derivation="None" name="[none:Year:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Cancellation Rate]" derivation="User" name="[usr:Cancellation Rate:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="categorical" column="[analysis].[none:View:nk]">
+            <groupfilter function="member" level="[none:View:nk]" member="&quot;kpi&quot;" />
+          </filter>
+          <slices>
+            <column>[analysis].[none:View:nk]</column>
+            <column>[analysis].[none:Hotel:nk]</column>
+            <column>[analysis].[none:Year:nk]</column>
+            <column>[analysis].[none:Period:nk]</column>
+            <column>[analysis].[none:Segment:nk]</column>
+          </slices>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="10" />
+            <format attr="color" value="#60757B" />
+            <format attr="title" scope="cols" value="Cancellations" />
+          </style-rule>
+          <style-rule element="cell">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="11" />
+            <format attr="color" value="#203B43" />
+          </style-rule>
+          <style-rule element="label">
+            <format attr="font-family" value="Segoe UI" />
+            <format attr="font-size" value="10" />
+            <format attr="color" value="#60757B" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="display-field-labels" scope="rows" value="false" />
+            <format attr="display-field-labels" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="gridline">
+            <format attr="stroke-color" value="#E5E9E7" />
+            <format attr="stroke-size" value="1" />
+          </style-rule>
+          <style-rule element="zeroline">
+            <format attr="stroke-color" value="#CCD5D3" />
+            <format attr="stroke-size" value="1" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-disallow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Text" />
+            <encodings>
+              <text column="[analysis].[usr:Cancellation Rate:qk]" />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontname="Segoe UI" fontsize="11">&lt;[analysis].[none:Label:nk]&gt;
+Bookings: &lt;[analysis].[sum:Bookings:qk]&gt;
+Cancellations: &lt;[analysis].[sum:Value:qk]&gt;
+Rate: &lt;[analysis].[usr:Cancellation Rate:qk]&gt;
+Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+                <format attr="color" value="#147D80" />
+                <format attr="font-size" value="26" />
+                <format attr="color" value="#147D80" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid="{953DE11D-5DF9-4998-8102-763C5DB4A37F}" />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name="01  Decision brief">
+      <style>
+        <style-rule element="dashboard">
+          <format attr="background-color" value="#F6F5F0" />
+        </style-rule>
+        <style-rule element="dash-text">
+          <format attr="wrap" id="dash-text_2" value="on" />
+          <format attr="wrap" id="dash-text_3" value="on" />
+          <format attr="wrap" id="dash-text_4" value="on" />
+          <format attr="wrap" id="dash-text_5" value="on" />
+          <format attr="wrap" id="dash-text_6" value="on" />
+          <format attr="wrap" id="dash-text_7" value="on" />
+          <format attr="wrap" id="dash-text_8" value="on" />
+          <format attr="wrap" id="dash-text_9" value="on" />
+          <format attr="wrap" id="dash-text_10" value="on" />
+          <format attr="wrap" id="dash-text_11" value="on" />
+          <format attr="wrap" id="dash-text_12" value="on" />
+          <format attr="wrap" id="dash-text_13" value="on" />
+          <format attr="wrap" id="dash-text_19" value="on" />
+          <format attr="wrap" id="dash-text_20" value="on" />
+          <format attr="wrap" id="dash-text_21" value="on" />
+        </style-rule>
+      </style>
+      <size maxheight="950" maxwidth="1400" minheight="950" minwidth="1400" />
+      <datasources>
+        <datasource caption="Where should reservations test better confirmation?" name="analysis" />
+      </datasources>
+      <datasource-dependencies datasource="analysis">
+        <column datatype="string" name="[Hotel]" role="dimension" type="nominal" />
+        <column datatype="string" name="[Period]" role="dimension" type="nominal" />
+        <column datatype="string" name="[Segment]" role="dimension" type="nominal" />
+        <column datatype="string" name="[Year]" role="dimension" type="nominal" />
+        <column-instance column="[Hotel]" derivation="None" name="[none:Hotel:nk]" pivot="key" type="nominal" />
+        <column-instance column="[Period]" derivation="None" name="[none:Period:nk]" pivot="key" type="nominal" />
+        <column-instance column="[Segment]" derivation="None" name="[none:Segment:nk]" pivot="key" type="nominal" />
+        <column-instance column="[Year]" derivation="None" name="[none:Year:nk]" pivot="key" type="nominal" />
+      </datasource-dependencies>
+      <zones>
+        <zone h="100000" id="1" type-v2="layout-basic" w="100000" x="0" y="0">
+          <zone h="3623" id="2" type-v2="text" w="98041" x="0" y="0">
+            <formatted-text>
+              <run bold="true" fontcolor="#147d80" fontname="Segoe UI" fontsize="10">FIELDNOTES / BUSINESS ANALYSIS</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="border-color" value="#444444" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="10" />
+            </zone-style>
+          </zone>
+          <zone h="6183" id="3" type-v2="text" w="98041" x="0" y="3624">
+            <formatted-text>
+              <run bold="true" fontcolor="#203b43" fontname="Segoe UI" fontsize="28">Where should reservations test better confirmation?</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="border-color" value="#444444" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="10" />
+            </zone-style>
+          </zone>
+          <zone h="5116" id="4" type-v2="text" w="98041" x="0" y="10128">
+            <formatted-text>
+              <run bold="false" fontcolor="#60757b" fontname="Segoe UI" fontsize="12">Default: 2016, City Hotel / Change the filters to compare the same hotel and arrival period.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="border-color" value="#444444" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="10" />
+            </zone-style>
+          </zone>
+          <zone h="25586" id="14" name="Cancellation workload" w="47497" x="0" y="38166" />
+          <zone h="25586" id="15" name="Segment rate" w="48731" x="49310" y="38166" />
+          <zone h="18123" id="16" name="Lead-time rate" w="47497" x="0" y="65884" />
+          <zone h="18123" id="17" name="Monthly rate" w="48731" x="49310" y="65884" />
+          <zone h="3197" id="19" type-v2="text" w="98041" x="0" y="85394">
+            <formatted-text>
+              <run bold="true" fontcolor="#147d80" fontname="Segoe UI" fontsize="10">WHAT THIS MEANS</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="border-color" value="#444444" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="10" />
+            </zone-style>
+          </zone>
+          <zone h="7463" id="20" type-v2="text" w="98041" x="0" y="88912">
+            <formatted-text>
+              <run bold="false" fontcolor="#203b43" fontname="Segoe UI" fontsize="12">Compare counts and rates together. Prioritize a confirmation-process trial, then measure results against a randomized comparison group.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="border-color" value="#444444" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="10" />
+            </zone-style>
+          </zone>
+          <zone h="3092" id="21" type-v2="text" w="98041" x="0" y="96908">
+            <formatted-text>
+              <run bold="false" fontcolor="#60757b" fontname="Segoe UI" fontsize="9">Kaggle / Antonio, de Almeida &amp; Nunes (2019), CC BY 4.0 / Partial 2015 and 2017 / Zak Rademacher</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="border-color" value="#444444" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="10" />
+            </zone-style>
+          </zone>
+          <zone h="10128" id="100" name="Selected bookings" w="23857" x="0" y="26066" />
+          <zone h="10128" id="101" name="Selected cancellations" w="23858" x="25380" y="26066" />
+          <zone h="10128" id="102" name="Selected rate" w="23858" x="50761" y="26066" />
+          <zone h="10128" id="103" name="Canceled booked nights" w="23858" x="76142" y="26066" />
+          <zone h="8609" id="120" mode="dropdown" name="Cancellation workload" param="[analysis].[none:Hotel:nk]" type-v2="filter" values="all" w="23857" x="0" y="16444">
+            <zone-style>
+              <format attr="border-color" value="#444444" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="background-color" value="#f6f5f0" />
+            </zone-style>
+          </zone>
+          <zone h="8609" id="121" mode="dropdown" name="Cancellation workload" param="[analysis].[none:Year:nk]" type-v2="filter" values="all" w="23858" x="25380" y="16444">
+            <zone-style>
+              <format attr="border-color" value="#444444" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="background-color" value="#f6f5f0" />
+            </zone-style>
+          </zone>
+          <zone h="8609" id="122" mode="dropdown" name="Cancellation workload" param="[analysis].[none:Period:nk]" type-v2="filter" values="all" w="23858" x="50761" y="16444">
+            <zone-style>
+              <format attr="border-color" value="#444444" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="background-color" value="#f6f5f0" />
+            </zone-style>
+          </zone>
+          <zone h="8609" id="123" mode="dropdown" name="Cancellation workload" param="[analysis].[none:Segment:nk]" type-v2="filter" values="all" w="23858" x="76142" y="16444">
+            <zone-style>
+              <format attr="border-color" value="#444444" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="background-color" value="#f6f5f0" />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr="border-color" value="#444444" />
+            <format attr="border-style" value="none" />
+            <format attr="border-width" value="0" />
+            <format attr="background-color" value="#f6f5f0" />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid="{B126CB14-6917-42E2-9D0D-6ACE51393C68}" />
+    </dashboard>
+    <dashboard name="02  Definitions and trial">
+      <style>
+        <style-rule element="dashboard">
+          <format attr="background-color" value="#F6F5F0" />
+        </style-rule>
+        <style-rule element="dash-text">
+          <format attr="wrap" id="dash-text_2" value="on" />
+          <format attr="wrap" id="dash-text_3" value="on" />
+          <format attr="wrap" id="dash-text_4" value="on" />
+          <format attr="wrap" id="dash-text_5" value="on" />
+          <format attr="wrap" id="dash-text_6" value="on" />
+          <format attr="wrap" id="dash-text_7" value="on" />
+          <format attr="wrap" id="dash-text_8" value="on" />
+          <format attr="wrap" id="dash-text_9" value="on" />
+          <format attr="wrap" id="dash-text_10" value="on" />
+          <format attr="wrap" id="dash-text_11" value="on" />
+          <format attr="wrap" id="dash-text_12" value="on" />
+          <format attr="wrap" id="dash-text_13" value="on" />
+          <format attr="wrap" id="dash-text_19" value="on" />
+          <format attr="wrap" id="dash-text_20" value="on" />
+          <format attr="wrap" id="dash-text_21" value="on" />
+        </style-rule>
+      </style>
+      <size maxheight="950" maxwidth="1400" minheight="950" minwidth="1400" />
+      <zones>
+        <zone h="100000" id="1" type-v2="layout-basic" w="100000" x="0" y="0">
+          <zone h="3368" id="200" type-v2="text" w="95000" x="2000" y="4210">
+            <formatted-text>
+              <run fontcolor="#203b43" fontname="Segoe UI" fontsize="28">A bounded decision for reservations</run>
+            </formatted-text>
+          </zone>
+          <zone h="18947" id="201" type-v2="text" w="95000" x="2000" y="14736">
+            <formatted-text>
+              <run fontcolor="#203b43" fontname="Segoe UI" fontsize="16">Choose a comparable hotel and arrival period, then examine market-segment counts and rates. Use lead-time bands to define a trial population. Small samples below 100 bookings need caution.</run>
+            </formatted-text>
+          </zone>
+          <zone h="4842" id="202" type-v2="text" w="95000" x="2000" y="36842">
+            <formatted-text>
+              <run fontcolor="#203b43" fontname="Segoe UI" fontsize="22">Population and measures</run>
+            </formatted-text>
+          </zone>
+          <zone h="18947" id="203" type-v2="text" w="95000" x="2000" y="44210">
+            <formatted-text>
+              <run fontcolor="#203b43" fontname="Segoe UI" fontsize="16">One source row represents one booking. Cancellation rate = canceled bookings / bookings in the same selection. Canceled booked nights = recorded length of stay on canceled bookings. Those nights are not proven lost revenue or unfilled capacity. Exact repeats remain because the source has no booking identifier.</run>
+            </formatted-text>
+          </zone>
+          <zone h="4842" id="204" type-v2="text" w="95000" x="2000" y="67368">
+            <formatted-text>
+              <run fontcolor="#203b43" fontname="Segoe UI" fontsize="22">Test the recommendation</run>
+            </formatted-text>
+          </zone>
+          <zone h="18947" id="205" type-v2="text" w="95000" x="2000" y="74736">
+            <formatted-text>
+              <run fontcolor="#203b43" fontname="Segoe UI" fontsize="16">Within a selected hotel, segment and lead-time band, randomize an improved confirmation protocol against business-as-usual. Measure cancellation rate, staff contact workload and guest complaints. The historical snapshot cannot establish a treatment effect. Reservation fields reflect the source extraction snapshot, not guaranteed initial-booking knowledge.</run>
+            </formatted-text>
+          </zone>
+        </zone>
+      </zones>
+      <simple-id uuid="{2139C220-68F0-49A2-AAAA-2A16F72F9A0A}" />
+    </dashboard>
+  </dashboards>
+  <windows>
+    <window class="worksheet" name="Cancellation workload">
+      <cards>
+        <edge name="left">
+          <strip size="180">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="2147483647">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{12F30622-94E6-4193-B43E-9A26A10CD87E}" />
+    </window>
+    <window class="worksheet" name="Segment rate">
+      <cards>
+        <edge name="left">
+          <strip size="180">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="2147483647">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{F13A4D90-D6C2-4E10-A1A7-760901476DC7}" />
+    </window>
+    <window class="worksheet" name="Lead-time rate">
+      <cards>
+        <edge name="left">
+          <strip size="180">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="2147483647">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{13CF7F10-7627-4282-9104-413D888B16B3}" />
+    </window>
+    <window class="worksheet" name="Monthly rate">
+      <cards>
+        <edge name="left">
+          <strip size="180">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="2147483647">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{0BD7EFDC-B842-4C3F-9D09-775B122260A4}" />
+    </window>
+    <window class="worksheet" name="Selected bookings">
+      <cards>
+        <edge name="left">
+          <strip size="180">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="2147483647">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{F9F41D0C-4842-4697-B59D-F39E0999EEF3}" />
+    </window>
+    <window class="worksheet" name="Selected cancellations">
+      <cards>
+        <edge name="left">
+          <strip size="180">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="2147483647">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{CA34FDC8-C431-4FFF-93D2-D35F73565440}" />
+    </window>
+    <window class="worksheet" name="Selected rate">
+      <cards>
+        <edge name="left">
+          <strip size="180">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="2147483647">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{156AF0EA-9555-4CE7-A1AA-1822BE3EF355}" />
+    </window>
+    <window class="worksheet" name="Canceled booked nights">
+      <cards>
+        <edge name="left">
+          <strip size="180">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="2147483647">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{7DA136AF-E784-46FF-8DC0-2F5753F98FFD}" />
+    </window>
+    <window class="dashboard" name="02  Definitions and trial">
+      <viewpoints />
+      <active id="-1" />
+      <simple-id uuid="{DE8B3E2A-0DB9-45C5-987E-972959ED8EC5}" />
+    </window>
+    <window class="dashboard" maximized="true" name="01  Decision brief">
+      <viewpoints>
+        <viewpoint name="Canceled booked nights">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="Cancellation workload">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="Lead-time rate">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="Monthly rate">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="Segment rate">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="Selected bookings">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="Selected cancellations">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="Selected rate">
+          <zoom type="entire-view" />
+        </viewpoint>
+      </viewpoints>
+      <active id="-1" />
+      <simple-id uuid="{F8197758-64DF-4DE0-B684-6C892664B72C}" />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height="192" name="01  Decision brief" width="192">
+      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
+      emeKAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
