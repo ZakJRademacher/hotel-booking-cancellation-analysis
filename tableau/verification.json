@@ -1,0 +1,7 @@
+{
+  "source": "Kaggle / Antonio, de Almeida & Nunes (2019), CC BY 4.0 / Partial 2015 and 2017 / Zak Rademacher",
+  "rows": 2615,
+  "csv_sha256": "9437d1891a7b33eab06c0bbaa239778101ee9f4426ee8bfc95932ac939386bae",
+  "report": "Hotel Cancellation Review",
+  "scope": "Historical reporting cube with one View per worksheet; shared population filters and calculated rate/KPI worksheets. Native baseline and Hotel filter checked."
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://www.kaggle.com/api/v1/datasets/download/jessemostipak/hotel-booking-demand",
+  "archive_sha256": "27f3d58e41f60ae49813de60344d932bdbf6d48310ce19c5be209532e164612e",
+  "files": [
+    {
+      "name": "hotel_bookings.csv",
+      "sha256": "7c2ae42a7353905ea136e5c2287f17c92c5435826598bfbb8491c6f0c7b1fc06"
+    }
+  ]
+}

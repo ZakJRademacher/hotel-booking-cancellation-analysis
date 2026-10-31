@@ -1,0 +1,1304 @@
+hotel,period,segment,lead_band,bookings,cancellations,canceled_booked_nights
+City Hotel,2015-07,Complementary,01  0-7 days,4,0,0
+City Hotel,2015-07,Complementary,03  31-90 days,1,1,3
+City Hotel,2015-07,Corporate,01  0-7 days,4,0,0
+City Hotel,2015-07,Direct,01  0-7 days,13,1,1
+City Hotel,2015-07,Direct,03  31-90 days,9,9,23
+City Hotel,2015-07,Direct,04  91-180 days,1,1,3
+City Hotel,2015-07,Groups,01  0-7 days,8,2,8
+City Hotel,2015-07,Groups,02  8-30 days,185,75,206
+City Hotel,2015-07,Groups,03  31-90 days,13,5,9
+City Hotel,2015-07,Groups,04  91-180 days,139,75,190
+City Hotel,2015-07,Groups,05  181+ days,568,516,1222
+City Hotel,2015-07,Offline TA/TO,01  0-7 days,10,0,0
+City Hotel,2015-07,Offline TA/TO,03  31-90 days,6,0,0
+City Hotel,2015-07,Offline TA/TO,04  91-180 days,81,52,155
+City Hotel,2015-07,Offline TA/TO,05  181+ days,155,38,91
+City Hotel,2015-07,Online TA,02  8-30 days,1,1,2
+City Hotel,2015-07,Online TA,03  31-90 days,73,54,293
+City Hotel,2015-07,Online TA,04  91-180 days,103,92,382
+City Hotel,2015-07,Online TA,05  181+ days,24,17,78
+City Hotel,2015-08,Complementary,01  0-7 days,30,1,1
+City Hotel,2015-08,Complementary,02  8-30 days,3,0,0
+City Hotel,2015-08,Corporate,01  0-7 days,41,18,57
+City Hotel,2015-08,Corporate,02  8-30 days,37,5,10
+City Hotel,2015-08,Direct,01  0-7 days,208,21,48
+City Hotel,2015-08,Direct,02  8-30 days,34,2,2
+City Hotel,2015-08,Direct,04  91-180 days,4,2,4
+City Hotel,2015-08,Groups,01  0-7 days,36,5,8
+City Hotel,2015-08,Groups,02  8-30 days,74,32,119
+City Hotel,2015-08,Groups,03  31-90 days,294,78,209
+City Hotel,2015-08,Groups,04  91-180 days,121,111,287
+City Hotel,2015-08,Groups,05  181+ days,601,601,1470
+City Hotel,2015-08,Offline TA/TO,01  0-7 days,73,38,83
+City Hotel,2015-08,Offline TA/TO,02  8-30 days,13,1,3
+City Hotel,2015-08,Offline TA/TO,03  31-90 days,142,71,142
+City Hotel,2015-08,Offline TA/TO,04  91-180 days,135,63,190
+City Hotel,2015-08,Offline TA/TO,05  181+ days,71,71,142
+City Hotel,2015-08,Online TA,01  0-7 days,311,27,90
+City Hotel,2015-08,Online TA,02  8-30 days,110,34,126
+City Hotel,2015-08,Online TA,03  31-90 days,17,9,62
+City Hotel,2015-08,Online TA,04  91-180 days,92,32,112
+City Hotel,2015-08,Online TA,05  181+ days,31,8,33
+City Hotel,2015-08,Undefined,01  0-7 days,2,2,3
+City Hotel,2015-09,Complementary,01  0-7 days,23,0,0
+City Hotel,2015-09,Complementary,02  8-30 days,1,0,0
+City Hotel,2015-09,Complementary,03  31-90 days,1,0,0
+City Hotel,2015-09,Corporate,01  0-7 days,96,35,69
+City Hotel,2015-09,Corporate,02  8-30 days,15,1,4
+City Hotel,2015-09,Corporate,03  31-90 days,42,10,14
+City Hotel,2015-09,Direct,01  0-7 days,130,12,15
+City Hotel,2015-09,Direct,02  8-30 days,70,8,15
+City Hotel,2015-09,Direct,03  31-90 days,10,1,3
+City Hotel,2015-09,Direct,04  91-180 days,3,0,0
+City Hotel,2015-09,Groups,01  0-7 days,64,12,37
+City Hotel,2015-09,Groups,02  8-30 days,151,12,18
+City Hotel,2015-09,Groups,03  31-90 days,504,271,921
+City Hotel,2015-09,Groups,04  91-180 days,84,45,57
+City Hotel,2015-09,Groups,05  181+ days,553,553,1615
+City Hotel,2015-09,Offline TA/TO,01  0-7 days,66,14,29
+City Hotel,2015-09,Offline TA/TO,02  8-30 days,107,55,122
+City Hotel,2015-09,Offline TA/TO,03  31-90 days,445,110,229
+City Hotel,2015-09,Offline TA/TO,04  91-180 days,65,16,43
+City Hotel,2015-09,Offline TA/TO,05  181+ days,377,262,564
+City Hotel,2015-09,Online TA,01  0-7 days,225,27,73
+City Hotel,2015-09,Online TA,02  8-30 days,327,59,193
+City Hotel,2015-09,Online TA,03  31-90 days,115,22,67
+City Hotel,2015-09,Online TA,04  91-180 days,24,7,23
+City Hotel,2015-09,Online TA,05  181+ days,31,11,49
+City Hotel,2015-10,Complementary,01  0-7 days,17,5,6
+City Hotel,2015-10,Complementary,02  8-30 days,3,1,1
+City Hotel,2015-10,Complementary,03  31-90 days,1,1,1
+City Hotel,2015-10,Corporate,01  0-7 days,59,5,7
+City Hotel,2015-10,Corporate,02  8-30 days,50,1,1
+City Hotel,2015-10,Corporate,03  31-90 days,4,0,0
+City Hotel,2015-10,Direct,01  0-7 days,97,13,30
+City Hotel,2015-10,Direct,02  8-30 days,71,20,40
+City Hotel,2015-10,Direct,03  31-90 days,20,8,15
+City Hotel,2015-10,Direct,04  91-180 days,1,0,0
+City Hotel,2015-10,Groups,01  0-7 days,50,2,6
+City Hotel,2015-10,Groups,02  8-30 days,87,48,145
+City Hotel,2015-10,Groups,03  31-90 days,286,88,221
+City Hotel,2015-10,Groups,04  91-180 days,125,84,293
+City Hotel,2015-10,Groups,05  181+ days,416,390,845
+City Hotel,2015-10,Offline TA/TO,01  0-7 days,95,10,27
+City Hotel,2015-10,Offline TA/TO,02  8-30 days,283,80,174
+City Hotel,2015-10,Offline TA/TO,03  31-90 days,307,62,189
+City Hotel,2015-10,Offline TA/TO,04  91-180 days,377,200,425
+City Hotel,2015-10,Offline TA/TO,05  181+ days,267,156,354
+City Hotel,2015-10,Online TA,01  0-7 days,145,16,39
+City Hotel,2015-10,Online TA,02  8-30 days,255,54,184
+City Hotel,2015-10,Online TA,03  31-90 days,319,69,251
+City Hotel,2015-10,Online TA,04  91-180 days,29,1,4
+City Hotel,2015-10,Online TA,05  181+ days,22,7,28
+City Hotel,2015-11,Complementary,01  0-7 days,16,3,3
+City Hotel,2015-11,Complementary,02  8-30 days,2,1,2
+City Hotel,2015-11,Corporate,01  0-7 days,51,5,5
+City Hotel,2015-11,Corporate,02  8-30 days,54,22,40
+City Hotel,2015-11,Corporate,03  31-90 days,6,0,0
+City Hotel,2015-11,Direct,01  0-7 days,63,11,45
+City Hotel,2015-11,Direct,02  8-30 days,28,7,81
+City Hotel,2015-11,Direct,03  31-90 days,10,6,14
+City Hotel,2015-11,Direct,05  181+ days,1,1,5
+City Hotel,2015-11,Groups,01  0-7 days,18,4,13
+City Hotel,2015-11,Groups,02  8-30 days,2,2,6
+City Hotel,2015-11,Groups,03  31-90 days,83,29,74
+City Hotel,2015-11,Groups,04  91-180 days,247,56,172
+City Hotel,2015-11,Groups,05  181+ days,42,32,94
+City Hotel,2015-11,Offline TA/TO,01  0-7 days,25,4,8
+City Hotel,2015-11,Offline TA/TO,02  8-30 days,38,1,2
+City Hotel,2015-11,Offline TA/TO,03  31-90 days,234,38,82
+City Hotel,2015-11,Offline TA/TO,04  91-180 days,4,0,0
+City Hotel,2015-11,Online TA,01  0-7 days,87,4,27
+City Hotel,2015-11,Online TA,02  8-30 days,102,34,135
+City Hotel,2015-11,Online TA,03  31-90 days,107,33,108
+City Hotel,2015-11,Online TA,04  91-180 days,13,7,17
+City Hotel,2015-11,Online TA,05  181+ days,2,1,3
+City Hotel,2015-12,Complementary,01  0-7 days,21,1,1
+City Hotel,2015-12,Complementary,02  8-30 days,7,0,0
+City Hotel,2015-12,Complementary,03  31-90 days,2,0,0
+City Hotel,2015-12,Corporate,01  0-7 days,43,0,0
+City Hotel,2015-12,Corporate,02  8-30 days,49,9,25
+City Hotel,2015-12,Corporate,03  31-90 days,15,3,3
+City Hotel,2015-12,Direct,01  0-7 days,86,9,27
+City Hotel,2015-12,Direct,02  8-30 days,45,17,78
+City Hotel,2015-12,Direct,03  31-90 days,57,18,83
+City Hotel,2015-12,Direct,04  91-180 days,7,0,0
+City Hotel,2015-12,Groups,01  0-7 days,3,1,4
+City Hotel,2015-12,Groups,02  8-30 days,16,0,0
+City Hotel,2015-12,Groups,03  31-90 days,52,24,49
+City Hotel,2015-12,Groups,04  91-180 days,70,41,112
+City Hotel,2015-12,Groups,05  181+ days,57,57,171
+City Hotel,2015-12,Offline TA/TO,01  0-7 days,86,4,9
+City Hotel,2015-12,Offline TA/TO,02  8-30 days,105,31,80
+City Hotel,2015-12,Offline TA/TO,03  31-90 days,266,200,412
+City Hotel,2015-12,Offline TA/TO,04  91-180 days,169,100,416
+City Hotel,2015-12,Online TA,01  0-7 days,98,7,12
+City Hotel,2015-12,Online TA,02  8-30 days,156,49,145
+City Hotel,2015-12,Online TA,03  31-90 days,162,55,284
+City Hotel,2015-12,Online TA,04  91-180 days,77,37,137
+City Hotel,2015-12,Online TA,05  181+ days,5,5,23
+City Hotel,2016-01,Complementary,01  0-7 days,28,2,2
+City Hotel,2016-01,Complementary,03  31-90 days,1,0,0
+City Hotel,2016-01,Corporate,01  0-7 days,56,2,2
+City Hotel,2016-01,Corporate,02  8-30 days,20,4,5
+City Hotel,2016-01,Corporate,03  31-90 days,33,6,12
+City Hotel,2016-01,Direct,01  0-7 days,92,10,28
+City Hotel,2016-01,Direct,02  8-30 days,35,10,157
+City Hotel,2016-01,Direct,03  31-90 days,13,2,14
+City Hotel,2016-01,Direct,04  91-180 days,3,1,1
+City Hotel,2016-01,Groups,01  0-7 days,2,0,0
+City Hotel,2016-01,Groups,03  31-90 days,94,68,68
+City Hotel,2016-01,Groups,04  91-180 days,65,65,130
+City Hotel,2016-01,Offline TA/TO,01  0-7 days,32,1,3
+City Hotel,2016-01,Offline TA/TO,02  8-30 days,64,8,29
+City Hotel,2016-01,Offline TA/TO,03  31-90 days,112,22,51
+City Hotel,2016-01,Offline TA/TO,04  91-180 days,130,72,217
+City Hotel,2016-01,Online TA,01  0-7 days,246,24,72
+City Hotel,2016-01,Online TA,02  8-30 days,231,104,543
+City Hotel,2016-01,Online TA,03  31-90 days,96,27,90
+City Hotel,2016-01,Online TA,04  91-180 days,11,10,34
+City Hotel,2016-02,Aviation,01  0-7 days,1,0,0
+City Hotel,2016-02,Complementary,01  0-7 days,14,2,3
+City Hotel,2016-02,Complementary,02  8-30 days,3,1,2
+City Hotel,2016-02,Complementary,03  31-90 days,1,0,0
+City Hotel,2016-02,Corporate,01  0-7 days,88,7,7
+City Hotel,2016-02,Corporate,02  8-30 days,59,3,3
+City Hotel,2016-02,Corporate,03  31-90 days,12,3,5
+City Hotel,2016-02,Corporate,04  91-180 days,119,71,71
+City Hotel,2016-02,Direct,01  0-7 days,130,21,49
+City Hotel,2016-02,Direct,02  8-30 days,44,10,46
+City Hotel,2016-02,Direct,03  31-90 days,57,7,22
+City Hotel,2016-02,Direct,04  91-180 days,7,0,0
+City Hotel,2016-02,Groups,01  0-7 days,1,1,4
+City Hotel,2016-02,Groups,02  8-30 days,1,0,0
+City Hotel,2016-02,Groups,03  31-90 days,222,183,404
+City Hotel,2016-02,Offline TA/TO,01  0-7 days,132,71,209
+City Hotel,2016-02,Offline TA/TO,02  8-30 days,93,4,16
+City Hotel,2016-02,Offline TA/TO,03  31-90 days,107,59,183
+City Hotel,2016-02,Offline TA/TO,04  91-180 days,248,162,513
+City Hotel,2016-02,Online TA,01  0-7 days,313,61,236
+City Hotel,2016-02,Online TA,02  8-30 days,389,145,676
+City Hotel,2016-02,Online TA,03  31-90 days,301,102,370
+City Hotel,2016-02,Online TA,04  91-180 days,29,17,56
+City Hotel,2016-03,Aviation,01  0-7 days,3,0,0
+City Hotel,2016-03,Complementary,01  0-7 days,23,3,4
+City Hotel,2016-03,Complementary,04  91-180 days,2,0,0
+City Hotel,2016-03,Corporate,01  0-7 days,90,6,11
+City Hotel,2016-03,Corporate,02  8-30 days,56,7,12
+City Hotel,2016-03,Corporate,03  31-90 days,27,0,0
+City Hotel,2016-03,Direct,01  0-7 days,96,3,3
+City Hotel,2016-03,Direct,02  8-30 days,26,12,36
+City Hotel,2016-03,Direct,03  31-90 days,79,12,50
+City Hotel,2016-03,Direct,04  91-180 days,19,1,4
+City Hotel,2016-03,Groups,01  0-7 days,47,7,19
+City Hotel,2016-03,Groups,02  8-30 days,20,3,9
+City Hotel,2016-03,Groups,03  31-90 days,45,12,28
+City Hotel,2016-03,Groups,04  91-180 days,125,106,272
+City Hotel,2016-03,Groups,05  181+ days,130,130,356
+City Hotel,2016-03,Offline TA/TO,01  0-7 days,77,4,5
+City Hotel,2016-03,Offline TA/TO,02  8-30 days,106,12,28
+City Hotel,2016-03,Offline TA/TO,03  31-90 days,228,87,310
+City Hotel,2016-03,Offline TA/TO,04  91-180 days,239,134,353
+City Hotel,2016-03,Offline TA/TO,05  181+ days,4,0,0
+City Hotel,2016-03,Online TA,01  0-7 days,256,43,125
+City Hotel,2016-03,Online TA,02  8-30 days,312,124,415
+City Hotel,2016-03,Online TA,03  31-90 days,917,361,1281
+City Hotel,2016-03,Online TA,04  91-180 days,116,40,160
+City Hotel,2016-03,Online TA,05  181+ days,3,1,7
+City Hotel,2016-04,Aviation,01  0-7 days,20,3,13
+City Hotel,2016-04,Aviation,02  8-30 days,5,0,0
+City Hotel,2016-04,Complementary,01  0-7 days,10,1,0
+City Hotel,2016-04,Complementary,02  8-30 days,3,1,1
+City Hotel,2016-04,Complementary,03  31-90 days,1,0,0
+City Hotel,2016-04,Corporate,01  0-7 days,44,5,5
+City Hotel,2016-04,Corporate,02  8-30 days,16,1,21
+City Hotel,2016-04,Corporate,03  31-90 days,9,2,2
+City Hotel,2016-04,Direct,01  0-7 days,74,8,11
+City Hotel,2016-04,Direct,02  8-30 days,21,4,13
+City Hotel,2016-04,Direct,03  31-90 days,56,10,32
+City Hotel,2016-04,Direct,04  91-180 days,35,9,40
+City Hotel,2016-04,Direct,05  181+ days,4,2,8
+City Hotel,2016-04,Groups,01  0-7 days,2,0,0
+City Hotel,2016-04,Groups,02  8-30 days,25,2,3
+City Hotel,2016-04,Groups,03  31-90 days,1,0,0
+City Hotel,2016-04,Groups,04  91-180 days,262,161,531
+City Hotel,2016-04,Groups,05  181+ days,198,178,408
+City Hotel,2016-04,Offline TA/TO,01  0-7 days,42,7,14
+City Hotel,2016-04,Offline TA/TO,02  8-30 days,40,6,11
+City Hotel,2016-04,Offline TA/TO,03  31-90 days,179,24,61
+City Hotel,2016-04,Offline TA/TO,04  91-180 days,452,337,788
+City Hotel,2016-04,Offline TA/TO,05  181+ days,148,103,288
+City Hotel,2016-04,Online TA,01  0-7 days,248,38,121
+City Hotel,2016-04,Online TA,02  8-30 days,331,148,461
+City Hotel,2016-04,Online TA,03  31-90 days,936,367,1181
+City Hotel,2016-04,Online TA,04  91-180 days,381,114,443
+City Hotel,2016-04,Online TA,05  181+ days,18,8,22
+City Hotel,2016-05,Aviation,01  0-7 days,15,4,14
+City Hotel,2016-05,Aviation,02  8-30 days,14,7,46
+City Hotel,2016-05,Complementary,01  0-7 days,18,1,1
+City Hotel,2016-05,Complementary,02  8-30 days,2,1,2
+City Hotel,2016-05,Complementary,03  31-90 days,2,0,0
+City Hotel,2016-05,Corporate,01  0-7 days,99,5,6
+City Hotel,2016-05,Corporate,02  8-30 days,31,10,21
+City Hotel,2016-05,Corporate,03  31-90 days,57,15,34
+City Hotel,2016-05,Corporate,04  91-180 days,39,38,114
+City Hotel,2016-05,Direct,01  0-7 days,80,12,28
+City Hotel,2016-05,Direct,02  8-30 days,42,7,51
+City Hotel,2016-05,Direct,03  31-90 days,62,22,55
+City Hotel,2016-05,Direct,04  91-180 days,51,9,34
+City Hotel,2016-05,Direct,05  181+ days,15,2,5
+City Hotel,2016-05,Groups,01  0-7 days,1,0,0
+City Hotel,2016-05,Groups,03  31-90 days,72,33,40
+City Hotel,2016-05,Groups,04  91-180 days,151,126,253
+City Hotel,2016-05,Groups,05  181+ days,491,246,540
+City Hotel,2016-05,Offline TA/TO,01  0-7 days,110,2,2
+City Hotel,2016-05,Offline TA/TO,02  8-30 days,74,22,51
+City Hotel,2016-05,Offline TA/TO,03  31-90 days,134,19,58
+City Hotel,2016-05,Offline TA/TO,04  91-180 days,140,34,81
+City Hotel,2016-05,Offline TA/TO,05  181+ days,335,283,959
+City Hotel,2016-05,Online TA,01  0-7 days,206,26,54
+City Hotel,2016-05,Online TA,02  8-30 days,331,118,332
+City Hotel,2016-05,Online TA,03  31-90 days,517,209,630
+City Hotel,2016-05,Online TA,04  91-180 days,539,172,611
+City Hotel,2016-05,Online TA,05  181+ days,48,13,37
+City Hotel,2016-06,Aviation,01  0-7 days,6,1,4
+City Hotel,2016-06,Complementary,01  0-7 days,17,2,2
+City Hotel,2016-06,Complementary,02  8-30 days,3,0,0
+City Hotel,2016-06,Complementary,03  31-90 days,1,0,0
+City Hotel,2016-06,Corporate,01  0-7 days,35,3,5
+City Hotel,2016-06,Corporate,02  8-30 days,58,13,34
+City Hotel,2016-06,Corporate,03  31-90 days,7,1,7
+City Hotel,2016-06,Corporate,04  91-180 days,4,0,0
+City Hotel,2016-06,Direct,01  0-7 days,73,4,6
+City Hotel,2016-06,Direct,02  8-30 days,30,9,65
+City Hotel,2016-06,Direct,03  31-90 days,41,13,62
+City Hotel,2016-06,Direct,04  91-180 days,48,2,10
+City Hotel,2016-06,Direct,05  181+ days,8,1,6
+City Hotel,2016-06,Groups,01  0-7 days,2,1,1
+City Hotel,2016-06,Groups,02  8-30 days,6,1,1
+City Hotel,2016-06,Groups,03  31-90 days,40,0,0
+City Hotel,2016-06,Groups,04  91-180 days,76,54,184
+City Hotel,2016-06,Groups,05  181+ days,335,278,565
+City Hotel,2016-06,Offline TA/TO,01  0-7 days,63,4,7
+City Hotel,2016-06,Offline TA/TO,02  8-30 days,99,72,108
+City Hotel,2016-06,Offline TA/TO,03  31-90 days,374,249,838
+City Hotel,2016-06,Offline TA/TO,04  91-180 days,331,126,369
+City Hotel,2016-06,Offline TA/TO,05  181+ days,703,366,884
+City Hotel,2016-06,Online TA,01  0-7 days,261,25,71
+City Hotel,2016-06,Online TA,02  8-30 days,303,105,297
+City Hotel,2016-06,Online TA,03  31-90 days,496,208,573
+City Hotel,2016-06,Online TA,04  91-180 days,450,163,563
+City Hotel,2016-06,Online TA,05  181+ days,53,19,72
+City Hotel,2016-07,Aviation,01  0-7 days,3,0,0
+City Hotel,2016-07,Complementary,01  0-7 days,13,1,2
+City Hotel,2016-07,Complementary,02  8-30 days,2,0,0
+City Hotel,2016-07,Corporate,01  0-7 days,50,2,6
+City Hotel,2016-07,Corporate,02  8-30 days,32,4,6
+City Hotel,2016-07,Corporate,03  31-90 days,25,4,4
+City Hotel,2016-07,Corporate,04  91-180 days,5,0,0
+City Hotel,2016-07,Direct,01  0-7 days,70,4,10
+City Hotel,2016-07,Direct,02  8-30 days,25,5,12
+City Hotel,2016-07,Direct,03  31-90 days,51,16,58
+City Hotel,2016-07,Direct,04  91-180 days,79,6,21
+City Hotel,2016-07,Direct,05  181+ days,45,8,35
+City Hotel,2016-07,Groups,02  8-30 days,4,0,0
+City Hotel,2016-07,Groups,03  31-90 days,6,5,10
+City Hotel,2016-07,Groups,04  91-180 days,32,20,40
+City Hotel,2016-07,Groups,05  181+ days,230,186,384
+City Hotel,2016-07,Offline TA/TO,01  0-7 days,20,5,11
+City Hotel,2016-07,Offline TA/TO,02  8-30 days,24,2,3
+City Hotel,2016-07,Offline TA/TO,03  31-90 days,86,14,78
+City Hotel,2016-07,Offline TA/TO,04  91-180 days,184,51,182
+City Hotel,2016-07,Offline TA/TO,05  181+ days,210,65,351
+City Hotel,2016-07,Online TA,01  0-7 days,153,20,36
+City Hotel,2016-07,Online TA,02  8-30 days,190,63,149
+City Hotel,2016-07,Online TA,03  31-90 days,478,184,526
+City Hotel,2016-07,Online TA,04  91-180 days,907,316,1304
+City Hotel,2016-07,Online TA,05  181+ days,207,62,322
+City Hotel,2016-08,Complementary,01  0-7 days,5,0,0
+City Hotel,2016-08,Complementary,02  8-30 days,4,1,1
+City Hotel,2016-08,Complementary,04  91-180 days,3,0,0
+City Hotel,2016-08,Corporate,01  0-7 days,33,2,2
+City Hotel,2016-08,Corporate,02  8-30 days,9,1,2
+City Hotel,2016-08,Corporate,03  31-90 days,3,2,10
+City Hotel,2016-08,Corporate,04  91-180 days,4,1,3
+City Hotel,2016-08,Corporate,05  181+ days,2,0,0
+City Hotel,2016-08,Direct,01  0-7 days,84,4,8
+City Hotel,2016-08,Direct,02  8-30 days,53,6,22
+City Hotel,2016-08,Direct,03  31-90 days,49,17,52
+City Hotel,2016-08,Direct,04  91-180 days,101,34,133
+City Hotel,2016-08,Direct,05  181+ days,36,6,28
+City Hotel,2016-08,Groups,01  0-7 days,1,1,7
+City Hotel,2016-08,Groups,02  8-30 days,1,1,5
+City Hotel,2016-08,Groups,04  91-180 days,1,0,0
+City Hotel,2016-08,Groups,05  181+ days,230,221,384
+City Hotel,2016-08,Offline TA/TO,01  0-7 days,21,1,3
+City Hotel,2016-08,Offline TA/TO,02  8-30 days,19,3,14
+City Hotel,2016-08,Offline TA/TO,03  31-90 days,56,7,23
+City Hotel,2016-08,Offline TA/TO,04  91-180 days,140,24,87
+City Hotel,2016-08,Offline TA/TO,05  181+ days,201,54,147
+City Hotel,2016-08,Online TA,01  0-7 days,266,36,75
+City Hotel,2016-08,Online TA,02  8-30 days,275,88,262
+City Hotel,2016-08,Online TA,03  31-90 days,457,174,553
+City Hotel,2016-08,Online TA,04  91-180 days,877,367,1497
+City Hotel,2016-08,Online TA,05  181+ days,447,196,875
+City Hotel,2016-09,Aviation,01  0-7 days,13,4,6
+City Hotel,2016-09,Aviation,02  8-30 days,5,3,3
+City Hotel,2016-09,Complementary,01  0-7 days,15,1,0
+City Hotel,2016-09,Complementary,02  8-30 days,5,0,0
+City Hotel,2016-09,Complementary,03  31-90 days,4,0,0
+City Hotel,2016-09,Corporate,01  0-7 days,70,5,13
+City Hotel,2016-09,Corporate,02  8-30 days,31,5,14
+City Hotel,2016-09,Corporate,03  31-90 days,12,6,8
+City Hotel,2016-09,Corporate,04  91-180 days,9,0,0
+City Hotel,2016-09,Corporate,05  181+ days,4,4,12
+City Hotel,2016-09,Direct,01  0-7 days,90,19,35
+City Hotel,2016-09,Direct,02  8-30 days,71,11,55
+City Hotel,2016-09,Direct,03  31-90 days,50,6,32
+City Hotel,2016-09,Direct,04  91-180 days,15,3,9
+City Hotel,2016-09,Direct,05  181+ days,24,5,16
+City Hotel,2016-09,Groups,01  0-7 days,11,4,10
+City Hotel,2016-09,Groups,02  8-30 days,5,2,4
+City Hotel,2016-09,Groups,03  31-90 days,103,60,149
+City Hotel,2016-09,Groups,04  91-180 days,34,29,70
+City Hotel,2016-09,Groups,05  181+ days,431,334,775
+City Hotel,2016-09,Offline TA/TO,01  0-7 days,33,6,9
+City Hotel,2016-09,Offline TA/TO,02  8-30 days,57,14,24
+City Hotel,2016-09,Offline TA/TO,03  31-90 days,150,29,77
+City Hotel,2016-09,Offline TA/TO,04  91-180 days,153,30,90
+City Hotel,2016-09,Offline TA/TO,05  181+ days,633,316,927
+City Hotel,2016-09,Online TA,01  0-7 days,196,32,80
+City Hotel,2016-09,Online TA,02  8-30 days,411,128,314
+City Hotel,2016-09,Online TA,03  31-90 days,634,233,717
+City Hotel,2016-09,Online TA,04  91-180 days,329,156,625
+City Hotel,2016-09,Online TA,05  181+ days,273,122,496
+City Hotel,2016-10,Aviation,01  0-7 days,23,2,4
+City Hotel,2016-10,Aviation,02  8-30 days,6,1,3
+City Hotel,2016-10,Complementary,01  0-7 days,15,2,3
+City Hotel,2016-10,Complementary,02  8-30 days,5,0,0
+City Hotel,2016-10,Complementary,03  31-90 days,2,1,1
+City Hotel,2016-10,Complementary,04  91-180 days,1,0,0
+City Hotel,2016-10,Complementary,05  181+ days,1,0,0
+City Hotel,2016-10,Corporate,01  0-7 days,51,5,11
+City Hotel,2016-10,Corporate,02  8-30 days,40,4,6
+City Hotel,2016-10,Corporate,03  31-90 days,21,0,0
+City Hotel,2016-10,Corporate,04  91-180 days,1,0,0
+City Hotel,2016-10,Corporate,05  181+ days,5,5,15
+City Hotel,2016-10,Direct,01  0-7 days,84,13,19
+City Hotel,2016-10,Direct,02  8-30 days,49,8,26
+City Hotel,2016-10,Direct,03  31-90 days,41,10,21
+City Hotel,2016-10,Direct,04  91-180 days,48,23,83
+City Hotel,2016-10,Direct,05  181+ days,18,6,19
+City Hotel,2016-10,Groups,01  0-7 days,2,0,0
+City Hotel,2016-10,Groups,02  8-30 days,29,15,19
+City Hotel,2016-10,Groups,03  31-90 days,31,24,45
+City Hotel,2016-10,Groups,04  91-180 days,1,0,0
+City Hotel,2016-10,Groups,05  181+ days,439,404,911
+City Hotel,2016-10,Offline TA/TO,01  0-7 days,39,3,3
+City Hotel,2016-10,Offline TA/TO,02  8-30 days,95,6,19
+City Hotel,2016-10,Offline TA/TO,03  31-90 days,345,189,518
+City Hotel,2016-10,Offline TA/TO,04  91-180 days,182,90,240
+City Hotel,2016-10,Offline TA/TO,05  181+ days,563,271,816
+City Hotel,2016-10,Online TA,01  0-7 days,207,14,38
+City Hotel,2016-10,Online TA,02  8-30 days,283,90,259
+City Hotel,2016-10,Online TA,03  31-90 days,609,247,760
+City Hotel,2016-10,Online TA,04  91-180 days,483,250,782
+City Hotel,2016-10,Online TA,05  181+ days,500,264,901
+City Hotel,2016-11,Aviation,01  0-7 days,12,3,6
+City Hotel,2016-11,Aviation,02  8-30 days,1,1,4
+City Hotel,2016-11,Complementary,01  0-7 days,13,1,2
+City Hotel,2016-11,Complementary,02  8-30 days,6,0,0
+City Hotel,2016-11,Complementary,03  31-90 days,7,2,3
+City Hotel,2016-11,Complementary,04  91-180 days,1,0,0
+City Hotel,2016-11,Complementary,05  181+ days,1,0,0
+City Hotel,2016-11,Corporate,01  0-7 days,93,9,27
+City Hotel,2016-11,Corporate,02  8-30 days,37,7,11
+City Hotel,2016-11,Corporate,03  31-90 days,11,1,3
+City Hotel,2016-11,Corporate,04  91-180 days,8,2,12
+City Hotel,2016-11,Corporate,05  181+ days,6,5,13
+City Hotel,2016-11,Direct,01  0-7 days,51,7,10
+City Hotel,2016-11,Direct,02  8-30 days,55,13,82
+City Hotel,2016-11,Direct,03  31-90 days,76,15,59
+City Hotel,2016-11,Direct,04  91-180 days,13,0,0
+City Hotel,2016-11,Direct,05  181+ days,6,6,18
+City Hotel,2016-11,Groups,01  0-7 days,14,0,0
+City Hotel,2016-11,Groups,02  8-30 days,15,3,6
+City Hotel,2016-11,Groups,03  31-90 days,74,52,133
+City Hotel,2016-11,Groups,04  91-180 days,50,50,52
+City Hotel,2016-11,Groups,05  181+ days,396,301,803
+City Hotel,2016-11,Offline TA/TO,01  0-7 days,32,1,4
+City Hotel,2016-11,Offline TA/TO,02  8-30 days,58,10,29
+City Hotel,2016-11,Offline TA/TO,03  31-90 days,164,5,17
+City Hotel,2016-11,Offline TA/TO,04  91-180 days,123,98,316
+City Hotel,2016-11,Offline TA/TO,05  181+ days,217,212,595
+City Hotel,2016-11,Online TA,01  0-7 days,166,27,137
+City Hotel,2016-11,Online TA,02  8-30 days,437,133,487
+City Hotel,2016-11,Online TA,03  31-90 days,683,258,913
+City Hotel,2016-11,Online TA,04  91-180 days,202,91,303
+City Hotel,2016-11,Online TA,05  181+ days,94,47,160
+City Hotel,2016-12,Complementary,01  0-7 days,16,5,2
+City Hotel,2016-12,Complementary,02  8-30 days,8,1,1
+City Hotel,2016-12,Complementary,03  31-90 days,4,0,0
+City Hotel,2016-12,Complementary,05  181+ days,1,0,0
+City Hotel,2016-12,Corporate,01  0-7 days,53,2,2
+City Hotel,2016-12,Corporate,02  8-30 days,53,7,10
+City Hotel,2016-12,Corporate,03  31-90 days,5,0,0
+City Hotel,2016-12,Corporate,05  181+ days,4,4,12
+City Hotel,2016-12,Direct,01  0-7 days,80,15,33
+City Hotel,2016-12,Direct,02  8-30 days,40,13,80
+City Hotel,2016-12,Direct,03  31-90 days,40,11,32
+City Hotel,2016-12,Direct,04  91-180 days,17,1,2
+City Hotel,2016-12,Direct,05  181+ days,18,10,35
+City Hotel,2016-12,Groups,02  8-30 days,29,28,159
+City Hotel,2016-12,Groups,03  31-90 days,18,18,126
+City Hotel,2016-12,Groups,04  91-180 days,1,1,6
+City Hotel,2016-12,Groups,05  181+ days,85,85,160
+City Hotel,2016-12,Offline TA/TO,01  0-7 days,32,2,2
+City Hotel,2016-12,Offline TA/TO,02  8-30 days,47,1,3
+City Hotel,2016-12,Offline TA/TO,03  31-90 days,142,13,42
+City Hotel,2016-12,Offline TA/TO,04  91-180 days,35,2,7
+City Hotel,2016-12,Offline TA/TO,05  181+ days,144,94,253
+City Hotel,2016-12,Online TA,01  0-7 days,219,23,94
+City Hotel,2016-12,Online TA,02  8-30 days,366,157,664
+City Hotel,2016-12,Online TA,03  31-90 days,497,242,902
+City Hotel,2016-12,Online TA,04  91-180 days,226,125,442
+City Hotel,2016-12,Online TA,05  181+ days,298,212,998
+City Hotel,2017-01,Aviation,01  0-7 days,6,1,5
+City Hotel,2017-01,Complementary,01  0-7 days,12,1,2
+City Hotel,2017-01,Corporate,01  0-7 days,61,2,4
+City Hotel,2017-01,Corporate,02  8-30 days,19,2,3
+City Hotel,2017-01,Corporate,03  31-90 days,104,100,100
+City Hotel,2017-01,Direct,01  0-7 days,104,3,7
+City Hotel,2017-01,Direct,02  8-30 days,35,5,18
+City Hotel,2017-01,Direct,03  31-90 days,29,9,48
+City Hotel,2017-01,Direct,04  91-180 days,10,2,6
+City Hotel,2017-01,Direct,05  181+ days,8,3,3
+City Hotel,2017-01,Groups,01  0-7 days,33,1,3
+City Hotel,2017-01,Groups,02  8-30 days,74,11,31
+City Hotel,2017-01,Groups,03  31-90 days,328,204,412
+City Hotel,2017-01,Groups,04  91-180 days,30,29,87
+City Hotel,2017-01,Groups,05  181+ days,69,69,131
+City Hotel,2017-01,Offline TA/TO,01  0-7 days,33,1,6
+City Hotel,2017-01,Offline TA/TO,02  8-30 days,32,4,14
+City Hotel,2017-01,Offline TA/TO,03  31-90 days,67,51,145
+City Hotel,2017-01,Offline TA/TO,04  91-180 days,8,0,0
+City Hotel,2017-01,Offline TA/TO,05  181+ days,2,0,0
+City Hotel,2017-01,Online TA,01  0-7 days,232,20,82
+City Hotel,2017-01,Online TA,02  8-30 days,399,161,887
+City Hotel,2017-01,Online TA,03  31-90 days,418,202,846
+City Hotel,2017-01,Online TA,04  91-180 days,154,91,387
+City Hotel,2017-01,Online TA,05  181+ days,105,72,254
+City Hotel,2017-02,Aviation,01  0-7 days,1,1,0
+City Hotel,2017-02,Complementary,01  0-7 days,15,2,2
+City Hotel,2017-02,Complementary,02  8-30 days,1,0,0
+City Hotel,2017-02,Corporate,01  0-7 days,39,5,6
+City Hotel,2017-02,Corporate,02  8-30 days,13,0,0
+City Hotel,2017-02,Corporate,03  31-90 days,4,0,0
+City Hotel,2017-02,Direct,01  0-7 days,140,9,11
+City Hotel,2017-02,Direct,02  8-30 days,59,12,79
+City Hotel,2017-02,Direct,03  31-90 days,43,6,23
+City Hotel,2017-02,Direct,04  91-180 days,14,5,52
+City Hotel,2017-02,Direct,05  181+ days,7,7,30
+City Hotel,2017-02,Groups,01  0-7 days,5,2,4
+City Hotel,2017-02,Groups,02  8-30 days,72,16,56
+City Hotel,2017-02,Groups,03  31-90 days,243,160,394
+City Hotel,2017-02,Groups,04  91-180 days,154,58,58
+City Hotel,2017-02,Groups,05  181+ days,69,68,128
+City Hotel,2017-02,Offline TA/TO,01  0-7 days,31,3,9
+City Hotel,2017-02,Offline TA/TO,02  8-30 days,126,40,91
+City Hotel,2017-02,Offline TA/TO,03  31-90 days,59,17,64
+City Hotel,2017-02,Offline TA/TO,04  91-180 days,15,1,4
+City Hotel,2017-02,Offline TA/TO,05  181+ days,2,2,5
+City Hotel,2017-02,Online TA,01  0-7 days,235,19,40
+City Hotel,2017-02,Online TA,02  8-30 days,506,171,692
+City Hotel,2017-02,Online TA,03  31-90 days,496,238,907
+City Hotel,2017-02,Online TA,04  91-180 days,148,77,301
+City Hotel,2017-02,Online TA,05  181+ days,97,52,201
+City Hotel,2017-03,Aviation,01  0-7 days,14,1,2
+City Hotel,2017-03,Complementary,01  0-7 days,14,0,0
+City Hotel,2017-03,Complementary,02  8-30 days,4,1,1
+City Hotel,2017-03,Complementary,03  31-90 days,5,0,0
+City Hotel,2017-03,Corporate,01  0-7 days,45,1,1
+City Hotel,2017-03,Corporate,02  8-30 days,27,2,6
+City Hotel,2017-03,Corporate,03  31-90 days,9,3,6
+City Hotel,2017-03,Corporate,05  181+ days,9,3,24
+City Hotel,2017-03,Direct,01  0-7 days,104,13,23
+City Hotel,2017-03,Direct,02  8-30 days,63,13,46
+City Hotel,2017-03,Direct,03  31-90 days,70,6,24
+City Hotel,2017-03,Direct,04  91-180 days,18,2,7
+City Hotel,2017-03,Direct,05  181+ days,4,0,0
+City Hotel,2017-03,Groups,01  0-7 days,8,1,2
+City Hotel,2017-03,Groups,02  8-30 days,153,121,337
+City Hotel,2017-03,Groups,03  31-90 days,74,35,78
+City Hotel,2017-03,Groups,04  91-180 days,270,76,209
+City Hotel,2017-03,Groups,05  181+ days,105,91,178
+City Hotel,2017-03,Offline TA/TO,01  0-7 days,26,2,4
+City Hotel,2017-03,Offline TA/TO,02  8-30 days,62,7,20
+City Hotel,2017-03,Offline TA/TO,03  31-90 days,316,162,403
+City Hotel,2017-03,Offline TA/TO,04  91-180 days,65,17,42
+City Hotel,2017-03,Offline TA/TO,05  181+ days,25,17,51
+City Hotel,2017-03,Online TA,01  0-7 days,233,25,72
+City Hotel,2017-03,Online TA,02  8-30 days,343,116,372
+City Hotel,2017-03,Online TA,03  31-90 days,809,295,1120
+City Hotel,2017-03,Online TA,04  91-180 days,362,166,586
+City Hotel,2017-03,Online TA,05  181+ days,175,102,348
+City Hotel,2017-04,Aviation,01  0-7 days,8,4,15
+City Hotel,2017-04,Aviation,02  8-30 days,8,0,0
+City Hotel,2017-04,Complementary,01  0-7 days,18,6,2
+City Hotel,2017-04,Complementary,02  8-30 days,2,0,0
+City Hotel,2017-04,Complementary,03  31-90 days,2,1,1
+City Hotel,2017-04,Corporate,01  0-7 days,21,3,3
+City Hotel,2017-04,Corporate,02  8-30 days,9,1,1
+City Hotel,2017-04,Corporate,03  31-90 days,52,39,115
+City Hotel,2017-04,Direct,01  0-7 days,64,5,6
+City Hotel,2017-04,Direct,02  8-30 days,69,14,31
+City Hotel,2017-04,Direct,03  31-90 days,92,14,63
+City Hotel,2017-04,Direct,04  91-180 days,93,10,44
+City Hotel,2017-04,Direct,05  181+ days,21,5,14
+City Hotel,2017-04,Groups,01  0-7 days,1,1,3
+City Hotel,2017-04,Groups,02  8-30 days,5,0,0
+City Hotel,2017-04,Groups,03  31-90 days,235,204,639
+City Hotel,2017-04,Groups,04  91-180 days,364,278,746
+City Hotel,2017-04,Groups,05  181+ days,36,14,35
+City Hotel,2017-04,Offline TA/TO,01  0-7 days,18,2,2
+City Hotel,2017-04,Offline TA/TO,02  8-30 days,6,2,2
+City Hotel,2017-04,Offline TA/TO,03  31-90 days,141,20,81
+City Hotel,2017-04,Offline TA/TO,04  91-180 days,323,182,673
+City Hotel,2017-04,Offline TA/TO,05  181+ days,143,112,279
+City Hotel,2017-04,Online TA,01  0-7 days,135,14,40
+City Hotel,2017-04,Online TA,02  8-30 days,319,128,337
+City Hotel,2017-04,Online TA,03  31-90 days,698,292,988
+City Hotel,2017-04,Online TA,04  91-180 days,710,354,1251
+City Hotel,2017-04,Online TA,05  181+ days,326,221,786
+City Hotel,2017-05,Aviation,01  0-7 days,24,1,1
+City Hotel,2017-05,Aviation,02  8-30 days,4,0,0
+City Hotel,2017-05,Complementary,01  0-7 days,16,4,5
+City Hotel,2017-05,Complementary,02  8-30 days,11,1,1
+City Hotel,2017-05,Corporate,01  0-7 days,59,2,1
+City Hotel,2017-05,Corporate,02  8-30 days,30,9,15
+City Hotel,2017-05,Corporate,03  31-90 days,15,0,0
+City Hotel,2017-05,Direct,01  0-7 days,68,7,12
+City Hotel,2017-05,Direct,02  8-30 days,66,15,39
+City Hotel,2017-05,Direct,03  31-90 days,72,14,45
+City Hotel,2017-05,Direct,04  91-180 days,85,17,59
+City Hotel,2017-05,Direct,05  181+ days,16,5,20
+City Hotel,2017-05,Groups,01  0-7 days,53,26,29
+City Hotel,2017-05,Groups,02  8-30 days,62,32,64
+City Hotel,2017-05,Groups,03  31-90 days,150,79,168
+City Hotel,2017-05,Groups,04  91-180 days,453,446,1221
+City Hotel,2017-05,Groups,05  181+ days,292,223,546
+City Hotel,2017-05,Offline TA/TO,01  0-7 days,32,2,7
+City Hotel,2017-05,Offline TA/TO,02  8-30 days,51,18,42
+City Hotel,2017-05,Offline TA/TO,03  31-90 days,111,35,121
+City Hotel,2017-05,Offline TA/TO,04  91-180 days,254,146,413
+City Hotel,2017-05,Offline TA/TO,05  181+ days,155,86,209
+City Hotel,2017-05,Online TA,01  0-7 days,151,19,29
+City Hotel,2017-05,Online TA,02  8-30 days,471,167,484
+City Hotel,2017-05,Online TA,03  31-90 days,517,215,722
+City Hotel,2017-05,Online TA,04  91-180 days,871,368,1228
+City Hotel,2017-05,Online TA,05  181+ days,467,280,939
+City Hotel,2017-06,Aviation,01  0-7 days,38,12,29
+City Hotel,2017-06,Aviation,02  8-30 days,2,1,4
+City Hotel,2017-06,Complementary,01  0-7 days,22,2,2
+City Hotel,2017-06,Complementary,02  8-30 days,4,1,1
+City Hotel,2017-06,Complementary,04  91-180 days,2,0,0
+City Hotel,2017-06,Corporate,01  0-7 days,34,2,3
+City Hotel,2017-06,Corporate,02  8-30 days,64,17,19
+City Hotel,2017-06,Corporate,03  31-90 days,5,0,0
+City Hotel,2017-06,Corporate,04  91-180 days,40,33,132
+City Hotel,2017-06,Corporate,05  181+ days,2,2,8
+City Hotel,2017-06,Direct,01  0-7 days,67,5,19
+City Hotel,2017-06,Direct,02  8-30 days,60,14,69
+City Hotel,2017-06,Direct,03  31-90 days,69,19,67
+City Hotel,2017-06,Direct,04  91-180 days,112,29,86
+City Hotel,2017-06,Direct,05  181+ days,24,2,8
+City Hotel,2017-06,Groups,01  0-7 days,1,0,0
+City Hotel,2017-06,Groups,02  8-30 days,9,2,6
+City Hotel,2017-06,Groups,03  31-90 days,14,11,14
+City Hotel,2017-06,Groups,04  91-180 days,202,194,651
+City Hotel,2017-06,Groups,05  181+ days,363,251,685
+City Hotel,2017-06,Offline TA/TO,01  0-7 days,14,0,0
+City Hotel,2017-06,Offline TA/TO,02  8-30 days,52,17,32
+City Hotel,2017-06,Offline TA/TO,03  31-90 days,51,13,36
+City Hotel,2017-06,Offline TA/TO,04  91-180 days,326,237,796
+City Hotel,2017-06,Offline TA/TO,05  181+ days,263,150,445
+City Hotel,2017-06,Online TA,01  0-7 days,130,11,22
+City Hotel,2017-06,Online TA,02  8-30 days,303,84,208
+City Hotel,2017-06,Online TA,03  31-90 days,592,223,717
+City Hotel,2017-06,Online TA,04  91-180 days,753,330,1103
+City Hotel,2017-06,Online TA,05  181+ days,353,146,607
+City Hotel,2017-07,Aviation,01  0-7 days,3,1,2
+City Hotel,2017-07,Aviation,02  8-30 days,1,0,0
+City Hotel,2017-07,Complementary,01  0-7 days,7,1,1
+City Hotel,2017-07,Complementary,02  8-30 days,3,0,0
+City Hotel,2017-07,Complementary,03  31-90 days,3,0,0
+City Hotel,2017-07,Corporate,01  0-7 days,47,6,7
+City Hotel,2017-07,Corporate,02  8-30 days,26,4,4
+City Hotel,2017-07,Corporate,03  31-90 days,2,1,1
+City Hotel,2017-07,Corporate,04  91-180 days,2,0,0
+City Hotel,2017-07,Direct,01  0-7 days,59,4,5
+City Hotel,2017-07,Direct,02  8-30 days,60,4,10
+City Hotel,2017-07,Direct,03  31-90 days,74,7,19
+City Hotel,2017-07,Direct,04  91-180 days,106,15,76
+City Hotel,2017-07,Direct,05  181+ days,63,11,37
+City Hotel,2017-07,Groups,01  0-7 days,1,1,2
+City Hotel,2017-07,Groups,04  91-180 days,4,3,3
+City Hotel,2017-07,Groups,05  181+ days,236,131,448
+City Hotel,2017-07,Offline TA/TO,01  0-7 days,3,0,0
+City Hotel,2017-07,Offline TA/TO,02  8-30 days,8,1,4
+City Hotel,2017-07,Offline TA/TO,03  31-90 days,44,11,18
+City Hotel,2017-07,Offline TA/TO,04  91-180 days,113,24,116
+City Hotel,2017-07,Offline TA/TO,05  181+ days,322,110,234
+City Hotel,2017-07,Online TA,01  0-7 days,118,14,31
+City Hotel,2017-07,Online TA,02  8-30 days,323,111,288
+City Hotel,2017-07,Online TA,03  31-90 days,437,174,547
+City Hotel,2017-07,Online TA,04  91-180 days,811,331,1269
+City Hotel,2017-07,Online TA,05  181+ days,683,359,1462
+City Hotel,2017-08,Aviation,01  0-7 days,1,1,2
+City Hotel,2017-08,Complementary,01  0-7 days,8,1,1
+City Hotel,2017-08,Corporate,01  0-7 days,24,1,2
+City Hotel,2017-08,Corporate,02  8-30 days,14,0,0
+City Hotel,2017-08,Corporate,03  31-90 days,8,0,0
+City Hotel,2017-08,Direct,01  0-7 days,84,15,27
+City Hotel,2017-08,Direct,02  8-30 days,49,11,30
+City Hotel,2017-08,Direct,03  31-90 days,61,16,64
+City Hotel,2017-08,Direct,04  91-180 days,117,22,91
+City Hotel,2017-08,Direct,05  181+ days,46,10,33
+City Hotel,2017-08,Groups,01  0-7 days,23,3,3
+City Hotel,2017-08,Groups,02  8-30 days,2,0,0
+City Hotel,2017-08,Groups,03  31-90 days,3,0,0
+City Hotel,2017-08,Groups,04  91-180 days,22,19,36
+City Hotel,2017-08,Groups,05  181+ days,121,13,19
+City Hotel,2017-08,Offline TA/TO,01  0-7 days,15,2,2
+City Hotel,2017-08,Offline TA/TO,02  8-30 days,11,1,1
+City Hotel,2017-08,Offline TA/TO,03  31-90 days,19,5,19
+City Hotel,2017-08,Offline TA/TO,04  91-180 days,178,25,101
+City Hotel,2017-08,Offline TA/TO,05  181+ days,222,63,143
+City Hotel,2017-08,Online TA,01  0-7 days,144,8,7
+City Hotel,2017-08,Online TA,02  8-30 days,206,72,196
+City Hotel,2017-08,Online TA,03  31-90 days,389,176,559
+City Hotel,2017-08,Online TA,04  91-180 days,726,343,1368
+City Hotel,2017-08,Online TA,05  181+ days,632,316,1350
+Resort Hotel,2015-07,Complementary,03  31-90 days,1,0,0
+Resort Hotel,2015-07,Corporate,01  0-7 days,18,4,5
+Resort Hotel,2015-07,Corporate,02  8-30 days,3,0,0
+Resort Hotel,2015-07,Corporate,03  31-90 days,2,0,0
+Resort Hotel,2015-07,Direct,01  0-7 days,58,3,4
+Resort Hotel,2015-07,Direct,02  8-30 days,66,8,39
+Resort Hotel,2015-07,Direct,03  31-90 days,80,13,60
+Resort Hotel,2015-07,Direct,04  91-180 days,49,5,34
+Resort Hotel,2015-07,Direct,05  181+ days,11,2,19
+Resort Hotel,2015-07,Groups,03  31-90 days,20,1,2
+Resort Hotel,2015-07,Groups,04  91-180 days,25,25,50
+Resort Hotel,2015-07,Offline TA/TO,01  0-7 days,8,3,24
+Resort Hotel,2015-07,Offline TA/TO,02  8-30 days,17,0,0
+Resort Hotel,2015-07,Offline TA/TO,03  31-90 days,157,27,192
+Resort Hotel,2015-07,Offline TA/TO,04  91-180 days,141,17,143
+Resort Hotel,2015-07,Offline TA/TO,05  181+ days,42,9,80
+Resort Hotel,2015-07,Online TA,01  0-7 days,70,6,10
+Resort Hotel,2015-07,Online TA,02  8-30 days,132,31,97
+Resort Hotel,2015-07,Online TA,03  31-90 days,335,104,461
+Resort Hotel,2015-07,Online TA,04  91-180 days,117,49,302
+Resort Hotel,2015-07,Online TA,05  181+ days,26,13,75
+Resort Hotel,2015-08,Corporate,01  0-7 days,9,3,3
+Resort Hotel,2015-08,Corporate,02  8-30 days,8,5,5
+Resort Hotel,2015-08,Corporate,03  31-90 days,1,0,0
+Resort Hotel,2015-08,Direct,01  0-7 days,54,6,14
+Resort Hotel,2015-08,Direct,02  8-30 days,60,14,54
+Resort Hotel,2015-08,Direct,03  31-90 days,136,30,173
+Resort Hotel,2015-08,Direct,04  91-180 days,63,8,49
+Resort Hotel,2015-08,Direct,05  181+ days,9,2,10
+Resort Hotel,2015-08,Groups,03  31-90 days,16,1,1
+Resort Hotel,2015-08,Offline TA/TO,01  0-7 days,9,0,0
+Resort Hotel,2015-08,Offline TA/TO,02  8-30 days,25,2,10
+Resort Hotel,2015-08,Offline TA/TO,03  31-90 days,159,23,132
+Resort Hotel,2015-08,Offline TA/TO,04  91-180 days,101,27,189
+Resort Hotel,2015-08,Offline TA/TO,05  181+ days,40,8,78
+Resort Hotel,2015-08,Online TA,01  0-7 days,102,4,12
+Resort Hotel,2015-08,Online TA,02  8-30 days,100,31,129
+Resort Hotel,2015-08,Online TA,03  31-90 days,329,115,651
+Resort Hotel,2015-08,Online TA,04  91-180 days,137,60,359
+Resort Hotel,2015-08,Online TA,05  181+ days,51,27,175
+Resort Hotel,2015-09,Complementary,01  0-7 days,1,0,0
+Resort Hotel,2015-09,Corporate,01  0-7 days,19,2,2
+Resort Hotel,2015-09,Corporate,02  8-30 days,13,3,4
+Resort Hotel,2015-09,Corporate,04  91-180 days,8,0,0
+Resort Hotel,2015-09,Direct,01  0-7 days,54,6,19
+Resort Hotel,2015-09,Direct,02  8-30 days,29,5,24
+Resort Hotel,2015-09,Direct,03  31-90 days,60,10,67
+Resort Hotel,2015-09,Direct,04  91-180 days,22,4,29
+Resort Hotel,2015-09,Direct,05  181+ days,32,13,60
+Resort Hotel,2015-09,Groups,01  0-7 days,1,1,7
+Resort Hotel,2015-09,Groups,02  8-30 days,2,1,2
+Resort Hotel,2015-09,Groups,03  31-90 days,6,3,6
+Resort Hotel,2015-09,Groups,04  91-180 days,2,2,8
+Resort Hotel,2015-09,Groups,05  181+ days,304,205,802
+Resort Hotel,2015-09,Offline TA/TO,01  0-7 days,15,4,17
+Resort Hotel,2015-09,Offline TA/TO,02  8-30 days,19,5,14
+Resort Hotel,2015-09,Offline TA/TO,03  31-90 days,92,6,24
+Resort Hotel,2015-09,Offline TA/TO,04  91-180 days,146,5,38
+Resort Hotel,2015-09,Offline TA/TO,05  181+ days,272,116,618
+Resort Hotel,2015-09,Online TA,01  0-7 days,55,2,3
+Resort Hotel,2015-09,Online TA,02  8-30 days,49,10,44
+Resort Hotel,2015-09,Online TA,03  31-90 days,194,67,352
+Resort Hotel,2015-09,Online TA,04  91-180 days,131,55,298
+Resort Hotel,2015-09,Online TA,05  181+ days,59,26,127
+Resort Hotel,2015-10,Complementary,01  0-7 days,4,0,0
+Resort Hotel,2015-10,Complementary,02  8-30 days,7,0,0
+Resort Hotel,2015-10,Complementary,03  31-90 days,1,0,0
+Resort Hotel,2015-10,Corporate,01  0-7 days,73,8,8
+Resort Hotel,2015-10,Corporate,02  8-30 days,27,2,20
+Resort Hotel,2015-10,Corporate,03  31-90 days,15,2,3
+Resort Hotel,2015-10,Direct,01  0-7 days,105,7,20
+Resort Hotel,2015-10,Direct,02  8-30 days,40,5,15
+Resort Hotel,2015-10,Direct,03  31-90 days,37,4,17
+Resort Hotel,2015-10,Direct,04  91-180 days,8,1,5
+Resort Hotel,2015-10,Direct,05  181+ days,11,8,51
+Resort Hotel,2015-10,Groups,01  0-7 days,30,3,3
+Resort Hotel,2015-10,Groups,02  8-30 days,3,0,0
+Resort Hotel,2015-10,Groups,03  31-90 days,61,34,90
+Resort Hotel,2015-10,Groups,04  91-180 days,121,92,413
+Resort Hotel,2015-10,Groups,05  181+ days,224,88,624
+Resort Hotel,2015-10,Offline TA/TO,01  0-7 days,36,3,5
+Resort Hotel,2015-10,Offline TA/TO,02  8-30 days,62,9,25
+Resort Hotel,2015-10,Offline TA/TO,03  31-90 days,78,1,3
+Resort Hotel,2015-10,Offline TA/TO,04  91-180 days,42,3,19
+Resort Hotel,2015-10,Offline TA/TO,05  181+ days,134,68,162
+Resort Hotel,2015-10,Online TA,01  0-7 days,144,4,4
+Resort Hotel,2015-10,Online TA,02  8-30 days,89,9,35
+Resort Hotel,2015-10,Online TA,03  31-90 days,125,31,158
+Resort Hotel,2015-10,Online TA,04  91-180 days,83,26,126
+Resort Hotel,2015-10,Online TA,05  181+ days,11,3,21
+Resort Hotel,2015-11,Complementary,01  0-7 days,5,0,0
+Resort Hotel,2015-11,Complementary,02  8-30 days,7,0,0
+Resort Hotel,2015-11,Corporate,01  0-7 days,100,6,8
+Resort Hotel,2015-11,Corporate,02  8-30 days,80,8,39
+Resort Hotel,2015-11,Corporate,03  31-90 days,159,61,339
+Resort Hotel,2015-11,Direct,01  0-7 days,117,2,2
+Resort Hotel,2015-11,Direct,02  8-30 days,9,0,0
+Resort Hotel,2015-11,Direct,03  31-90 days,11,4,13
+Resort Hotel,2015-11,Direct,04  91-180 days,2,0,0
+Resort Hotel,2015-11,Groups,01  0-7 days,2,0,0
+Resort Hotel,2015-11,Groups,02  8-30 days,16,0,0
+Resort Hotel,2015-11,Groups,03  31-90 days,25,9,18
+Resort Hotel,2015-11,Groups,05  181+ days,27,14,42
+Resort Hotel,2015-11,Offline TA/TO,01  0-7 days,73,1,1
+Resort Hotel,2015-11,Offline TA/TO,02  8-30 days,67,9,26
+Resort Hotel,2015-11,Offline TA/TO,03  31-90 days,38,4,21
+Resort Hotel,2015-11,Offline TA/TO,04  91-180 days,37,2,17
+Resort Hotel,2015-11,Offline TA/TO,05  181+ days,3,1,6
+Resort Hotel,2015-11,Online TA,01  0-7 days,137,2,4
+Resort Hotel,2015-11,Online TA,02  8-30 days,58,10,44
+Resort Hotel,2015-11,Online TA,03  31-90 days,76,14,69
+Resort Hotel,2015-11,Online TA,04  91-180 days,42,26,122
+Resort Hotel,2015-11,Online TA,05  181+ days,14,12,69
+Resort Hotel,2015-12,Complementary,01  0-7 days,4,1,2
+Resort Hotel,2015-12,Complementary,02  8-30 days,3,0,0
+Resort Hotel,2015-12,Corporate,01  0-7 days,61,0,0
+Resort Hotel,2015-12,Corporate,02  8-30 days,9,1,1
+Resort Hotel,2015-12,Direct,01  0-7 days,109,3,11
+Resort Hotel,2015-12,Direct,02  8-30 days,48,9,22
+Resort Hotel,2015-12,Direct,03  31-90 days,52,8,21
+Resort Hotel,2015-12,Direct,04  91-180 days,13,4,28
+Resort Hotel,2015-12,Direct,05  181+ days,1,0,0
+Resort Hotel,2015-12,Groups,01  0-7 days,4,0,0
+Resort Hotel,2015-12,Groups,02  8-30 days,46,8,24
+Resort Hotel,2015-12,Groups,03  31-90 days,82,53,145
+Resort Hotel,2015-12,Groups,04  91-180 days,134,52,108
+Resort Hotel,2015-12,Offline TA/TO,01  0-7 days,66,1,7
+Resort Hotel,2015-12,Offline TA/TO,02  8-30 days,82,18,42
+Resort Hotel,2015-12,Offline TA/TO,03  31-90 days,71,8,39
+Resort Hotel,2015-12,Offline TA/TO,04  91-180 days,40,9,63
+Resort Hotel,2015-12,Offline TA/TO,05  181+ days,5,1,7
+Resort Hotel,2015-12,Online TA,01  0-7 days,155,22,31
+Resort Hotel,2015-12,Online TA,02  8-30 days,98,21,69
+Resort Hotel,2015-12,Online TA,03  31-90 days,105,54,216
+Resort Hotel,2015-12,Online TA,04  91-180 days,67,25,189
+Resort Hotel,2015-12,Online TA,05  181+ days,11,7,67
+Resort Hotel,2016-01,Complementary,01  0-7 days,5,0,0
+Resort Hotel,2016-01,Complementary,02  8-30 days,2,1,1
+Resort Hotel,2016-01,Corporate,01  0-7 days,72,4,4
+Resort Hotel,2016-01,Corporate,02  8-30 days,11,0,0
+Resort Hotel,2016-01,Direct,01  0-7 days,191,3,4
+Resort Hotel,2016-01,Direct,02  8-30 days,22,2,5
+Resort Hotel,2016-01,Direct,03  31-90 days,11,0,0
+Resort Hotel,2016-01,Direct,04  91-180 days,2,2,16
+Resort Hotel,2016-01,Groups,01  0-7 days,19,5,20
+Resort Hotel,2016-01,Groups,04  91-180 days,25,25,25
+Resort Hotel,2016-01,Offline TA/TO,01  0-7 days,86,2,2
+Resort Hotel,2016-01,Offline TA/TO,02  8-30 days,31,3,31
+Resort Hotel,2016-01,Offline TA/TO,03  31-90 days,30,1,2
+Resort Hotel,2016-01,Offline TA/TO,04  91-180 days,9,2,49
+Resort Hotel,2016-01,Offline TA/TO,05  181+ days,3,2,35
+Resort Hotel,2016-01,Online TA,01  0-7 days,187,13,28
+Resort Hotel,2016-01,Online TA,02  8-30 days,107,26,88
+Resort Hotel,2016-01,Online TA,03  31-90 days,36,13,43
+Resort Hotel,2016-01,Online TA,04  91-180 days,31,12,77
+Resort Hotel,2016-01,Online TA,05  181+ days,4,3,38
+Resort Hotel,2016-02,Complementary,01  0-7 days,9,0,0
+Resort Hotel,2016-02,Complementary,02  8-30 days,2,0,0
+Resort Hotel,2016-02,Complementary,03  31-90 days,1,0,0
+Resort Hotel,2016-02,Corporate,01  0-7 days,97,5,5
+Resort Hotel,2016-02,Corporate,02  8-30 days,18,2,5
+Resort Hotel,2016-02,Corporate,03  31-90 days,2,0,0
+Resort Hotel,2016-02,Direct,01  0-7 days,216,9,13
+Resort Hotel,2016-02,Direct,02  8-30 days,47,2,3
+Resort Hotel,2016-02,Direct,03  31-90 days,17,6,62
+Resort Hotel,2016-02,Direct,04  91-180 days,4,2,7
+Resort Hotel,2016-02,Direct,05  181+ days,1,0,0
+Resort Hotel,2016-02,Groups,01  0-7 days,7,0,0
+Resort Hotel,2016-02,Groups,03  31-90 days,132,103,290
+Resort Hotel,2016-02,Groups,04  91-180 days,214,159,379
+Resort Hotel,2016-02,Offline TA/TO,01  0-7 days,112,6,11
+Resort Hotel,2016-02,Offline TA/TO,02  8-30 days,91,4,20
+Resort Hotel,2016-02,Offline TA/TO,03  31-90 days,49,5,28
+Resort Hotel,2016-02,Offline TA/TO,04  91-180 days,20,2,29
+Resort Hotel,2016-02,Offline TA/TO,05  181+ days,4,1,14
+Resort Hotel,2016-02,Online TA,01  0-7 days,194,7,14
+Resort Hotel,2016-02,Online TA,02  8-30 days,157,29,98
+Resort Hotel,2016-02,Online TA,03  31-90 days,90,49,186
+Resort Hotel,2016-02,Online TA,04  91-180 days,26,13,94
+Resort Hotel,2016-02,Online TA,05  181+ days,10,3,10
+Resort Hotel,2016-03,Complementary,01  0-7 days,6,2,4
+Resort Hotel,2016-03,Complementary,03  31-90 days,1,1,2
+Resort Hotel,2016-03,Corporate,01  0-7 days,92,8,11
+Resort Hotel,2016-03,Corporate,02  8-30 days,16,2,3
+Resort Hotel,2016-03,Corporate,03  31-90 days,3,0,0
+Resort Hotel,2016-03,Direct,01  0-7 days,179,9,28
+Resort Hotel,2016-03,Direct,02  8-30 days,49,6,17
+Resort Hotel,2016-03,Direct,03  31-90 days,33,3,12
+Resort Hotel,2016-03,Direct,04  91-180 days,8,2,15
+Resort Hotel,2016-03,Direct,05  181+ days,2,1,3
+Resort Hotel,2016-03,Groups,01  0-7 days,6,0,0
+Resort Hotel,2016-03,Groups,02  8-30 days,39,7,39
+Resort Hotel,2016-03,Groups,03  31-90 days,74,25,106
+Resort Hotel,2016-03,Groups,04  91-180 days,185,66,516
+Resort Hotel,2016-03,Offline TA/TO,01  0-7 days,89,2,5
+Resort Hotel,2016-03,Offline TA/TO,02  8-30 days,101,17,90
+Resort Hotel,2016-03,Offline TA/TO,03  31-90 days,119,27,102
+Resort Hotel,2016-03,Offline TA/TO,04  91-180 days,74,3,17
+Resort Hotel,2016-03,Offline TA/TO,05  181+ days,24,20,140
+Resort Hotel,2016-03,Online TA,01  0-7 days,208,9,18
+Resort Hotel,2016-03,Online TA,02  8-30 days,177,36,110
+Resort Hotel,2016-03,Online TA,03  31-90 days,204,75,347
+Resort Hotel,2016-03,Online TA,04  91-180 days,57,26,119
+Resort Hotel,2016-03,Online TA,05  181+ days,32,22,121
+Resort Hotel,2016-04,Complementary,01  0-7 days,5,0,0
+Resort Hotel,2016-04,Complementary,02  8-30 days,1,0,0
+Resort Hotel,2016-04,Complementary,03  31-90 days,2,0,0
+Resort Hotel,2016-04,Corporate,01  0-7 days,84,4,7
+Resort Hotel,2016-04,Corporate,02  8-30 days,17,5,44
+Resort Hotel,2016-04,Corporate,03  31-90 days,25,4,4
+Resort Hotel,2016-04,Direct,01  0-7 days,142,9,11
+Resort Hotel,2016-04,Direct,02  8-30 days,55,12,31
+Resort Hotel,2016-04,Direct,03  31-90 days,55,7,31
+Resort Hotel,2016-04,Direct,04  91-180 days,12,0,0
+Resort Hotel,2016-04,Direct,05  181+ days,8,0,0
+Resort Hotel,2016-04,Groups,01  0-7 days,17,1,1
+Resort Hotel,2016-04,Groups,02  8-30 days,37,6,18
+Resort Hotel,2016-04,Groups,03  31-90 days,144,73,431
+Resort Hotel,2016-04,Groups,04  91-180 days,201,141,620
+Resort Hotel,2016-04,Groups,05  181+ days,206,83,378
+Resort Hotel,2016-04,Offline TA/TO,01  0-7 days,36,1,3
+Resort Hotel,2016-04,Offline TA/TO,02  8-30 days,45,3,8
+Resort Hotel,2016-04,Offline TA/TO,03  31-90 days,109,11,65
+Resort Hotel,2016-04,Offline TA/TO,04  91-180 days,79,4,22
+Resort Hotel,2016-04,Offline TA/TO,05  181+ days,41,3,12
+Resort Hotel,2016-04,Online TA,01  0-7 days,129,3,4
+Resort Hotel,2016-04,Online TA,02  8-30 days,128,36,110
+Resort Hotel,2016-04,Online TA,03  31-90 days,175,64,274
+Resort Hotel,2016-04,Online TA,04  91-180 days,92,42,222
+Resort Hotel,2016-04,Online TA,05  181+ days,22,10,51
+Resort Hotel,2016-05,Complementary,01  0-7 days,2,0,0
+Resort Hotel,2016-05,Complementary,02  8-30 days,1,0,0
+Resort Hotel,2016-05,Complementary,03  31-90 days,1,1,2
+Resort Hotel,2016-05,Complementary,04  91-180 days,4,2,2
+Resort Hotel,2016-05,Corporate,01  0-7 days,68,4,32
+Resort Hotel,2016-05,Corporate,02  8-30 days,23,4,8
+Resort Hotel,2016-05,Corporate,03  31-90 days,3,1,2
+Resort Hotel,2016-05,Direct,01  0-7 days,85,9,9
+Resort Hotel,2016-05,Direct,02  8-30 days,38,8,22
+Resort Hotel,2016-05,Direct,03  31-90 days,41,2,5
+Resort Hotel,2016-05,Direct,04  91-180 days,29,9,39
+Resort Hotel,2016-05,Direct,05  181+ days,6,1,10
+Resort Hotel,2016-05,Groups,01  0-7 days,12,8,8
+Resort Hotel,2016-05,Groups,02  8-30 days,75,31,37
+Resort Hotel,2016-05,Groups,03  31-90 days,31,22,44
+Resort Hotel,2016-05,Groups,04  91-180 days,13,10,40
+Resort Hotel,2016-05,Groups,05  181+ days,360,111,273
+Resort Hotel,2016-05,Offline TA/TO,01  0-7 days,25,4,10
+Resort Hotel,2016-05,Offline TA/TO,02  8-30 days,12,0,0
+Resort Hotel,2016-05,Offline TA/TO,03  31-90 days,68,8,37
+Resort Hotel,2016-05,Offline TA/TO,04  91-180 days,173,28,218
+Resort Hotel,2016-05,Offline TA/TO,05  181+ days,79,9,59
+Resort Hotel,2016-05,Online TA,01  0-7 days,112,6,11
+Resort Hotel,2016-05,Online TA,02  8-30 days,75,19,68
+Resort Hotel,2016-05,Online TA,03  31-90 days,177,68,290
+Resort Hotel,2016-05,Online TA,04  91-180 days,214,80,432
+Resort Hotel,2016-05,Online TA,05  181+ days,75,34,212
+Resort Hotel,2016-06,Complementary,01  0-7 days,1,0,0
+Resort Hotel,2016-06,Complementary,03  31-90 days,1,0,0
+Resort Hotel,2016-06,Corporate,01  0-7 days,33,5,5
+Resort Hotel,2016-06,Corporate,02  8-30 days,14,3,7
+Resort Hotel,2016-06,Corporate,03  31-90 days,4,0,0
+Resort Hotel,2016-06,Direct,01  0-7 days,67,5,8
+Resort Hotel,2016-06,Direct,02  8-30 days,17,3,9
+Resort Hotel,2016-06,Direct,03  31-90 days,25,10,40
+Resort Hotel,2016-06,Direct,04  91-180 days,63,9,58
+Resort Hotel,2016-06,Direct,05  181+ days,21,3,17
+Resort Hotel,2016-06,Groups,01  0-7 days,1,1,4
+Resort Hotel,2016-06,Groups,02  8-30 days,1,1,3
+Resort Hotel,2016-06,Groups,05  181+ days,76,50,178
+Resort Hotel,2016-06,Offline TA/TO,01  0-7 days,10,0,0
+Resort Hotel,2016-06,Offline TA/TO,02  8-30 days,8,0,0
+Resort Hotel,2016-06,Offline TA/TO,03  31-90 days,20,0,0
+Resort Hotel,2016-06,Offline TA/TO,04  91-180 days,224,13,96
+Resort Hotel,2016-06,Offline TA/TO,05  181+ days,132,16,151
+Resort Hotel,2016-06,Online TA,01  0-7 days,64,10,17
+Resort Hotel,2016-06,Online TA,02  8-30 days,105,26,78
+Resort Hotel,2016-06,Online TA,03  31-90 days,116,49,209
+Resort Hotel,2016-06,Online TA,04  91-180 days,220,104,634
+Resort Hotel,2016-06,Online TA,05  181+ days,146,68,440
+Resort Hotel,2016-07,Complementary,01  0-7 days,2,1,1
+Resort Hotel,2016-07,Complementary,02  8-30 days,2,0,0
+Resort Hotel,2016-07,Complementary,03  31-90 days,1,0,0
+Resort Hotel,2016-07,Corporate,01  0-7 days,19,2,2
+Resort Hotel,2016-07,Corporate,02  8-30 days,11,6,10
+Resort Hotel,2016-07,Corporate,03  31-90 days,2,0,0
+Resort Hotel,2016-07,Direct,01  0-7 days,72,9,20
+Resort Hotel,2016-07,Direct,02  8-30 days,48,17,58
+Resort Hotel,2016-07,Direct,03  31-90 days,34,7,37
+Resort Hotel,2016-07,Direct,04  91-180 days,74,15,110
+Resort Hotel,2016-07,Direct,05  181+ days,34,7,54
+Resort Hotel,2016-07,Groups,03  31-90 days,6,0,0
+Resort Hotel,2016-07,Groups,04  91-180 days,7,7,41
+Resort Hotel,2016-07,Offline TA/TO,01  0-7 days,6,0,0
+Resort Hotel,2016-07,Offline TA/TO,02  8-30 days,6,3,13
+Resort Hotel,2016-07,Offline TA/TO,03  31-90 days,8,0,0
+Resort Hotel,2016-07,Offline TA/TO,04  91-180 days,221,37,252
+Resort Hotel,2016-07,Offline TA/TO,05  181+ days,99,10,74
+Resort Hotel,2016-07,Online TA,01  0-7 days,91,3,9
+Resort Hotel,2016-07,Online TA,02  8-30 days,149,45,167
+Resort Hotel,2016-07,Online TA,03  31-90 days,157,70,264
+Resort Hotel,2016-07,Online TA,04  91-180 days,227,123,755
+Resort Hotel,2016-07,Online TA,05  181+ days,165,94,684
+Resort Hotel,2016-08,Complementary,02  8-30 days,1,0,0
+Resort Hotel,2016-08,Corporate,01  0-7 days,3,0,0
+Resort Hotel,2016-08,Corporate,02  8-30 days,2,1,1
+Resort Hotel,2016-08,Corporate,03  31-90 days,3,0,0
+Resort Hotel,2016-08,Direct,01  0-7 days,92,8,9
+Resort Hotel,2016-08,Direct,02  8-30 days,43,5,18
+Resort Hotel,2016-08,Direct,03  31-90 days,79,19,118
+Resort Hotel,2016-08,Direct,04  91-180 days,75,15,91
+Resort Hotel,2016-08,Direct,05  181+ days,40,15,73
+Resort Hotel,2016-08,Groups,05  181+ days,6,6,30
+Resort Hotel,2016-08,Offline TA/TO,01  0-7 days,3,0,0
+Resort Hotel,2016-08,Offline TA/TO,02  8-30 days,7,1,7
+Resort Hotel,2016-08,Offline TA/TO,03  31-90 days,19,2,11
+Resort Hotel,2016-08,Offline TA/TO,04  91-180 days,70,17,129
+Resort Hotel,2016-08,Offline TA/TO,05  181+ days,186,29,239
+Resort Hotel,2016-08,Online TA,01  0-7 days,109,10,13
+Resort Hotel,2016-08,Online TA,02  8-30 days,194,64,229
+Resort Hotel,2016-08,Online TA,03  31-90 days,271,124,583
+Resort Hotel,2016-08,Online TA,04  91-180 days,329,181,1008
+Resort Hotel,2016-08,Online TA,05  181+ days,153,81,544
+Resort Hotel,2016-09,Complementary,02  8-30 days,2,1,7
+Resort Hotel,2016-09,Complementary,03  31-90 days,1,0,0
+Resort Hotel,2016-09,Corporate,01  0-7 days,18,1,1
+Resort Hotel,2016-09,Corporate,02  8-30 days,14,4,4
+Resort Hotel,2016-09,Corporate,04  91-180 days,2,0,0
+Resort Hotel,2016-09,Corporate,05  181+ days,15,0,0
+Resort Hotel,2016-09,Direct,01  0-7 days,69,4,4
+Resort Hotel,2016-09,Direct,02  8-30 days,58,13,48
+Resort Hotel,2016-09,Direct,03  31-90 days,30,6,24
+Resort Hotel,2016-09,Direct,04  91-180 days,22,6,40
+Resort Hotel,2016-09,Direct,05  181+ days,39,8,24
+Resort Hotel,2016-09,Groups,01  0-7 days,3,0,0
+Resort Hotel,2016-09,Groups,02  8-30 days,16,0,0
+Resort Hotel,2016-09,Groups,03  31-90 days,2,0,0
+Resort Hotel,2016-09,Groups,04  91-180 days,9,1,10
+Resort Hotel,2016-09,Groups,05  181+ days,265,102,445
+Resort Hotel,2016-09,Offline TA/TO,01  0-7 days,4,0,0
+Resort Hotel,2016-09,Offline TA/TO,02  8-30 days,5,2,8
+Resort Hotel,2016-09,Offline TA/TO,03  31-90 days,14,4,16
+Resort Hotel,2016-09,Offline TA/TO,04  91-180 days,46,12,76
+Resort Hotel,2016-09,Offline TA/TO,05  181+ days,272,46,299
+Resort Hotel,2016-09,Online TA,01  0-7 days,72,6,14
+Resort Hotel,2016-09,Online TA,02  8-30 days,89,25,59
+Resort Hotel,2016-09,Online TA,03  31-90 days,139,74,249
+Resort Hotel,2016-09,Online TA,04  91-180 days,141,56,279
+Resort Hotel,2016-09,Online TA,05  181+ days,176,84,565
+Resort Hotel,2016-10,Complementary,01  0-7 days,4,0,0
+Resort Hotel,2016-10,Complementary,02  8-30 days,4,2,4
+Resort Hotel,2016-10,Complementary,03  31-90 days,1,1,1
+Resort Hotel,2016-10,Complementary,04  91-180 days,3,2,4
+Resort Hotel,2016-10,Corporate,01  0-7 days,51,5,7
+Resort Hotel,2016-10,Corporate,02  8-30 days,23,4,4
+Resort Hotel,2016-10,Corporate,03  31-90 days,8,0,0
+Resort Hotel,2016-10,Direct,01  0-7 days,119,7,9
+Resort Hotel,2016-10,Direct,02  8-30 days,70,9,15
+Resort Hotel,2016-10,Direct,03  31-90 days,40,6,45
+Resort Hotel,2016-10,Direct,04  91-180 days,16,1,7
+Resort Hotel,2016-10,Direct,05  181+ days,17,4,26
+Resort Hotel,2016-10,Groups,01  0-7 days,27,8,38
+Resort Hotel,2016-10,Groups,02  8-30 days,87,18,37
+Resort Hotel,2016-10,Groups,03  31-90 days,32,4,13
+Resort Hotel,2016-10,Groups,04  91-180 days,83,41,140
+Resort Hotel,2016-10,Groups,05  181+ days,397,92,376
+Resort Hotel,2016-10,Offline TA/TO,01  0-7 days,24,1,2
+Resort Hotel,2016-10,Offline TA/TO,02  8-30 days,32,3,5
+Resort Hotel,2016-10,Offline TA/TO,03  31-90 days,67,4,13
+Resort Hotel,2016-10,Offline TA/TO,04  91-180 days,67,18,72
+Resort Hotel,2016-10,Offline TA/TO,05  181+ days,54,14,113
+Resort Hotel,2016-10,Online TA,01  0-7 days,120,9,11
+Resort Hotel,2016-10,Online TA,02  8-30 days,122,38,127
+Resort Hotel,2016-10,Online TA,03  31-90 days,214,93,408
+Resort Hotel,2016-10,Online TA,04  91-180 days,207,121,507
+Resort Hotel,2016-10,Online TA,05  181+ days,95,62,434
+Resort Hotel,2016-11,Complementary,01  0-7 days,6,0,0
+Resort Hotel,2016-11,Complementary,02  8-30 days,3,1,2
+Resort Hotel,2016-11,Complementary,03  31-90 days,4,1,1
+Resort Hotel,2016-11,Corporate,01  0-7 days,78,5,8
+Resort Hotel,2016-11,Corporate,02  8-30 days,14,1,1
+Resort Hotel,2016-11,Corporate,03  31-90 days,8,1,2
+Resort Hotel,2016-11,Direct,01  0-7 days,107,5,6
+Resort Hotel,2016-11,Direct,02  8-30 days,33,3,13
+Resort Hotel,2016-11,Direct,03  31-90 days,37,7,31
+Resort Hotel,2016-11,Direct,04  91-180 days,4,0,0
+Resort Hotel,2016-11,Direct,05  181+ days,1,0,0
+Resort Hotel,2016-11,Groups,01  0-7 days,3,0,0
+Resort Hotel,2016-11,Groups,02  8-30 days,28,4,4
+Resort Hotel,2016-11,Groups,03  31-90 days,18,5,11
+Resort Hotel,2016-11,Groups,04  91-180 days,12,3,12
+Resort Hotel,2016-11,Groups,05  181+ days,71,62,144
+Resort Hotel,2016-11,Offline TA/TO,01  0-7 days,38,1,0
+Resort Hotel,2016-11,Offline TA/TO,02  8-30 days,71,3,15
+Resort Hotel,2016-11,Offline TA/TO,03  31-90 days,87,0,0
+Resort Hotel,2016-11,Offline TA/TO,04  91-180 days,10,0,0
+Resort Hotel,2016-11,Offline TA/TO,05  181+ days,4,1,7
+Resort Hotel,2016-11,Online TA,01  0-7 days,153,7,14
+Resort Hotel,2016-11,Online TA,02  8-30 days,145,25,76
+Resort Hotel,2016-11,Online TA,03  31-90 days,284,90,381
+Resort Hotel,2016-11,Online TA,04  91-180 days,90,39,174
+Resort Hotel,2016-11,Online TA,05  181+ days,23,12,49
+Resort Hotel,2016-12,Complementary,01  0-7 days,9,0,0
+Resort Hotel,2016-12,Complementary,02  8-30 days,9,1,3
+Resort Hotel,2016-12,Complementary,03  31-90 days,6,1,3
+Resort Hotel,2016-12,Complementary,04  91-180 days,1,0,0
+Resort Hotel,2016-12,Corporate,01  0-7 days,61,3,3
+Resort Hotel,2016-12,Corporate,02  8-30 days,11,2,3
+Resort Hotel,2016-12,Corporate,03  31-90 days,1,0,0
+Resort Hotel,2016-12,Direct,01  0-7 days,107,4,5
+Resort Hotel,2016-12,Direct,02  8-30 days,38,10,21
+Resort Hotel,2016-12,Direct,03  31-90 days,51,10,35
+Resort Hotel,2016-12,Direct,04  91-180 days,33,4,33
+Resort Hotel,2016-12,Direct,05  181+ days,15,5,29
+Resort Hotel,2016-12,Groups,01  0-7 days,10,1,3
+Resort Hotel,2016-12,Groups,02  8-30 days,74,19,57
+Resort Hotel,2016-12,Groups,03  31-90 days,52,2,6
+Resort Hotel,2016-12,Groups,04  91-180 days,31,11,11
+Resort Hotel,2016-12,Groups,05  181+ days,56,39,117
+Resort Hotel,2016-12,Offline TA/TO,01  0-7 days,30,3,20
+Resort Hotel,2016-12,Offline TA/TO,02  8-30 days,21,1,4
+Resort Hotel,2016-12,Offline TA/TO,03  31-90 days,71,7,22
+Resort Hotel,2016-12,Offline TA/TO,04  91-180 days,17,2,5
+Resort Hotel,2016-12,Offline TA/TO,05  181+ days,10,4,13
+Resort Hotel,2016-12,Online TA,01  0-7 days,143,7,16
+Resort Hotel,2016-12,Online TA,02  8-30 days,118,22,65
+Resort Hotel,2016-12,Online TA,03  31-90 days,203,63,211
+Resort Hotel,2016-12,Online TA,04  91-180 days,133,56,269
+Resort Hotel,2016-12,Online TA,05  181+ days,71,49,341
+Resort Hotel,2017-01,Complementary,01  0-7 days,8,2,3
+Resort Hotel,2017-01,Complementary,02  8-30 days,1,1,1
+Resort Hotel,2017-01,Corporate,01  0-7 days,92,9,14
+Resort Hotel,2017-01,Corporate,02  8-30 days,15,1,1
+Resort Hotel,2017-01,Corporate,03  31-90 days,1,0,0
+Resort Hotel,2017-01,Direct,01  0-7 days,234,8,20
+Resort Hotel,2017-01,Direct,02  8-30 days,20,3,19
+Resort Hotel,2017-01,Direct,03  31-90 days,30,5,22
+Resort Hotel,2017-01,Direct,04  91-180 days,9,2,7
+Resort Hotel,2017-01,Direct,05  181+ days,3,1,4
+Resort Hotel,2017-01,Groups,01  0-7 days,42,4,7
+Resort Hotel,2017-01,Groups,02  8-30 days,21,6,14
+Resort Hotel,2017-01,Groups,03  31-90 days,110,12,35
+Resort Hotel,2017-01,Groups,04  91-180 days,9,0,0
+Resort Hotel,2017-01,Groups,05  181+ days,1,0,0
+Resort Hotel,2017-01,Offline TA/TO,01  0-7 days,53,1,1
+Resort Hotel,2017-01,Offline TA/TO,02  8-30 days,28,3,18
+Resort Hotel,2017-01,Offline TA/TO,03  31-90 days,13,0,0
+Resort Hotel,2017-01,Offline TA/TO,04  91-180 days,8,0,0
+Resort Hotel,2017-01,Offline TA/TO,05  181+ days,3,1,56
+Resort Hotel,2017-01,Online TA,01  0-7 days,224,7,15
+Resort Hotel,2017-01,Online TA,02  8-30 days,138,32,77
+Resort Hotel,2017-01,Online TA,03  31-90 days,154,64,322
+Resort Hotel,2017-01,Online TA,04  91-180 days,73,35,195
+Resort Hotel,2017-01,Online TA,05  181+ days,19,9,48
+Resort Hotel,2017-02,Complementary,01  0-7 days,2,1,1
+Resort Hotel,2017-02,Complementary,02  8-30 days,2,0,0
+Resort Hotel,2017-02,Complementary,03  31-90 days,1,1,1
+Resort Hotel,2017-02,Complementary,04  91-180 days,1,0,0
+Resort Hotel,2017-02,Corporate,01  0-7 days,72,7,10
+Resort Hotel,2017-02,Corporate,02  8-30 days,52,7,16
+Resort Hotel,2017-02,Corporate,03  31-90 days,63,25,75
+Resort Hotel,2017-02,Direct,01  0-7 days,231,11,17
+Resort Hotel,2017-02,Direct,02  8-30 days,60,8,25
+Resort Hotel,2017-02,Direct,03  31-90 days,34,15,48
+Resort Hotel,2017-02,Direct,04  91-180 days,6,1,3
+Resort Hotel,2017-02,Direct,05  181+ days,4,1,5
+Resort Hotel,2017-02,Groups,01  0-7 days,15,8,34
+Resort Hotel,2017-02,Groups,02  8-30 days,50,13,26
+Resort Hotel,2017-02,Groups,03  31-90 days,26,25,50
+Resort Hotel,2017-02,Groups,04  91-180 days,32,0,0
+Resort Hotel,2017-02,Groups,05  181+ days,34,29,58
+Resort Hotel,2017-02,Offline TA/TO,01  0-7 days,48,2,8
+Resort Hotel,2017-02,Offline TA/TO,02  8-30 days,62,6,28
+Resort Hotel,2017-02,Offline TA/TO,03  31-90 days,30,6,30
+Resort Hotel,2017-02,Offline TA/TO,04  91-180 days,25,3,49
+Resort Hotel,2017-02,Offline TA/TO,05  181+ days,12,3,17
+Resort Hotel,2017-02,Online TA,01  0-7 days,185,15,26
+Resort Hotel,2017-02,Online TA,02  8-30 days,213,61,180
+Resort Hotel,2017-02,Online TA,03  31-90 days,203,82,299
+Resort Hotel,2017-02,Online TA,04  91-180 days,92,42,215
+Resort Hotel,2017-02,Online TA,05  181+ days,28,16,146
+Resort Hotel,2017-03,Complementary,01  0-7 days,4,1,2
+Resort Hotel,2017-03,Complementary,02  8-30 days,4,0,0
+Resort Hotel,2017-03,Complementary,03  31-90 days,2,0,0
+Resort Hotel,2017-03,Corporate,01  0-7 days,90,5,5
+Resort Hotel,2017-03,Corporate,02  8-30 days,41,1,1
+Resort Hotel,2017-03,Corporate,03  31-90 days,6,0,0
+Resort Hotel,2017-03,Corporate,04  91-180 days,21,5,15
+Resort Hotel,2017-03,Direct,01  0-7 days,128,8,8
+Resort Hotel,2017-03,Direct,02  8-30 days,67,13,56
+Resort Hotel,2017-03,Direct,03  31-90 days,35,4,17
+Resort Hotel,2017-03,Direct,04  91-180 days,21,4,18
+Resort Hotel,2017-03,Direct,05  181+ days,4,3,7
+Resort Hotel,2017-03,Groups,01  0-7 days,91,0,0
+Resort Hotel,2017-03,Groups,02  8-30 days,19,12,72
+Resort Hotel,2017-03,Groups,03  31-90 days,77,41,251
+Resort Hotel,2017-03,Groups,04  91-180 days,155,76,450
+Resort Hotel,2017-03,Groups,05  181+ days,138,68,724
+Resort Hotel,2017-03,Offline TA/TO,01  0-7 days,25,2,5
+Resort Hotel,2017-03,Offline TA/TO,02  8-30 days,28,5,15
+Resort Hotel,2017-03,Offline TA/TO,03  31-90 days,47,1,7
+Resort Hotel,2017-03,Offline TA/TO,04  91-180 days,35,2,25
+Resort Hotel,2017-03,Offline TA/TO,05  181+ days,16,2,8
+Resort Hotel,2017-03,Online TA,01  0-7 days,96,4,6
+Resort Hotel,2017-03,Online TA,02  8-30 days,113,34,95
+Resort Hotel,2017-03,Online TA,03  31-90 days,117,33,148
+Resort Hotel,2017-03,Online TA,04  91-180 days,100,38,197
+Resort Hotel,2017-03,Online TA,05  181+ days,78,32,271
+Resort Hotel,2017-04,Complementary,01  0-7 days,6,0,0
+Resort Hotel,2017-04,Complementary,02  8-30 days,5,3,9
+Resort Hotel,2017-04,Complementary,05  181+ days,1,0,0
+Resort Hotel,2017-04,Corporate,01  0-7 days,57,7,12
+Resort Hotel,2017-04,Corporate,02  8-30 days,40,17,33
+Resort Hotel,2017-04,Corporate,03  31-90 days,7,0,0
+Resort Hotel,2017-04,Direct,01  0-7 days,89,4,8
+Resort Hotel,2017-04,Direct,02  8-30 days,28,4,23
+Resort Hotel,2017-04,Direct,03  31-90 days,67,7,35
+Resort Hotel,2017-04,Direct,04  91-180 days,22,2,11
+Resort Hotel,2017-04,Direct,05  181+ days,18,7,41
+Resort Hotel,2017-04,Groups,01  0-7 days,3,1,3
+Resort Hotel,2017-04,Groups,02  8-30 days,15,3,21
+Resort Hotel,2017-04,Groups,03  31-90 days,41,2,5
+Resort Hotel,2017-04,Groups,04  91-180 days,165,46,274
+Resort Hotel,2017-04,Groups,05  181+ days,159,48,295
+Resort Hotel,2017-04,Offline TA/TO,01  0-7 days,20,0,0
+Resort Hotel,2017-04,Offline TA/TO,02  8-30 days,28,2,11
+Resort Hotel,2017-04,Offline TA/TO,03  31-90 days,68,18,96
+Resort Hotel,2017-04,Offline TA/TO,04  91-180 days,49,6,33
+Resort Hotel,2017-04,Offline TA/TO,05  181+ days,16,3,22
+Resort Hotel,2017-04,Online TA,01  0-7 days,111,7,20
+Resort Hotel,2017-04,Online TA,02  8-30 days,151,39,111
+Resort Hotel,2017-04,Online TA,03  31-90 days,266,119,480
+Resort Hotel,2017-04,Online TA,04  91-180 days,175,104,535
+Resort Hotel,2017-04,Online TA,05  181+ days,135,88,480
+Resort Hotel,2017-05,Complementary,01  0-7 days,3,0,0
+Resort Hotel,2017-05,Complementary,02  8-30 days,4,1,2
+Resort Hotel,2017-05,Complementary,03  31-90 days,1,1,3
+Resort Hotel,2017-05,Corporate,01  0-7 days,34,1,1
+Resort Hotel,2017-05,Corporate,02  8-30 days,18,3,3
+Resort Hotel,2017-05,Corporate,03  31-90 days,15,9,18
+Resort Hotel,2017-05,Direct,01  0-7 days,91,4,8
+Resort Hotel,2017-05,Direct,02  8-30 days,27,4,18
+Resort Hotel,2017-05,Direct,03  31-90 days,34,5,21
+Resort Hotel,2017-05,Direct,04  91-180 days,33,8,57
+Resort Hotel,2017-05,Direct,05  181+ days,15,8,61
+Resort Hotel,2017-05,Groups,02  8-30 days,1,0,0
+Resort Hotel,2017-05,Groups,03  31-90 days,10,8,96
+Resort Hotel,2017-05,Groups,04  91-180 days,43,11,78
+Resort Hotel,2017-05,Groups,05  181+ days,189,77,338
+Resort Hotel,2017-05,Offline TA/TO,01  0-7 days,24,6,6
+Resort Hotel,2017-05,Offline TA/TO,02  8-30 days,24,3,19
+Resort Hotel,2017-05,Offline TA/TO,03  31-90 days,36,2,11
+Resort Hotel,2017-05,Offline TA/TO,04  91-180 days,153,13,58
+Resort Hotel,2017-05,Offline TA/TO,05  181+ days,158,35,246
+Resort Hotel,2017-05,Online TA,01  0-7 days,158,11,29
+Resort Hotel,2017-05,Online TA,02  8-30 days,131,42,156
+Resort Hotel,2017-05,Online TA,03  31-90 days,184,85,368
+Resort Hotel,2017-05,Online TA,04  91-180 days,166,82,361
+Resort Hotel,2017-05,Online TA,05  181+ days,205,126,711
+Resort Hotel,2017-06,Complementary,01  0-7 days,9,1,1
+Resort Hotel,2017-06,Complementary,02  8-30 days,1,0,0
+Resort Hotel,2017-06,Corporate,01  0-7 days,37,1,1
+Resort Hotel,2017-06,Corporate,02  8-30 days,17,6,21
+Resort Hotel,2017-06,Corporate,03  31-90 days,31,20,124
+Resort Hotel,2017-06,Corporate,04  91-180 days,1,0,0
+Resort Hotel,2017-06,Direct,01  0-7 days,91,6,14
+Resort Hotel,2017-06,Direct,02  8-30 days,42,11,35
+Resort Hotel,2017-06,Direct,03  31-90 days,22,1,7
+Resort Hotel,2017-06,Direct,04  91-180 days,54,11,66
+Resort Hotel,2017-06,Direct,05  181+ days,49,12,74
+Resort Hotel,2017-06,Groups,05  181+ days,64,39,235
+Resort Hotel,2017-06,Offline TA/TO,01  0-7 days,9,1,1
+Resort Hotel,2017-06,Offline TA/TO,02  8-30 days,27,3,3
+Resort Hotel,2017-06,Offline TA/TO,03  31-90 days,33,7,46
+Resort Hotel,2017-06,Offline TA/TO,04  91-180 days,77,27,121
+Resort Hotel,2017-06,Offline TA/TO,05  181+ days,220,59,512
+Resort Hotel,2017-06,Online TA,01  0-7 days,86,17,28
+Resort Hotel,2017-06,Online TA,02  8-30 days,107,41,118
+Resort Hotel,2017-06,Online TA,03  31-90 days,124,59,234
+Resort Hotel,2017-06,Online TA,04  91-180 days,262,124,596
+Resort Hotel,2017-06,Online TA,05  181+ days,313,185,1276
+Resort Hotel,2017-07,Complementary,01  0-7 days,1,1,1
+Resort Hotel,2017-07,Complementary,02  8-30 days,2,0,0
+Resort Hotel,2017-07,Complementary,03  31-90 days,3,1,2
+Resort Hotel,2017-07,Corporate,01  0-7 days,11,2,2
+Resort Hotel,2017-07,Corporate,02  8-30 days,16,8,24
+Resort Hotel,2017-07,Corporate,03  31-90 days,27,24,177
+Resort Hotel,2017-07,Direct,01  0-7 days,84,13,18
+Resort Hotel,2017-07,Direct,02  8-30 days,41,13,41
+Resort Hotel,2017-07,Direct,03  31-90 days,47,17,84
+Resort Hotel,2017-07,Direct,04  91-180 days,108,30,173
+Resort Hotel,2017-07,Direct,05  181+ days,66,17,112
+Resort Hotel,2017-07,Groups,05  181+ days,5,0,0
+Resort Hotel,2017-07,Offline TA/TO,01  0-7 days,1,0,0
+Resort Hotel,2017-07,Offline TA/TO,02  8-30 days,11,2,8
+Resort Hotel,2017-07,Offline TA/TO,03  31-90 days,18,2,10
+Resort Hotel,2017-07,Offline TA/TO,04  91-180 days,112,20,111
+Resort Hotel,2017-07,Offline TA/TO,05  181+ days,89,14,112
+Resort Hotel,2017-07,Online TA,01  0-7 days,136,13,26
+Resort Hotel,2017-07,Online TA,02  8-30 days,134,44,191
+Resort Hotel,2017-07,Online TA,03  31-90 days,148,73,345
+Resort Hotel,2017-07,Online TA,04  91-180 days,373,176,1019
+Resort Hotel,2017-07,Online TA,05  181+ days,321,190,1389
+Resort Hotel,2017-08,Complementary,01  0-7 days,4,0,0
+Resort Hotel,2017-08,Corporate,01  0-7 days,7,0,0
+Resort Hotel,2017-08,Corporate,02  8-30 days,2,1,7
+Resort Hotel,2017-08,Corporate,03  31-90 days,5,1,1
+Resort Hotel,2017-08,Direct,01  0-7 days,76,9,14
+Resort Hotel,2017-08,Direct,02  8-30 days,44,10,33
+Resort Hotel,2017-08,Direct,03  31-90 days,46,11,43
+Resort Hotel,2017-08,Direct,04  91-180 days,59,13,62
+Resort Hotel,2017-08,Direct,05  181+ days,85,17,126
+Resort Hotel,2017-08,Offline TA/TO,01  0-7 days,9,1,7
+Resort Hotel,2017-08,Offline TA/TO,02  8-30 days,41,7,55
+Resort Hotel,2017-08,Offline TA/TO,03  31-90 days,40,17,68
+Resort Hotel,2017-08,Offline TA/TO,04  91-180 days,94,19,126
+Resort Hotel,2017-08,Offline TA/TO,05  181+ days,133,22,180
+Resort Hotel,2017-08,Online TA,01  0-7 days,122,11,13
+Resort Hotel,2017-08,Online TA,02  8-30 days,169,59,206
+Resort Hotel,2017-08,Online TA,03  31-90 days,261,122,582
+Resort Hotel,2017-08,Online TA,04  91-180 days,243,154,815
+Resort Hotel,2017-08,Online TA,05  181+ days,360,219,1355
