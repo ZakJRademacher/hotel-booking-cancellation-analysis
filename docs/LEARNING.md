@@ -1,6 +1,6 @@
 # Beginner walkthrough
 
-Start with the question, then the population, count, rate and proposed action. A rate compares a numerator with its eligible denominator; changing the filter changes both. A dashboard is useful only when you can trace its headline numbers back to records.
+Use these exercises to trace cancellations from the report back to source records. For each selection, check both the count and the denominator before interpreting the rate. Work in a copy so you can restore the published defaults.
 
 1. Open the dashboard at City Hotel, 2016. Explain why Online TA can have the greatest cancellation count while Groups has the higher rate.
 2. Select Resort Hotel. Explain the changed denominator before describing the difference.
