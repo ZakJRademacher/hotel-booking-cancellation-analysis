@@ -13,11 +13,11 @@ A historical business investigation using Python, SQLite and Tableau. [Decision 
 
 ![Dashboard preview](deliverables/dashboard-preview.png)
 
-The redesigned Tableau workbook is retained locally; the current preview shows its working interface. The earlier workbook link below is preserved as a historical download.
+The redesigned Tableau workbook and its editable source are now downloadable, matching the current working preview. [Earlier workbook layout](https://github.com/ZakJRademacher/hotel-booking-cancellation-analysis/blob/d6b6e9c23c546d840221904a12f23d5b5b98e598/deliverables/Hotel%20Cancellation%20Review.twbx) remains in repository history.
 
 ## Open the report
 
-[Earlier packaged Tableau workbook (previous layout)](deliverables/Hotel%20Cancellation%20Review.twbx). Open in Tableau Desktop. Its reporting CSV is included. The first dashboard uses shared hotel, year, arrival-month and segment filters. The second dashboard explains the decision and trial. Tableau Public is not configured.
+[Download the redesigned Tableau workbook](deliverables/Hotel%20Cancellation%20Review.twbx). Open in Tableau Desktop. Its reporting CSV is included. The first dashboard uses shared hotel, year, arrival-month and segment filters. The second dashboard explains the decision and trial. Tableau Public is not configured.
 
 Editable source: [tableau](tableau). Run `python tools/build_report.py` to regenerate, open and save in Tableau, then run `python tools/package_report.py`. Preserve native authoring metadata in the committed workbook.
 
