@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<workbook _.fcp.WorkbookFingerprinting.true...author-id="85c0a05816589193910fe699082326a171c0ff35fb11e7ae6804fe4e6e5c7a7d" _.fcp.WorkbookFingerprinting.true...creator-author-id="85c0a05816589193910fe699082326a171c0ff35fb11e7ae6804fe4e6e5c7a7d" _.fcp.WorkbookFingerprinting.true...creator-license-type="free" _.fcp.WorkbookFingerprinting.true...creator-machine-id="31bb3807bb697dd681d913538cbded13aad1ad8461a6b6a2b8b35b86d952dc83" _.fcp.WorkbookFingerprinting.true...license-type="free" _.fcp.WorkbookFingerprinting.true...machine-id="31bb3807bb697dd681d913538cbded13aad1ad8461a6b6a2b8b35b86d952dc83" locale="en_US" source-build="2026.3.0 (20263.26.1022.1645)" source-platform="win" version="18.1">
+<workbook xmlns:ns0="http://www.tableausoftware.com/xml/user" _.fcp.WorkbookFingerprinting.true...author-id="85c0a05816589193910fe699082326a171c0ff35fb11e7ae6804fe4e6e5c7a7d" _.fcp.WorkbookFingerprinting.true...creator-author-id="85c0a05816589193910fe699082326a171c0ff35fb11e7ae6804fe4e6e5c7a7d" _.fcp.WorkbookFingerprinting.true...creator-license-type="free" _.fcp.WorkbookFingerprinting.true...creator-machine-id="31bb3807bb697dd681d913538cbded13aad1ad8461a6b6a2b8b35b86d952dc83" _.fcp.WorkbookFingerprinting.true...license-type="free" _.fcp.WorkbookFingerprinting.true...machine-id="31bb3807bb697dd681d913538cbded13aad1ad8461a6b6a2b8b35b86d952dc83" locale="en_US" source-build="2026.3.0 (20263.26.1022.1645)" source-platform="win" version="18.1">
   <document-format-change-manifest>
     <AnimationOnByDefault />
     <MarkAnimation />
@@ -21,7 +21,7 @@
     <style-rule element="worksheet">
       <format attr="font-family" value="Segoe UI" />
       <format attr="font-size" value="11" />
-      <format attr="color" value="#18304F" />
+      <format attr="color" value="#EAF0FC" />
     </style-rule>
     <style-rule element="animation">
       <format attr="animation-on" value="ao-off" />
@@ -323,7 +323,7 @@
         <column-instance column="[Year]" derivation="None" name="[none:Year:nk]" pivot="key" type="nominal" />
       </datasource-dependencies>
       <filter class="categorical" column="[analysis].[none:Hotel:nk]">
-        <groupfilter function="member" level="[none:Hotel:nk]" member="&quot;City Hotel&quot;" />
+        <groupfilter function="member" level="[none:Hotel:nk]" member="&quot;City Hotel&quot;" ns0:ui-domain="database" ns0:ui-enumeration="inclusive" ns0:ui-marker="enumerate" />
       </filter>
       <filter class="categorical" column="[analysis].[none:Period:nk]">
         <groupfilter function="union">
@@ -377,7 +377,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run bold="true" fontcolor="#18304f" fontname="Segoe UI" fontsize="14">Canceled booked nights</run>
+            <run bold="true" fontcolor="#eaf0fc" fontname="Segoe UI" fontsize="11">Canceled booked nights</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -416,30 +416,52 @@
           <style-rule element="axis">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="10" />
-            <format attr="color" value="#647085" />
+            <format attr="color" value="#A2B2CC" />
             <format attr="title" scope="cols" value="Cancellations" />
           </style-rule>
           <style-rule element="cell">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="11" />
-            <format attr="color" value="#18304F" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+          </style-rule>
+          <style-rule element="header">
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
           </style-rule>
           <style-rule element="label">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="10" />
-            <format attr="color" value="#647085" />
+            <format attr="color" value="#A2B2CC" />
+          </style-rule>
+          <style-rule element="pane">
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+          </style-rule>
+          <style-rule element="table">
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
           </style-rule>
           <style-rule element="worksheet">
-            <format attr="background-color" value="#FFFFFF" />
+            <format attr="background-color" value="#142339" />
             <format attr="display-field-labels" scope="rows" value="false" />
             <format attr="display-field-labels" scope="cols" value="false" />
           </style-rule>
           <style-rule element="gridline">
-            <format attr="stroke-color" value="#E6E2E0" />
+            <format attr="stroke-color" value="#263B57" />
             <format attr="stroke-size" value="1" />
           </style-rule>
           <style-rule element="zeroline">
-            <format attr="stroke-color" value="#9BA8BF" />
+            <format attr="stroke-color" value="#7891B6" />
             <format attr="stroke-size" value="1" />
           </style-rule>
         </style>
@@ -465,14 +487,32 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
               <style-rule element="mark">
                 <format attr="mark-labels-show" value="true" />
                 <format attr="mark-labels-cull" value="true" />
-                <format attr="color" value="#2454A8" />
-                <format attr="font-size" value="26" />
-                <format attr="color" value="#2454A8" />
-                <format attr="color" value="#2454A8" />
-                <format attr="font-size" value="30" />
-                <format attr="mark-color" value="#2454A8" />
-                <format attr="color" value="#2454A8" />
-                <format attr="font-size" value="26" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="32" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="32" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="32" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="32" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="32" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="32" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="32" />
+              </style-rule>
+              <style-rule element="pane">
+                <format attr="background-color" value="#142339" />
+                <format attr="background-color" value="#142339" />
               </style-rule>
             </style>
           </pane>
@@ -486,7 +526,7 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
       <layout-options>
         <title>
           <formatted-text>
-            <run bold="true" fontcolor="#18304f" fontname="Segoe UI" fontsize="14">01  Cancellations by market segment</run>
+            <run bold="true" fontcolor="#eaf0fc" fontname="Segoe UI" fontsize="14">01  Cancellations by market segment</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -567,30 +607,52 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
           <style-rule element="axis">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="10" />
-            <format attr="color" value="#647085" />
+            <format attr="color" value="#A2B2CC" />
             <format attr="title" scope="cols" value="Cancellations" />
           </style-rule>
           <style-rule element="cell">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="11" />
-            <format attr="color" value="#18304F" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+          </style-rule>
+          <style-rule element="header">
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
           </style-rule>
           <style-rule element="label">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="10" />
-            <format attr="color" value="#647085" />
+            <format attr="color" value="#A2B2CC" />
+          </style-rule>
+          <style-rule element="pane">
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+          </style-rule>
+          <style-rule element="table">
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
           </style-rule>
           <style-rule element="worksheet">
-            <format attr="background-color" value="#FFFFFF" />
+            <format attr="background-color" value="#142339" />
             <format attr="display-field-labels" scope="rows" value="false" />
             <format attr="display-field-labels" scope="cols" value="false" />
           </style-rule>
           <style-rule element="gridline">
-            <format attr="stroke-color" value="#E6E2E0" />
+            <format attr="stroke-color" value="#263B57" />
             <format attr="stroke-size" value="1" />
           </style-rule>
           <style-rule element="zeroline">
-            <format attr="stroke-color" value="#9BA8BF" />
+            <format attr="stroke-color" value="#7891B6" />
             <format attr="stroke-size" value="1" />
           </style-rule>
         </style>
@@ -621,9 +683,27 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
               <style-rule element="mark">
                 <format attr="mark-labels-show" value="true" />
                 <format attr="mark-labels-cull" value="true" />
-                <format attr="color" value="#2454A8" />
-                <format attr="color" value="#2454A8" />
-                <format attr="mark-color" value="#2454A8" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="10" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="10" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="10" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="10" />
+              </style-rule>
+              <style-rule element="pane">
+                <format attr="background-color" value="#142339" />
+                <format attr="background-color" value="#142339" />
               </style-rule>
             </style>
           </pane>
@@ -637,7 +717,7 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
       <layout-options>
         <title>
           <formatted-text>
-            <run bold="true" fontcolor="#18304f" fontname="Segoe UI" fontsize="14">03  Rate by lead-time band</run>
+            <run bold="true" fontcolor="#eaf0fc" fontname="Segoe UI" fontsize="14">03  Rate by lead-time band</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -717,30 +797,52 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
           <style-rule element="axis">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="10" />
-            <format attr="color" value="#647085" />
+            <format attr="color" value="#A2B2CC" />
             <format attr="title" scope="cols" value="Cancellation rate" />
           </style-rule>
           <style-rule element="cell">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="11" />
-            <format attr="color" value="#18304F" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+          </style-rule>
+          <style-rule element="header">
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
           </style-rule>
           <style-rule element="label">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="10" />
-            <format attr="color" value="#647085" />
+            <format attr="color" value="#A2B2CC" />
+          </style-rule>
+          <style-rule element="pane">
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+          </style-rule>
+          <style-rule element="table">
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
           </style-rule>
           <style-rule element="worksheet">
-            <format attr="background-color" value="#FFFFFF" />
+            <format attr="background-color" value="#142339" />
             <format attr="display-field-labels" scope="rows" value="false" />
             <format attr="display-field-labels" scope="cols" value="false" />
           </style-rule>
           <style-rule element="gridline">
-            <format attr="stroke-color" value="#E6E2E0" />
+            <format attr="stroke-color" value="#263B57" />
             <format attr="stroke-size" value="1" />
           </style-rule>
           <style-rule element="zeroline">
-            <format attr="stroke-color" value="#9BA8BF" />
+            <format attr="stroke-color" value="#7891B6" />
             <format attr="stroke-size" value="1" />
           </style-rule>
         </style>
@@ -771,9 +873,27 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
               <style-rule element="mark">
                 <format attr="mark-labels-show" value="true" />
                 <format attr="mark-labels-cull" value="true" />
-                <format attr="color" value="#2454A8" />
-                <format attr="color" value="#2454A8" />
-                <format attr="mark-color" value="#2454A8" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="10" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="10" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="10" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="10" />
+              </style-rule>
+              <style-rule element="pane">
+                <format attr="background-color" value="#142339" />
+                <format attr="background-color" value="#142339" />
               </style-rule>
             </style>
           </pane>
@@ -787,7 +907,7 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
       <layout-options>
         <title>
           <formatted-text>
-            <run bold="true" fontcolor="#18304f" fontname="Segoe UI" fontsize="14">04  Monthly cancellation rate (YYMM)</run>
+            <run bold="true" fontcolor="#eaf0fc" fontname="Segoe UI" fontsize="14">04  Monthly cancellation rate (YYMM)</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -867,30 +987,52 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
           <style-rule element="axis">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="10" />
-            <format attr="color" value="#647085" />
+            <format attr="color" value="#A2B2CC" />
             <format attr="title" scope="rows" value="Cancellation rate" />
           </style-rule>
           <style-rule element="cell">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="11" />
-            <format attr="color" value="#18304F" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+          </style-rule>
+          <style-rule element="header">
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
           </style-rule>
           <style-rule element="label">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="10" />
-            <format attr="color" value="#647085" />
+            <format attr="color" value="#A2B2CC" />
+          </style-rule>
+          <style-rule element="pane">
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+          </style-rule>
+          <style-rule element="table">
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
           </style-rule>
           <style-rule element="worksheet">
-            <format attr="background-color" value="#FFFFFF" />
+            <format attr="background-color" value="#142339" />
             <format attr="display-field-labels" scope="rows" value="false" />
             <format attr="display-field-labels" scope="cols" value="false" />
           </style-rule>
           <style-rule element="gridline">
-            <format attr="stroke-color" value="#E6E2E0" />
+            <format attr="stroke-color" value="#263B57" />
             <format attr="stroke-size" value="1" />
           </style-rule>
           <style-rule element="zeroline">
-            <format attr="stroke-color" value="#9BA8BF" />
+            <format attr="stroke-color" value="#7891B6" />
             <format attr="stroke-size" value="1" />
           </style-rule>
         </style>
@@ -920,9 +1062,27 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
               <style-rule element="mark">
                 <format attr="mark-labels-show" value="false" />
                 <format attr="mark-labels-cull" value="true" />
-                <format attr="color" value="#2454A8" />
-                <format attr="color" value="#2454A8" />
-                <format attr="mark-color" value="#2454A8" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="10" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="10" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="10" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="10" />
+              </style-rule>
+              <style-rule element="pane">
+                <format attr="background-color" value="#142339" />
+                <format attr="background-color" value="#142339" />
               </style-rule>
             </style>
           </pane>
@@ -936,7 +1096,7 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
       <layout-options>
         <title>
           <formatted-text>
-            <run bold="true" fontcolor="#18304f" fontname="Segoe UI" fontsize="14">02  Cancellation rate by segment</run>
+            <run bold="true" fontcolor="#eaf0fc" fontname="Segoe UI" fontsize="14">02  Cancellation rate by segment</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -1017,30 +1177,52 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
           <style-rule element="axis">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="10" />
-            <format attr="color" value="#647085" />
+            <format attr="color" value="#A2B2CC" />
             <format attr="title" scope="cols" value="Cancellation rate" />
           </style-rule>
           <style-rule element="cell">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="11" />
-            <format attr="color" value="#18304F" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+          </style-rule>
+          <style-rule element="header">
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
           </style-rule>
           <style-rule element="label">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="10" />
-            <format attr="color" value="#647085" />
+            <format attr="color" value="#A2B2CC" />
+          </style-rule>
+          <style-rule element="pane">
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+          </style-rule>
+          <style-rule element="table">
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
           </style-rule>
           <style-rule element="worksheet">
-            <format attr="background-color" value="#FFFFFF" />
+            <format attr="background-color" value="#142339" />
             <format attr="display-field-labels" scope="rows" value="false" />
             <format attr="display-field-labels" scope="cols" value="false" />
           </style-rule>
           <style-rule element="gridline">
-            <format attr="stroke-color" value="#E6E2E0" />
+            <format attr="stroke-color" value="#263B57" />
             <format attr="stroke-size" value="1" />
           </style-rule>
           <style-rule element="zeroline">
-            <format attr="stroke-color" value="#9BA8BF" />
+            <format attr="stroke-color" value="#7891B6" />
             <format attr="stroke-size" value="1" />
           </style-rule>
         </style>
@@ -1071,9 +1253,27 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
               <style-rule element="mark">
                 <format attr="mark-labels-show" value="true" />
                 <format attr="mark-labels-cull" value="true" />
-                <format attr="color" value="#2454A8" />
-                <format attr="color" value="#2454A8" />
-                <format attr="mark-color" value="#C25170" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="mark-color" value="#FFAD72" />
+                <format attr="mark-color" value="#FFAD72" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="10" />
+                <format attr="mark-color" value="#FFAD72" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="10" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="mark-color" value="#FFAD72" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="10" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="mark-color" value="#FFAD72" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="10" />
+              </style-rule>
+              <style-rule element="pane">
+                <format attr="background-color" value="#142339" />
+                <format attr="background-color" value="#142339" />
               </style-rule>
             </style>
           </pane>
@@ -1087,7 +1287,7 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
       <layout-options>
         <title>
           <formatted-text>
-            <run bold="true" fontcolor="#18304f" fontname="Segoe UI" fontsize="14">Selected bookings</run>
+            <run bold="true" fontcolor="#eaf0fc" fontname="Segoe UI" fontsize="11">Selected bookings</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -1126,30 +1326,52 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
           <style-rule element="axis">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="10" />
-            <format attr="color" value="#647085" />
+            <format attr="color" value="#A2B2CC" />
             <format attr="title" scope="cols" value="Cancellations" />
           </style-rule>
           <style-rule element="cell">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="11" />
-            <format attr="color" value="#18304F" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+          </style-rule>
+          <style-rule element="header">
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
           </style-rule>
           <style-rule element="label">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="10" />
-            <format attr="color" value="#647085" />
+            <format attr="color" value="#A2B2CC" />
+          </style-rule>
+          <style-rule element="pane">
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+          </style-rule>
+          <style-rule element="table">
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
           </style-rule>
           <style-rule element="worksheet">
-            <format attr="background-color" value="#FFFFFF" />
+            <format attr="background-color" value="#142339" />
             <format attr="display-field-labels" scope="rows" value="false" />
             <format attr="display-field-labels" scope="cols" value="false" />
           </style-rule>
           <style-rule element="gridline">
-            <format attr="stroke-color" value="#E6E2E0" />
+            <format attr="stroke-color" value="#263B57" />
             <format attr="stroke-size" value="1" />
           </style-rule>
           <style-rule element="zeroline">
-            <format attr="stroke-color" value="#9BA8BF" />
+            <format attr="stroke-color" value="#7891B6" />
             <format attr="stroke-size" value="1" />
           </style-rule>
         </style>
@@ -1175,14 +1397,32 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
               <style-rule element="mark">
                 <format attr="mark-labels-show" value="true" />
                 <format attr="mark-labels-cull" value="true" />
-                <format attr="color" value="#2454A8" />
-                <format attr="font-size" value="26" />
-                <format attr="color" value="#2454A8" />
-                <format attr="color" value="#2454A8" />
-                <format attr="font-size" value="30" />
-                <format attr="mark-color" value="#2454A8" />
-                <format attr="color" value="#2454A8" />
-                <format attr="font-size" value="26" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="32" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="32" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="32" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="32" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="32" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="32" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="mark-color" value="#66A0FF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="32" />
+              </style-rule>
+              <style-rule element="pane">
+                <format attr="background-color" value="#142339" />
+                <format attr="background-color" value="#142339" />
               </style-rule>
             </style>
           </pane>
@@ -1196,7 +1436,7 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
       <layout-options>
         <title>
           <formatted-text>
-            <run bold="true" fontcolor="#18304f" fontname="Segoe UI" fontsize="14">Selected cancellations</run>
+            <run bold="true" fontcolor="#eaf0fc" fontname="Segoe UI" fontsize="11">Selected cancellations</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -1235,30 +1475,52 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
           <style-rule element="axis">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="10" />
-            <format attr="color" value="#647085" />
+            <format attr="color" value="#A2B2CC" />
             <format attr="title" scope="cols" value="Cancellations" />
           </style-rule>
           <style-rule element="cell">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="11" />
-            <format attr="color" value="#18304F" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+          </style-rule>
+          <style-rule element="header">
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
           </style-rule>
           <style-rule element="label">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="10" />
-            <format attr="color" value="#647085" />
+            <format attr="color" value="#A2B2CC" />
+          </style-rule>
+          <style-rule element="pane">
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+          </style-rule>
+          <style-rule element="table">
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
+            <format attr="background-color" value="#142339" />
+            <format attr="color" value="#EAF0FC" />
           </style-rule>
           <style-rule element="worksheet">
-            <format attr="background-color" value="#FFFFFF" />
+            <format attr="background-color" value="#142339" />
             <format attr="display-field-labels" scope="rows" value="false" />
             <format attr="display-field-labels" scope="cols" value="false" />
           </style-rule>
           <style-rule element="gridline">
-            <format attr="stroke-color" value="#E6E2E0" />
+            <format attr="stroke-color" value="#263B57" />
             <format attr="stroke-size" value="1" />
           </style-rule>
           <style-rule element="zeroline">
-            <format attr="stroke-color" value="#9BA8BF" />
+            <format attr="stroke-color" value="#7891B6" />
             <format attr="stroke-size" value="1" />
           </style-rule>
         </style>
@@ -1284,14 +1546,32 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
               <style-rule element="mark">
                 <format attr="mark-labels-show" value="true" />
                 <format attr="mark-labels-cull" value="true" />
-                <format attr="color" value="#2454A8" />
-                <format attr="font-size" value="26" />
-                <format attr="color" value="#2454A8" />
-                <format attr="color" value="#C25170" />
-                <format attr="font-size" value="30" />
-                <format attr="mark-color" value="#C25170" />
-                <format attr="color" value="#C25170" />
-                <format attr="font-size" value="26" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="32" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="32" />
+                <format attr="mark-color" value="#FFAD72" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="32" />
+                <format attr="mark-color" value="#FFAD72" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="32" />
+                <format attr="mark-color" value="#FFAD72" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="32" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="mark-color" value="#FFAD72" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="32" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="mark-color" value="#FFAD72" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="32" />
+              </style-rule>
+              <style-rule element="pane">
+                <format attr="background-color" value="#142339" />
+                <format attr="background-color" value="#142339" />
               </style-rule>
             </style>
           </pane>
@@ -1305,7 +1585,7 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
       <layout-options>
         <title>
           <formatted-text>
-            <run bold="true" fontcolor="#18304f" fontname="Segoe UI" fontsize="14">Selected rate</run>
+            <run bold="true" fontcolor="#ffffff" fontname="Segoe UI" fontsize="11">Selected rate</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -1348,30 +1628,52 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
           <style-rule element="axis">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="10" />
-            <format attr="color" value="#647085" />
+            <format attr="color" value="#FFFFFF" />
             <format attr="title" scope="cols" value="Cancellations" />
           </style-rule>
           <style-rule element="cell">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="11" />
-            <format attr="color" value="#18304F" />
+            <format attr="color" value="#FFFFFF" />
+            <format attr="background-color" value="#234E96" />
+            <format attr="color" value="#FFFFFF" />
+            <format attr="background-color" value="#234E96" />
+            <format attr="color" value="#EAF0FC" />
+          </style-rule>
+          <style-rule element="header">
+            <format attr="background-color" value="#234E96" />
+            <format attr="color" value="#FFFFFF" />
+            <format attr="background-color" value="#234E96" />
+            <format attr="color" value="#EAF0FC" />
           </style-rule>
           <style-rule element="label">
             <format attr="font-family" value="Segoe UI" />
             <format attr="font-size" value="10" />
-            <format attr="color" value="#647085" />
+            <format attr="color" value="#FFFFFF" />
+          </style-rule>
+          <style-rule element="pane">
+            <format attr="background-color" value="#234E96" />
+            <format attr="color" value="#FFFFFF" />
+            <format attr="background-color" value="#234E96" />
+            <format attr="color" value="#EAF0FC" />
+          </style-rule>
+          <style-rule element="table">
+            <format attr="background-color" value="#234E96" />
+            <format attr="color" value="#FFFFFF" />
+            <format attr="background-color" value="#234E96" />
+            <format attr="color" value="#EAF0FC" />
           </style-rule>
           <style-rule element="worksheet">
-            <format attr="background-color" value="#FFFFFF" />
+            <format attr="background-color" value="#234E96" />
             <format attr="display-field-labels" scope="rows" value="false" />
             <format attr="display-field-labels" scope="cols" value="false" />
           </style-rule>
           <style-rule element="gridline">
-            <format attr="stroke-color" value="#E6E2E0" />
+            <format attr="stroke-color" value="#263B57" />
             <format attr="stroke-size" value="1" />
           </style-rule>
           <style-rule element="zeroline">
-            <format attr="stroke-color" value="#9BA8BF" />
+            <format attr="stroke-color" value="#7891B6" />
             <format attr="stroke-size" value="1" />
           </style-rule>
         </style>
@@ -1397,14 +1699,32 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
               <style-rule element="mark">
                 <format attr="mark-labels-show" value="true" />
                 <format attr="mark-labels-cull" value="true" />
-                <format attr="color" value="#2454A8" />
-                <format attr="font-size" value="26" />
-                <format attr="color" value="#2454A8" />
-                <format attr="color" value="#C25170" />
-                <format attr="font-size" value="30" />
-                <format attr="mark-color" value="#C25170" />
-                <format attr="color" value="#C25170" />
-                <format attr="font-size" value="26" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="40" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="40" />
+                <format attr="mark-color" value="#FFFFFF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="40" />
+                <format attr="mark-color" value="#FFFFFF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="40" />
+                <format attr="mark-color" value="#FFFFFF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="40" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="mark-color" value="#FFFFFF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="40" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="mark-color" value="#FFFFFF" />
+                <format attr="color" value="#EAF0FC" />
+                <format attr="font-size" value="40" />
+              </style-rule>
+              <style-rule element="pane">
+                <format attr="background-color" value="#234E96" />
+                <format attr="background-color" value="#234E96" />
               </style-rule>
             </style>
           </pane>
@@ -1419,7 +1739,7 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
     <dashboard name="01  Decision brief">
       <style>
         <style-rule element="dashboard">
-          <format attr="background-color" value="#FAF7F3" />
+          <format attr="background-color" value="#0B1423" />
         </style-rule>
         <style-rule element="dash-text">
           <format attr="wrap" id="dash-text_2" value="on" />
@@ -1439,7 +1759,7 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
           <format attr="wrap" id="dash-text_21" value="on" />
         </style-rule>
       </style>
-      <size maxheight="950" maxwidth="1400" minheight="950" minwidth="1400" />
+      <size maxheight="1000" maxwidth="1600" minheight="1000" minwidth="1600" />
       <datasources>
         <datasource caption="Where should reservations test better confirmation?" name="analysis" />
       </datasources>
@@ -1455,149 +1775,259 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
       </datasource-dependencies>
       <zones>
         <zone h="100000" id="1" type-v2="layout-basic" w="100000" x="0" y="0">
-          <zone h="3623" id="2" type-v2="text" w="98041" x="0" y="0">
-            <formatted-text>
-              <run bold="true" fontcolor="#2454a8" fontname="Segoe UI" fontsize="10">FIELDNOTES / BUSINESS ANALYSIS</run>
-            </formatted-text>
-            <zone-style>
-              <format attr="border-color" value="#647085" />
-              <format attr="border-style" value="none" />
-              <format attr="border-width" value="0" />
-              <format attr="padding" value="10" />
-            </zone-style>
-          </zone>
-          <zone h="6183" id="3" type-v2="text" w="98041" x="0" y="3624">
-            <formatted-text>
-              <run bold="true" fontcolor="#18304f" fontname="Segoe UI" fontsize="28">Where should reservations test better confirmation?</run>
-            </formatted-text>
-            <zone-style>
-              <format attr="border-color" value="#647085" />
-              <format attr="border-style" value="none" />
-              <format attr="border-width" value="0" />
-              <format attr="padding" value="10" />
-            </zone-style>
-          </zone>
-          <zone h="5116" id="4" type-v2="text" w="98041" x="0" y="10128">
-            <formatted-text>
-              <run bold="false" fontcolor="#647085" fontname="Segoe UI" fontsize="12">Default: 2016, City Hotel / Change the filters to compare the same hotel and arrival period.</run>
-            </formatted-text>
-            <zone-style>
-              <format attr="border-color" value="#647085" />
-              <format attr="border-style" value="none" />
-              <format attr="border-width" value="0" />
-              <format attr="padding" value="10" />
-            </zone-style>
-          </zone>
-          <zone h="25586" id="14" name="Cancellation workload" w="47497" x="0" y="38166" />
-          <zone h="25586" id="15" name="Segment rate" w="48731" x="49310" y="38166" />
-          <zone h="18123" id="16" name="Lead-time rate" w="47497" x="0" y="65884" />
-          <zone h="18123" id="17" name="Monthly rate" w="48731" x="49310" y="65884" />
-          <zone h="3197" id="19" type-v2="text" w="98041" x="0" y="85394">
-            <formatted-text>
-              <run bold="true" fontcolor="#2454a8" fontname="Segoe UI" fontsize="10">WHAT THIS MEANS</run>
-            </formatted-text>
-            <zone-style>
-              <format attr="border-color" value="#647085" />
-              <format attr="border-style" value="none" />
-              <format attr="border-width" value="0" />
-              <format attr="padding" value="10" />
-            </zone-style>
-          </zone>
-          <zone h="7463" id="20" type-v2="text" w="98041" x="0" y="88912">
-            <formatted-text>
-              <run bold="false" fontcolor="#18304f" fontname="Segoe UI" fontsize="12">Compare counts and rates together. Prioritize a confirmation-process trial, then measure results against a randomized comparison group.</run>
-            </formatted-text>
-            <zone-style>
-              <format attr="border-color" value="#647085" />
-              <format attr="border-style" value="none" />
-              <format attr="border-width" value="0" />
-              <format attr="padding" value="10" />
-            </zone-style>
-          </zone>
-          <zone h="3092" id="21" type-v2="text" w="98041" x="0" y="96908">
-            <formatted-text>
-              <run bold="false" fontcolor="#647085" fontname="Segoe UI" fontsize="9">Kaggle / Antonio, de Almeida &amp; Nunes (2019), CC BY 4.0 / Partial 2015 and 2017 / Zak Rademacher</run>
-            </formatted-text>
-            <zone-style>
-              <format attr="border-color" value="#647085" />
-              <format attr="border-style" value="none" />
-              <format attr="border-width" value="0" />
-              <format attr="padding" value="10" />
-            </zone-style>
-          </zone>
-          <zone h="11000" id="100" name="Selected bookings" w="23857" x="0" y="26066">
+          <zone h="100000" id="9000" type-v2="text" w="13775" x="0" y="0">
             <zone-style>
               <format attr="border-color" value="#444444" />
               <format attr="border-style" value="none" />
               <format attr="border-width" value="0" />
-              <format attr="padding" value="6" />
-              <format attr="background-color" value="#edf2fc" />
+              <format attr="padding" value="12" />
+              <format attr="background-color" value="#111d33" />
             </zone-style>
           </zone>
-          <zone h="11000" id="101" name="Selected cancellations" w="23858" x="25380" y="26066">
+          <zone h="6000" id="9001" type-v2="text" w="10714" x="1530" y="2400">
+            <formatted-text>
+              <run bold="true" fontcolor="#8bacff" fontname="Segoe UI" fontsize="30">ZR /</run>
+            </formatted-text>
             <zone-style>
               <format attr="border-color" value="#444444" />
               <format attr="border-style" value="none" />
               <format attr="border-width" value="0" />
-              <format attr="padding" value="6" />
-              <format attr="background-color" value="#f7eaf0" />
+              <format attr="padding" value="12" />
+              <format attr="background-color" value="#111d33" />
             </zone-style>
           </zone>
-          <zone h="11000" id="102" name="Selected rate" w="23858" x="50761" y="26066">
+          <zone h="4200" id="9002" type-v2="text" w="11225" x="1530" y="10600">
+            <formatted-text>
+              <run bold="true" fontcolor="#ffffff" fontname="Segoe UI" fontsize="16">HOTEL</run>
+            </formatted-text>
             <zone-style>
               <format attr="border-color" value="#444444" />
               <format attr="border-style" value="none" />
               <format attr="border-width" value="0" />
-              <format attr="padding" value="6" />
-              <format attr="background-color" value="#f7eaf0" />
+              <format attr="padding" value="12" />
+              <format attr="background-color" value="#111d33" />
             </zone-style>
           </zone>
-          <zone h="11000" id="103" name="Canceled booked nights" w="23858" x="76142" y="26066">
+          <zone h="4200" id="9008" type-v2="text" w="11225" x="1530" y="14800">
+            <formatted-text>
+              <run bold="true" fontcolor="#ffffff" fontname="Segoe UI" fontsize="14">Cancellations</run>
+            </formatted-text>
             <zone-style>
               <format attr="border-color" value="#444444" />
               <format attr="border-style" value="none" />
               <format attr="border-width" value="0" />
+              <format attr="padding" value="12" />
+              <format attr="background-color" value="#111d33" />
+            </zone-style>
+          </zone>
+          <zone h="4200" id="9003" type-v2="text" w="11225" x="1530" y="20000">
+            <formatted-text>
+              <run bold="false" fontcolor="#99a9c4" fontname="Segoe UI" fontsize="9">RESERVATIONS REVIEW</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="border-color" value="#444444" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="12" />
+              <format attr="background-color" value="#111d33" />
+            </zone-style>
+          </zone>
+          <zone h="16500" id="9004" type-v2="text" w="11225" x="1530" y="81000">
+            <formatted-text>
+              <run bold="false" fontcolor="#a7b6ce" fontname="Segoe UI" fontsize="10">HISTORICAL ANALYSIS
+
+Compare like periods.
+Keep the population visible.
+
+Zak Rademacher</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="border-color" value="#444444" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="12" />
+              <format attr="background-color" value="#111d33" />
+            </zone-style>
+          </zone>
+          <zone h="3000" id="2" type-v2="text" w="83929" x="16071" y="2200">
+            <formatted-text>
+              <run bold="true" fontcolor="#66a0ff" fontname="Segoe UI" fontsize="10">HOTEL CANCELLATIONS  /  DECISION STUDIO</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="border-color" value="#a2b2cc" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="12" />
+            </zone-style>
+          </zone>
+          <zone h="6800" id="3" type-v2="text" w="83929" x="16071" y="5800">
+            <formatted-text>
+              <run bold="true" fontcolor="#eaf0fc" fontname="Segoe UI" fontsize="29">Where should reservations test better confirmation?</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="border-color" value="#a2b2cc" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="12" />
+            </zone-style>
+          </zone>
+          <zone h="4400" id="4" type-v2="text" w="83929" x="16071" y="12600">
+            <formatted-text>
+              <run bold="false" fontcolor="#a2b2cc" fontname="Segoe UI" fontsize="11">Default: 2016, City Hotel / Change the filters to compare the same hotel and arrival period.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="border-color" value="#a2b2cc" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="12" />
+            </zone-style>
+          </zone>
+          <zone h="28000" id="14" name="Cancellation workload" w="40561" x="16071" y="37000">
+            <zone-style>
+              <format attr="border-color" value="#444444" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="16" />
+              <format attr="background-color" value="#142339" />
+            </zone-style>
+          </zone>
+          <zone h="28000" id="15" name="Segment rate" w="41582" x="58418" y="37000">
+            <zone-style>
+              <format attr="border-color" value="#444444" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="16" />
+              <format attr="background-color" value="#142339" />
+            </zone-style>
+          </zone>
+          <zone h="23800" id="16" name="Lead-time rate" w="40561" x="16071" y="68400">
+            <zone-style>
+              <format attr="border-color" value="#444444" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="16" />
+              <format attr="background-color" value="#142339" />
+            </zone-style>
+          </zone>
+          <zone h="23800" id="17" name="Monthly rate" w="41582" x="58418" y="68400">
+            <zone-style>
+              <format attr="border-color" value="#444444" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="16" />
+              <format attr="background-color" value="#142339" />
+            </zone-style>
+          </zone>
+          <zone h="3400" id="19" type-v2="text" w="11480" x="16071" y="93800">
+            <formatted-text>
+              <run bold="true" fontcolor="#66a0ff" fontname="Segoe UI" fontsize="9">WHAT THIS MEANS</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="border-color" value="#a2b2cc" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="12" />
+            </zone-style>
+          </zone>
+          <zone h="4000" id="20" type-v2="text" w="72449" x="27551" y="93400">
+            <formatted-text>
+              <run bold="false" fontcolor="#eaf0fc" fontname="Segoe UI" fontsize="10">Compare counts and rates together. Prioritize a confirmation-process trial, then measure results against a randomized comparison group.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="border-color" value="#a2b2cc" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="12" />
+            </zone-style>
+          </zone>
+          <zone h="2400" id="21" type-v2="text" w="83929" x="16071" y="97400">
+            <formatted-text>
+              <run bold="false" fontcolor="#a2b2cc" fontname="Segoe UI" fontsize="8">Kaggle / Antonio, de Almeida &amp; Nunes (2019), CC BY 4.0 / Partial 2015 and 2017 / Zak Rademacher</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="border-color" value="#a2b2cc" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="12" />
+            </zone-style>
+          </zone>
+          <zone h="14200" id="100" name="Selected bookings" w="18240" x="62244" y="19000">
+            <zone-style>
+              <format attr="border-color" value="#a2b2cc" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="14" />
+              <format attr="background-color" value="#142339" />
+            </zone-style>
+          </zone>
+          <zone h="14200" id="101" name="Selected cancellations" w="18240" x="42474" y="19000">
+            <zone-style>
+              <format attr="border-color" value="#a2b2cc" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="14" />
+              <format attr="background-color" value="#142339" />
+            </zone-style>
+          </zone>
+          <zone h="14200" id="102" name="Selected rate" w="24872" x="16071" y="19000">
+            <zone-style>
+              <format attr="border-color" value="#a2b2cc" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="14" />
+              <format attr="background-color" value="#234e96" />
+            </zone-style>
+          </zone>
+          <zone h="14200" id="103" name="Canceled booked nights" w="17985" x="82015" y="19000">
+            <zone-style>
+              <format attr="border-color" value="#a2b2cc" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="14" />
+              <format attr="background-color" value="#142339" />
+            </zone-style>
+          </zone>
+          <zone h="8800" id="120" mode="dropdown" name="Cancellation workload" param="[analysis].[none:Hotel:nk]" type-v2="filter" values="all" w="10714" x="1530" y="27600">
+            <zone-style>
+              <format attr="border-color" value="#a2b2cc" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
               <format attr="padding" value="6" />
-              <format attr="background-color" value="#edf2fc" />
+              <format attr="background-color" value="#142339" />
             </zone-style>
           </zone>
-          <zone h="8609" id="120" mode="dropdown" name="Cancellation workload" param="[analysis].[none:Hotel:nk]" type-v2="filter" values="all" w="23857" x="0" y="16444">
+          <zone h="8800" id="121" mode="dropdown" name="Cancellation workload" param="[analysis].[none:Year:nk]" type-v2="filter" values="all" w="10714" x="1530" y="38800">
             <zone-style>
-              <format attr="border-color" value="#647085" />
+              <format attr="border-color" value="#a2b2cc" />
               <format attr="border-style" value="none" />
               <format attr="border-width" value="0" />
-              <format attr="background-color" value="#faf7f3" />
+              <format attr="padding" value="6" />
+              <format attr="background-color" value="#142339" />
             </zone-style>
           </zone>
-          <zone h="8609" id="121" mode="dropdown" name="Cancellation workload" param="[analysis].[none:Year:nk]" type-v2="filter" values="all" w="23858" x="25380" y="16444">
+          <zone h="8800" id="122" mode="dropdown" name="Cancellation workload" param="[analysis].[none:Period:nk]" type-v2="filter" values="all" w="10714" x="1530" y="50000">
             <zone-style>
-              <format attr="border-color" value="#647085" />
+              <format attr="border-color" value="#a2b2cc" />
               <format attr="border-style" value="none" />
               <format attr="border-width" value="0" />
-              <format attr="background-color" value="#faf7f3" />
+              <format attr="padding" value="6" />
+              <format attr="background-color" value="#142339" />
             </zone-style>
           </zone>
-          <zone h="8609" id="122" mode="dropdown" name="Cancellation workload" param="[analysis].[none:Period:nk]" type-v2="filter" values="all" w="23858" x="50761" y="16444">
+          <zone h="8800" id="123" mode="dropdown" name="Cancellation workload" param="[analysis].[none:Segment:nk]" type-v2="filter" values="all" w="10714" x="1530" y="61200">
             <zone-style>
-              <format attr="border-color" value="#647085" />
+              <format attr="border-color" value="#a2b2cc" />
               <format attr="border-style" value="none" />
               <format attr="border-width" value="0" />
-              <format attr="background-color" value="#faf7f3" />
-            </zone-style>
-          </zone>
-          <zone h="8609" id="123" mode="dropdown" name="Cancellation workload" param="[analysis].[none:Segment:nk]" type-v2="filter" values="all" w="23858" x="76142" y="16444">
-            <zone-style>
-              <format attr="border-color" value="#647085" />
-              <format attr="border-style" value="none" />
-              <format attr="border-width" value="0" />
-              <format attr="background-color" value="#faf7f3" />
+              <format attr="padding" value="6" />
+              <format attr="background-color" value="#142339" />
             </zone-style>
           </zone>
           <zone-style>
-            <format attr="border-color" value="#647085" />
+            <format attr="border-color" value="#a2b2cc" />
             <format attr="border-style" value="none" />
             <format attr="border-width" value="0" />
-            <format attr="background-color" value="#faf7f3" />
+            <format attr="background-color" value="#0b1423" />
           </zone-style>
         </zone>
       </zones>
@@ -1606,7 +2036,7 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
     <dashboard name="02  Definitions and trial">
       <style>
         <style-rule element="dashboard">
-          <format attr="background-color" value="#FAF7F3" />
+          <format attr="background-color" value="#0B1423" />
         </style-rule>
         <style-rule element="dash-text">
           <format attr="wrap" id="dash-text_2" value="on" />
@@ -1626,81 +2056,172 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
           <format attr="wrap" id="dash-text_21" value="on" />
         </style-rule>
       </style>
-      <size maxheight="950" maxwidth="1400" minheight="950" minwidth="1400" />
+      <size maxheight="1000" maxwidth="1600" minheight="1000" minwidth="1600" />
       <zones>
         <zone h="100000" id="1" type-v2="layout-basic" w="100000" x="0" y="0">
-          <zone h="8421" id="200" type-v2="text" w="95429" x="2286" y="2737">
+          <zone h="100000" id="9000" type-v2="text" w="13775" x="0" y="0">
+            <zone-style>
+              <format attr="border-color" value="#444444" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="12" />
+              <format attr="background-color" value="#111d33" />
+            </zone-style>
+          </zone>
+          <zone h="6000" id="9001" type-v2="text" w="10714" x="1530" y="2400">
             <formatted-text>
-              <run bold="true" fontcolor="#18304f" fontname="Segoe UI" fontsize="30">A bounded decision for reservations</run>
+              <run bold="true" fontcolor="#8bacff" fontname="Segoe UI" fontsize="30">ZR /</run>
             </formatted-text>
             <zone-style>
               <format attr="border-color" value="#444444" />
               <format attr="border-style" value="none" />
               <format attr="border-width" value="0" />
-              <format attr="padding" value="18" />
-              <format attr="background-color" value="#faf7f3" />
+              <format attr="padding" value="12" />
+              <format attr="background-color" value="#111d33" />
             </zone-style>
           </zone>
-          <zone h="13684" id="201" type-v2="text" w="95429" x="2286" y="11158">
+          <zone h="4200" id="9002" type-v2="text" w="11225" x="1530" y="10600">
             <formatted-text>
-              <run bold="false" fontcolor="#18304f" fontname="Segoe UI" fontsize="14">Choose a comparable hotel and arrival period, then examine market-segment counts and rates. Use lead-time bands to define a trial population. Small samples below 100 bookings need caution.</run>
+              <run bold="true" fontcolor="#ffffff" fontname="Segoe UI" fontsize="16">HOTEL</run>
             </formatted-text>
             <zone-style>
               <format attr="border-color" value="#444444" />
               <format attr="border-style" value="none" />
               <format attr="border-width" value="0" />
-              <format attr="padding" value="18" />
-              <format attr="background-color" value="#faf7f3" />
+              <format attr="padding" value="12" />
+              <format attr="background-color" value="#111d33" />
             </zone-style>
           </zone>
-          <zone h="6316" id="202" type-v2="text" w="45714" x="2286" y="30526">
+          <zone h="4200" id="9008" type-v2="text" w="11225" x="1530" y="14800">
             <formatted-text>
-              <run bold="true" fontcolor="#18304f" fontname="Segoe UI" fontsize="20">Population and measures</run>
+              <run bold="true" fontcolor="#ffffff" fontname="Segoe UI" fontsize="14">Cancellations</run>
             </formatted-text>
             <zone-style>
               <format attr="border-color" value="#444444" />
               <format attr="border-style" value="none" />
               <format attr="border-width" value="0" />
-              <format attr="padding" value="18" />
-              <format attr="background-color" value="#edf2fc" />
+              <format attr="padding" value="12" />
+              <format attr="background-color" value="#111d33" />
             </zone-style>
           </zone>
-          <zone h="27368" id="203" type-v2="text" w="45714" x="2286" y="36842">
+          <zone h="4200" id="9003" type-v2="text" w="11225" x="1530" y="20000">
             <formatted-text>
-              <run bold="false" fontcolor="#18304f" fontname="Segoe UI" fontsize="14">One source row represents one booking. Cancellation rate = canceled bookings / bookings in the same selection. Canceled booked nights = recorded length of stay on canceled bookings. Those nights are not proven lost revenue or unfilled capacity. Exact repeats remain because the source has no booking identifier.</run>
+              <run bold="false" fontcolor="#99a9c4" fontname="Segoe UI" fontsize="9">RESERVATIONS REVIEW</run>
             </formatted-text>
             <zone-style>
               <format attr="border-color" value="#444444" />
               <format attr="border-style" value="none" />
               <format attr="border-width" value="0" />
-              <format attr="padding" value="18" />
-              <format attr="background-color" value="#edf2fc" />
+              <format attr="padding" value="12" />
+              <format attr="background-color" value="#111d33" />
             </zone-style>
           </zone>
-          <zone h="6316" id="204" type-v2="text" w="47429" x="50286" y="30526">
+          <zone h="16500" id="9004" type-v2="text" w="11225" x="1530" y="81000">
             <formatted-text>
-              <run bold="true" fontcolor="#c25170" fontname="Segoe UI" fontsize="20">Test the recommendation</run>
+              <run bold="false" fontcolor="#a7b6ce" fontname="Segoe UI" fontsize="10">HISTORICAL ANALYSIS
+
+Compare like periods.
+Keep the population visible.
+
+Zak Rademacher</run>
             </formatted-text>
             <zone-style>
               <format attr="border-color" value="#444444" />
               <format attr="border-style" value="none" />
               <format attr="border-width" value="0" />
-              <format attr="padding" value="18" />
-              <format attr="background-color" value="#f7eaf0" />
+              <format attr="padding" value="12" />
+              <format attr="background-color" value="#111d33" />
             </zone-style>
           </zone>
-          <zone h="27368" id="205" type-v2="text" w="47429" x="50286" y="36842">
+          <zone h="4800" id="9010" type-v2="text" w="83929" x="16071" y="90000">
             <formatted-text>
-              <run bold="false" fontcolor="#18304f" fontname="Segoe UI" fontsize="14">Within a selected hotel, segment and lead-time band, randomize an improved confirmation protocol against business-as-usual. Measure cancellation rate, staff contact workload and guest complaints. The historical snapshot cannot establish a treatment effect. Reservation fields reflect the source extraction snapshot, not guaranteed initial-booking knowledge.</run>
+              <run bold="false" fontcolor="#a2b2cc" fontname="Segoe UI" fontsize="11">02 / METHOD &amp; TRIAL</run>
             </formatted-text>
             <zone-style>
               <format attr="border-color" value="#444444" />
               <format attr="border-style" value="none" />
               <format attr="border-width" value="0" />
-              <format attr="padding" value="18" />
-              <format attr="background-color" value="#f7eaf0" />
+              <format attr="padding" value="12" />
             </zone-style>
           </zone>
+          <zone h="8400" id="200" type-v2="text" w="83929" x="16071" y="3600">
+            <formatted-text>
+              <run bold="true" fontcolor="#eaf0fc" fontname="Segoe UI" fontsize="31">A bounded decision for reservations</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="border-color" value="#a2b2cc" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="12" />
+              <format attr="background-color" value="#0b1423" />
+            </zone-style>
+          </zone>
+          <zone h="11400" id="201" type-v2="text" w="83929" x="16071" y="13000">
+            <formatted-text>
+              <run bold="false" fontcolor="#a2b2cc" fontname="Segoe UI" fontsize="15">Choose a comparable hotel and arrival period, then examine market-segment counts and rates. Use lead-time bands to define a trial population. Small samples below 100 bookings need caution.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="border-color" value="#a2b2cc" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="12" />
+              <format attr="background-color" value="#0b1423" />
+            </zone-style>
+          </zone>
+          <zone h="6400" id="202" type-v2="text" w="37627" x="17602" y="29600">
+            <formatted-text>
+              <run bold="true" fontcolor="#66a0ff" fontname="Segoe UI" fontsize="20">Population and measures</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="border-color" value="#a2b2cc" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="12" />
+              <format attr="background-color" value="#142339" />
+            </zone-style>
+          </zone>
+          <zone h="46000" id="203" type-v2="text" w="37627" x="17602" y="36000">
+            <formatted-text>
+              <run bold="false" fontcolor="#eaf0fc" fontname="Segoe UI" fontsize="16">One source row represents one booking. Cancellation rate = canceled bookings / bookings in the same selection. Canceled booked nights = recorded length of stay on canceled bookings. Those nights are not proven lost revenue or unfilled capacity. Exact repeats remain because the source has no booking identifier.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="border-color" value="#a2b2cc" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="12" />
+              <format attr="background-color" value="#142339" />
+            </zone-style>
+          </zone>
+          <zone h="6400" id="204" type-v2="text" w="39158" x="59311" y="29600">
+            <formatted-text>
+              <run bold="true" fontcolor="#ffad72" fontname="Segoe UI" fontsize="20">Test the recommendation</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="border-color" value="#a2b2cc" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="12" />
+              <format attr="background-color" value="#142339" />
+            </zone-style>
+          </zone>
+          <zone h="46000" id="205" type-v2="text" w="39158" x="59311" y="36000">
+            <formatted-text>
+              <run bold="false" fontcolor="#eaf0fc" fontname="Segoe UI" fontsize="16">Within a selected hotel, segment and lead-time band, randomize an improved confirmation protocol against business-as-usual. Measure cancellation rate, staff contact workload and guest complaints. The historical snapshot cannot establish a treatment effect. Reservation fields reflect the source extraction snapshot, not guaranteed initial-booking knowledge.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr="border-color" value="#a2b2cc" />
+              <format attr="border-style" value="none" />
+              <format attr="border-width" value="0" />
+              <format attr="padding" value="12" />
+              <format attr="background-color" value="#142339" />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr="border-color" value="#444444" />
+            <format attr="border-style" value="none" />
+            <format attr="border-width" value="0" />
+            <format attr="background-color" value="#0b1423" />
+          </zone-style>
         </zone>
       </zones>
       <simple-id uuid="{2139C220-68F0-49A2-AAAA-2A16F72F9A0A}" />
@@ -1954,383 +2475,265 @@ Canceled booked nights: &lt;[analysis].[sum:Canceled Nights:qk]&gt;</run>
   <thumbnails>
     <thumbnail height="192" name="01  Decision brief" width="192">
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
-      AAAgAElEQVR4nOydd4BeZZXwf/fet/c27/Samcyk90BIqNJUBEWsq7ui6K6r3/rpZxfr6opd
-      14KCCqKANBGVHgMhgZAG6ZNM7zNv7/2W748JSYYEElJIwry/f5K55dxzn/ec+7TznEco5lIa
-      ZcpMU8TTrUCZMqcT3aF/aNrJqwwEQThp8gQBTkSUIAgnRY8ybzymOMBdj3Tjq3YTi2YYm0ix
-      eKabvNkGoSg98RKzG+xsGMizoMaIR6+xfSRDTaWdFzvDnNPm5MXxAm1uHdgtvGtFFaGJBEMF
-      PcmREFtG8systTKn1cULO6OEUgXm1JmJ5TUGUxptHh3RUJrKOhf9g3Hmtzh5oT/F2y5ooM4u
-      8J0/dfHRqxu5Y3WApU1mZrfYuW1NgOsWOUiaHfTtm0DSS6TSBRob3QTGkyTTMksWVrGkxXG6
-      yrfMGc6UJtB4NI/brmcikiOUKGCWIJQqEY0VuPK8KjZuD5NLZnlwS5iNPUnef3ENoxGZSq+J
-      eTUm8grMqLOzrzdOSdNYvzvGnHoL0USeRLLISDhLPFMkntcwqjJ9YxkCsTzxSIbHdsYIxPK4
-      nUacBhjLqJAvMJGS6dwbpH88xbrOOIV0jr9uDPLPjeP0DEbZM5ohnlPo8OsZz4u0VprYNZhk
-      IlrEbxPpHsudrrItcxYwpQZYubiGZa1OtKLMRNCEqjdAJIO/3snGXQk+dHULkYLI+ESS2VUm
-      HtwQ5p0X1TMylsDhMdJWkSeWlZk3w4VWLKK3mTFLArPbvBSMOc6f62bN1hCXLKlgWyc019pA
-      EHC4LAyOJjFqMslkEYvNSJXLgJyzU+MyECuY+Nn/XcL2nhhzL28hHEohGnT8aGUt2wfSjI7E
-      mDPfzcUekWggxpwGB1ZBJRTN01pjOV1lW+YsQCiPApWZzpRHgcpMa8oOUGZaU3aAMtOasgOU
-      mdaUHaDMtOagA2gapZJMsSTv/1OjWCpRkpX9f6sUiiVKpTwPP7aezqHwKVUsFYvw4GPrmYjn
-      j1vG0MAAD67eTEFWpxzfumU7a1/oPlEVTxEaw0PDvLhv5HQrckT6e/t4aM0WCvLZM3ioaRp7
-      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
-      AABJRU5ErkJggg==
+      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
+      B1457/wuBf8fubEwlzTyV9gAAAAASUVORK5CYII=
     </thumbnail>
     <thumbnail height="192" name="Cancellation workload" width="192">
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
