@@ -1,16 +1,16 @@
 {
-  "name": "Stay",
+  "name": "Midnight / Blue / Orange",
   "font": "Segoe UI, Arial, sans-serif",
   "colors": {
-    "canvas": "#FAF7F3",
-    "surface": "#FFFFFF",
-    "ink": "#18304F",
-    "muted": "#647085",
-    "primary": "#2454A8",
-    "accent": "#C25170",
-    "line": "#E6E2E0",
-    "soft": "#F7EAF0",
-    "prior": "#9BA8BF"
+    "canvas": "#0B1423",
+    "surface": "#142339",
+    "ink": "#EAF0FC",
+    "muted": "#A2B2CC",
+    "primary": "#66A0FF",
+    "accent": "#FFAD72",
+    "line": "#263B57",
+    "soft": "#1A3252",
+    "prior": "#7891B6"
   },
   "native_aliases": {
     "#203B43": "ink",
@@ -37,12 +37,35 @@
     "#E3E8E5": "line",
     "#E5E9E7": "line",
     "#CCD5D3": "prior",
-    "#8FA4A5": "prior"
+    "#8FA4A5": "prior",
+    "#FAF7F3": "canvas",
+    "#18304F": "ink",
+    "#647085": "muted",
+    "#2454A8": "primary",
+    "#C25170": "accent",
+    "#E6E2E0": "line",
+    "#F7EAF0": "soft",
+    "#9BA8BF": "prior",
+    "#0B1423": "canvas",
+    "#142339": "surface",
+    "#EAF0FC": "ink",
+    "#A2B2CC": "muted",
+    "#66A0FF": "primary",
+    "#FFAD72": "accent",
+    "#263B57": "line",
+    "#1A3252": "soft",
+    "#7891B6": "prior"
   },
   "motion": {
     "surface_ms": 580,
     "stagger_ms": 70,
     "easing": "cubic-bezier(.16,.8,.2,1)",
     "respect_reduced_motion": true
+  },
+  "report_layout": {
+    "width": 1600,
+    "height": 1000,
+    "rail_width": 216,
+    "version": "2026-10-31"
   }
 }
