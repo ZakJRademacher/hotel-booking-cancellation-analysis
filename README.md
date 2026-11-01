@@ -4,7 +4,7 @@
 
 [Motion cover preview](deliverables/portfolio-motion.webm) · [Presentation maintenance guide](docs/VISUAL_DESIGN.md)
 
-The October 2026 presentation refresh retains the existing calculations, source policies and report contracts. Cover animation is separate from native desktop report behavior.
+The November 2026 working-dashboard redesign adds a shared navy, blue and orange layout with clearer navigation and larger analytical panels. Calculations, source policies and report contracts are preserved. Cover motion is separate from native desktop report behavior. [Visual-release verification](docs/DASHBOARD_RELEASE.md).
 
 
 **Which booking segments account for the greatest cancellation workload, and where should reservations test an improved confirmation process?**
@@ -13,9 +13,11 @@ A historical business investigation using Python, SQLite and Tableau. [Decision 
 
 ![Dashboard preview](deliverables/dashboard-preview.png)
 
+The redesigned Tableau workbook is retained locally; the current preview shows its working interface. The earlier workbook link below is preserved as a historical download.
+
 ## Open the report
 
-[Packaged Tableau workbook](deliverables/Hotel%20Cancellation%20Review.twbx). Open in Tableau Desktop. Its reporting CSV is included. The first dashboard uses shared hotel, year, arrival-month and segment filters. The second dashboard explains the decision and trial. Tableau Public is not configured.
+[Earlier packaged Tableau workbook (previous layout)](deliverables/Hotel%20Cancellation%20Review.twbx). Open in Tableau Desktop. Its reporting CSV is included. The first dashboard uses shared hotel, year, arrival-month and segment filters. The second dashboard explains the decision and trial. Tableau Public is not configured.
 
 Editable source: [tableau](tableau). Run `python tools/build_report.py` to regenerate, open and save in Tableau, then run `python tools/package_report.py`. Preserve native authoring metadata in the committed workbook.
 
