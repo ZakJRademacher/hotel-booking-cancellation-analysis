@@ -1,5 +1,12 @@
 # Hotel Booking Cancellation Review
 
+![Current project presentation](deliverables/portfolio-cover-wide.png)
+
+[Motion cover preview](deliverables/portfolio-motion.webm) · [Presentation maintenance guide](docs/VISUAL_DESIGN.md)
+
+The October 2026 presentation refresh retains the existing calculations, source policies and report contracts. Cover animation is separate from native desktop report behavior.
+
+
 **Which booking segments account for the greatest cancellation workload, and where should reservations test an improved confirmation process?**
 
 A historical business investigation using Python, SQLite and Tableau. [Decision memo](docs/DECISION_MEMO.md) explains the evidence, next action and limitations.
