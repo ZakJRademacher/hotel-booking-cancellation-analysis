@@ -10,4 +10,4 @@ Underlying source attribution: Antonio, N., de Almeida, A., and Nunes, L. (2019)
 
 The original source is made available under Creative Commons Attribution 4.0. https://creativecommons.org/licenses/by/4.0/ . Prepared reporting tables are attributed adaptations: selected columns, normalized categories, derived bands and grouped measures. Original code is MIT licensed separately. Raw source files remain outside Git; reporting data is included for portable opening.
 
-One observation represents a booking at one of two hotels in Portugal. Arrival dates span July 2015-August 2017. Source documentation defines the extraction snapshot as the day before arrival; fields are not guaranteed to be known at booking creation.
+One observation represents a booking at one of two hotels in Portugal. Arrival dates span July 2015-August 2017. The source documentation reconstructs input values relative to the day before each booking's arrival where change logs are available. Outcome and final-status fields come from their stated source tables; this is not a record of what was known at booking creation. See the original article's extraction method and variable definitions.

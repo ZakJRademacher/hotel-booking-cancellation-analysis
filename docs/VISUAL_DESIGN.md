@@ -12,7 +12,7 @@ After rebuilding source, apply the layout from the repository root:
 python tools/apply_visual_theme.py
 ```
 
-Close the report in Desktop before rebuilding, then reopen it. Saving an older in-memory copy can overwrite newer source changes. For a visual-only Power BI edit, keep the existing semantic-model format rather than accepting an optional format migration.
+Close the report in Desktop before rebuilding, then reopen it. Saving an older in-memory copy can overwrite newer source changes. After a Tableau save, recheck the relative data connection and packaged reporting CSV before publishing the TWBX.
 
 ## Verify and hand off
 
