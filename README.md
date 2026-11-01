@@ -1,26 +1,34 @@
-# Hotel Booking Cancellation Review
+# Hotel Booking Cancellations
 
-**Which segments create cancellation workload, and where should reservations test a better confirmation process?**
+I looked at hotel cancellations to understand where a reservations team would face the most follow-up work. Comparing counts with rates led to two different answers.
 
-In **2016 City Hotel data**, **15,407 of 38,140 bookings canceled (40.4%)**. Online TA supplied the largest cancellation workload (**7,149**), while Groups had the higher rate (**74.7%**). Review the same hotel and arrival period before comparing segments; these historical differences do not establish intervention effects.
+For the **City Hotel in 2016**, online travel agents accounted for the most cancellations. Group bookings had the higher cancellation rate. The **Tableau report** lets a reader compare those patterns within the same hotel and arrival period.
 
-Python/SQLite preparation and a filter-responsive Tableau report use **119,390 historical booking records**, retaining uncertain repeated-looking records and source-row lineage.
+[View the report](deliverables/dashboard-preview.png) · [Download the Tableau workbook](deliverables/Hotel%20Cancellation%20Review.twbx) · [Read the decision memo](docs/DECISION_MEMO.md)
 
-[View current preview](deliverables/dashboard-preview.png) · [Download current Tableau workbook](deliverables/Hotel%20Cancellation%20Review.twbx) · [Decision memo](docs/DECISION_MEMO.md) · [SQL](sql/cancellation_review.sql) · [Reproduce](#reproduce)
+![Tableau cancellation review with City Hotel and 2016 selected](deliverables/dashboard-preview.png)
 
-![Current Tableau report, default City Hotel / 2016 selection](deliverables/dashboard-preview.png)
+## What I found
 
-Filters update the selected population and calculated KPIs. The definitions/trial page remains explanatory context. The package includes its reporting CSV; no Tableau Public hosting is configured. [Earlier workbook layout](https://github.com/ZakJRademacher/hotel-booking-cancellation-analysis/blob/d6b6e9c23c546d840221904a12f23d5b5b98e598/deliverables/Hotel%20Cancellation%20Review.twbx) is preserved in history.
+The City Hotel recorded **15,407 cancellations among 38,140 bookings (40.4%)** in 2016. Online TA accounted for **7,149 cancellations**, while Groups had a **74.7% cancellation rate**.
+
+Online TA is the larger workload to investigate; Groups is a separate lead because of its rate. Before choosing a confirmation-process trial, I'd check lead times, deposit terms, and arrival-month mix. The historical differences don't tell us how much a new process would improve cancellations.
+
+Python and SQLite prepare **119,390 booking records** and preserve their source references. Similar-looking records remain in the analysis because the source has no booking ID that would establish they are erroneous duplicates.
+
+[SQL](sql/cancellation_review.sql) · [Measures and populations](docs/METHOD.md) · [Source and licensing](docs/SOURCES.md)
 
 ## Open the report
 
-[Download the redesigned Tableau workbook](deliverables/Hotel%20Cancellation%20Review.twbx). Open in Tableau Desktop. Its reporting CSV is included. The first dashboard uses shared hotel, year, arrival-month and segment filters. The second dashboard explains the decision and trial. Tableau Public is not configured.
+Open the packaged workbook in Tableau Desktop; its reporting CSV is included. Shared hotel, year, arrival-month, and segment filters update the first dashboard's metrics and charts. The second dashboard explains the proposed trial and the definitions behind the analysis.
 
-Editable source: [tableau](tableau). Run `python tools/build_report.py` to regenerate, open and save in Tableau, then run `python tools/package_report.py`. Preserve native authoring metadata in the committed workbook.
+The data covers July 2015–August 2017, so **2016 is the only complete year**. Canceled booked nights describe workload and booking volume; they don't establish lost revenue or capacity.
+
+Editable source is in [tableau](tableau). To rebuild, run `python tools/build_report.py`, open and save the workbook in Tableau, then run `python tools/package_report.py`. Keep native authoring metadata intact. The [earlier layout](https://github.com/ZakJRademacher/hotel-booking-cancellation-analysis/blob/d6b6e9c23c546d840221904a12f23d5b5b98e598/deliverables/Hotel%20Cancellation%20Review.twbx) is preserved in history.
 
 ## Reproduce
 
-Python 3.10+, standard library only:
+From the repository root, using Python 3.10+ and the standard library:
 
 ```sh
 python tools/download_data.py
@@ -28,17 +36,12 @@ python refresh.py
 python -m unittest discover -s tests -v
 ```
 
-The preparation writes source-row lineage, a SQLite database, reporting CSVs, comparison cells and [control totals](data/processed/controls.json). [SQL investigation](sql) shows counts and denominators explicitly. Source records are retained; repeated-looking rows without durable IDs are not automatically removed.
+The pipeline writes a SQLite database, reporting CSVs, source-row references, and [control totals](data/processed/controls.json). Each reporting view is checked against booking-level totals; different `View` values must not be summed together.
 
-## Read the analysis
+## Documentation
 
-- [Source, version and licensing](docs/SOURCES.md)
-- [Measure definitions and refresh boundaries](docs/METHOD.md)
-- [Beginner walkthrough and practice](docs/LEARNING.md)
-- [Verification](docs/QA.md)
+- [Decision memo](docs/DECISION_MEMO.md) · [Method](docs/METHOD.md) · [Verification](docs/QA.md)
+- [Walkthrough and practice](docs/LEARNING.md) · [Visual maintenance](docs/VISUAL_DESIGN.md)
+- [Cover](deliverables/portfolio-cover-wide.png) · [Motion preview](deliverables/portfolio-motion.webm) · [Presentation history](docs/DASHBOARD_RELEASE.md)
 
-Independent portfolio demonstration. Historical associations motivate a controlled follow-up experiment; they do not establish causal lift, profit or realized client outcomes. The previous Retail and Complaint projects remain available as separate supporting work.
-
-## Presentation history
-
-[Cover preview](deliverables/portfolio-cover-wide.png) · [Motion cover](deliverables/portfolio-motion.webm) · [Design maintenance](docs/VISUAL_DESIGN.md) · [November 1 release record](docs/DASHBOARD_RELEASE.md). Covers are presentation assets; native report behavior is documented separately.
+This is an independent analysis of historical public data from two hotels in Portugal. The download runs locally; Tableau Public hosting and scheduled refresh are not configured. Data attribution and reuse terms are in the source guide.
