@@ -1,0 +1,19 @@
+{
+  "title": "Hotel Cancellations",
+  "eyebrow": "HOSPITALITY ANALYSIS",
+  "description": "Compare workload and rates before choosing a trial.",
+  "format": "Native Tableau report",
+  "image": "deliverables/dashboard-preview.png",
+  "tokens": "design-tokens.json",
+  "color_roles": {
+    "canvas": "canvas",
+    "surface": "surface",
+    "ink": "ink",
+    "muted": "muted",
+    "primary": "primary",
+    "accent": "accent"
+  },
+  "frame_label": "Cancellation review",
+  "preview_note": "Historical booking data",
+  "footer": "PYTHON / SQL / TABLEAU"
+}
