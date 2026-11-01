@@ -1,19 +1,16 @@
 # Hotel Booking Cancellation Review
 
-![Current project presentation](deliverables/portfolio-cover-wide.png)
+**Which segments create cancellation workload, and where should reservations test a better confirmation process?**
 
-[Motion cover preview](deliverables/portfolio-motion.webm) · [Presentation maintenance guide](docs/VISUAL_DESIGN.md)
+In **2016 City Hotel data**, **15,407 of 38,140 bookings canceled (40.4%)**. Online TA supplied the largest cancellation workload (**7,149**), while Groups had the higher rate (**74.7%**). Review the same hotel and arrival period before comparing segments; these historical differences do not establish intervention effects.
 
-The November 2026 working-dashboard redesign adds a shared navy, blue and orange layout with clearer navigation and larger analytical panels. Calculations, source policies and report contracts are preserved. Cover motion is separate from native desktop report behavior. [Visual-release verification](docs/DASHBOARD_RELEASE.md).
+Python/SQLite preparation and a filter-responsive Tableau report use **119,390 historical booking records**, retaining uncertain repeated-looking records and source-row lineage.
 
+[View current preview](deliverables/dashboard-preview.png) · [Download current Tableau workbook](deliverables/Hotel%20Cancellation%20Review.twbx) · [Decision memo](docs/DECISION_MEMO.md) · [SQL](sql/cancellation_review.sql) · [Reproduce](#reproduce)
 
-**Which booking segments account for the greatest cancellation workload, and where should reservations test an improved confirmation process?**
+![Current Tableau report, default City Hotel / 2016 selection](deliverables/dashboard-preview.png)
 
-A historical business investigation using Python, SQLite and Tableau. [Decision memo](docs/DECISION_MEMO.md) explains the evidence, next action and limitations.
-
-![Dashboard preview](deliverables/dashboard-preview.png)
-
-The redesigned Tableau workbook and its editable source are now downloadable, matching the current working preview. [Earlier workbook layout](https://github.com/ZakJRademacher/hotel-booking-cancellation-analysis/blob/d6b6e9c23c546d840221904a12f23d5b5b98e598/deliverables/Hotel%20Cancellation%20Review.twbx) remains in repository history.
+Filters update the selected population and calculated KPIs. The definitions/trial page remains explanatory context. The package includes its reporting CSV; no Tableau Public hosting is configured. [Earlier workbook layout](https://github.com/ZakJRademacher/hotel-booking-cancellation-analysis/blob/d6b6e9c23c546d840221904a12f23d5b5b98e598/deliverables/Hotel%20Cancellation%20Review.twbx) is preserved in history.
 
 ## Open the report
 
@@ -41,3 +38,7 @@ The preparation writes source-row lineage, a SQLite database, reporting CSVs, co
 - [Verification](docs/QA.md)
 
 Independent portfolio demonstration. Historical associations motivate a controlled follow-up experiment; they do not establish causal lift, profit or realized client outcomes. The previous Retail and Complaint projects remain available as separate supporting work.
+
+## Presentation history
+
+[Cover preview](deliverables/portfolio-cover-wide.png) · [Motion cover](deliverables/portfolio-motion.webm) · [Design maintenance](docs/VISUAL_DESIGN.md) · [November 1 release record](docs/DASHBOARD_RELEASE.md). Covers are presentation assets; native report behavior is documented separately.
