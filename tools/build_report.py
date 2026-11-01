@@ -129,6 +129,9 @@ def build():
         E.SubElement(aliases,'alias',{'key':json.dumps(period),'value':datetime.strptime(period,'%Y-%m').strftime('%y%m')})
     decision=book.find('./windows/window[@name="01  Decision brief"]');book.find('windows').remove(decision);book.find('windows').append(decision)
     E.indent(book);tree.write(path,encoding='utf-8',xml_declaration=True)
+    # Reapply the source-controlled presentation after generation.
+    import subprocess,sys
+    subprocess.run([sys.executable,str(Path(__file__).resolve().parents[1]/"tools"/"apply_visual_theme.py")],check=True)
     print(path)
 
 if __name__=='__main__':build()
