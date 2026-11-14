@@ -4,7 +4,9 @@ I looked at hotel cancellations to understand where a reservations team would fa
 
 For the **City Hotel in 2016**, online travel agents accounted for the most cancellations. Group bookings had the higher cancellation rate. The **Tableau report** lets a reader compare those patterns within the same hotel and arrival period.
 
-[View the report](deliverables/dashboard-preview.png) · [Download the Tableau workbook](deliverables/Hotel%20Cancellation%20Review.twbx) · [Read the decision memo](docs/DECISION_MEMO.md)
+**[Open the live report](https://zakjrademacher.github.io/hotel-booking-cancellation-analysis/report/)** · [Preview image](deliverables/dashboard-preview.png) · [Download the Tableau workbook](deliverables/Hotel%20Cancellation%20Review.twbx) · [Read the decision memo](docs/DECISION_MEMO.md)
+
+The live report is a self-contained page in [report/](report/), rebuilt from the processed data with `python tools/build_web_report.py`.
 
 ![Tableau cancellation review with City Hotel and 2016 selected](deliverables/dashboard-preview.png)
 
