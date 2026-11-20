@@ -14,7 +14,7 @@
     "accent": "accent"
   },
   "frame_label": "Cancellation review",
-  "preview_note": "Historical booking data · counts and rates",
+  "preview_note": "Historical booking data · counts and rates · v1.0.0",
   "footer": "PYTHON / SQL / TABLEAU",
   "preview_mode": "contain"
 }
