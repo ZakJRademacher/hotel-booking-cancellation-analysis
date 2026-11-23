@@ -150,6 +150,8 @@ render();watchSections(['overview','segments','decision']);
 def main() -> None:
     data = load()
     html_text = page(
+        url="https://zakjrademacher.github.io/hotel-booking-cancellation-analysis/report/",
+        image="https://zakjrademacher.github.io/hotel-booking-cancellation-analysis/deliverables/portfolio-cover-wide.png",
         title="Hotel Cancellation Review",
         description="Interactive review of hotel booking cancellations: counts versus rates by segment, lead time and arrival month.",
         rail_name="Hotel<br>Cancellations",

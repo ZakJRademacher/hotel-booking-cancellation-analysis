@@ -111,9 +111,25 @@ function watchSections(ids){
 """
 
 
+def social_meta(*, title: str, description: str, url: str, image: str) -> str:
+    """Open Graph and Twitter card tags, so a shared link shows a title, summary and preview image."""
+    if not url:
+        return ""
+    tags = [("property", "og:type", "website"), ("property", "og:title", title),
+            ("property", "og:description", description), ("property", "og:url", url)]
+    if image:
+        tags += [("property", "og:image", image), ("property", "og:image:width", "1280"),
+                 ("property", "og:image:height", "720")]
+    tags += [("name", "twitter:card", "summary_large_image" if image else "summary"),
+             ("name", "twitter:title", title), ("name", "twitter:description", description)]
+    if image:
+        tags.append(("name", "twitter:image", image))
+    return "".join(f'<meta {kind}="{key}" content="{html.escape(value)}">' for kind, key, value in tags)
+
+
 def page(*, title: str, description: str, rail_name: str, nav: list[tuple[str, str]],
          window_label: str, window_value: str, credit: str, identity: str, period: str,
-         body: str, data: dict, script: str) -> str:
+         body: str, data: dict, script: str, url: str = "", image: str = "") -> str:
     """Assemble a complete, self-contained HTML document."""
     rail_name = rail_name.replace("<br>", " <br>")
     nav_html = "".join(f'<a href="#{i}">{html.escape(l)}</a>' for i, l in nav)
@@ -123,6 +139,7 @@ def page(*, title: str, description: str, rail_name: str, nav: list[tuple[str, s
         "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">"
         "<meta name=\"author\" content=\"Zak Rademacher\">"
         f"<meta name=\"description\" content=\"{html.escape(description)}\">"
+        f"{social_meta(title=title, description=description, url=url, image=image)}"
         f"<title>{html.escape(title)}</title><style>{CSS}</style></head>\n"
         "<body><aside class=\"rail\" aria-label=\"Report navigation\">"
         f"<a href=\"#{nav[0][0]}\" class=\"brand\">ZR /</a><div class=\"rail-name\">{rail_name}</div>"
