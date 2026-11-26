@@ -1,0 +1,23 @@
+name: site-quality
+
+on:
+  workflow_run:
+    workflows: [pages-build-deployment]
+    types: [completed]
+    branches: [main]
+  schedule:
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  site:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    uses: ZakJRademacher/portfolio-ci/.github/workflows/site-quality.yml@7c84247e0686e837516f17dec4c8c244ec18b88a # v1.0.0
+    with:
+      url: https://zakjrademacher.github.io/hotel-booking-cancellation-analysis/report/
+    secrets:
+      blocked-names: ${{ secrets.PORTFOLIO_BLOCKED }}
+      blocked-stems: ${{ secrets.PORTFOLIO_BLOCKED_STEMS }}
